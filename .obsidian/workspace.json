@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d444bb586fa82ffa",
+        "id": "c922dda687a5d334",
         "type": "tabs",
         "children": [
           {
-            "id": "fc9bcd3ea00f6da3",
+            "id": "52e5efb16278d60e",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -16,8 +16,19 @@
                 "file": "Excalidraw/Test.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "3c9d5fc97bd2f733",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/leetcode.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Test.excalidraw.md",
+                "file": "Excalidraw/leetcode.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Test.excalidraw.md",
+                "file": "Excalidraw/leetcode.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Test.excalidraw.md"
+                "file": "Excalidraw/leetcode.excalidraw.md"
               }
             }
           }
@@ -148,11 +159,12 @@
       "obsidian-bible-reference:Bible Verse Lookup": false
     }
   },
-  "active": "fc9bcd3ea00f6da3",
+  "active": "3c9d5fc97bd2f733",
   "lastOpenFiles": [
+    "Excalidraw/Test.excalidraw.md",
+    "Excalidraw/leetcode.excalidraw.md",
     "객프 정리 노트들/객체지향 3주차.md",
     "객프 정리 노트들/객체지향 프로그래밍 정리.md",
-    "Excalidraw/Test.excalidraw.md",
     "Excalidraw/Scripts/Downloaded/Elbow connectors.svg",
     "Excalidraw/Scripts/Downloaded/Elbow connectors.md",
     "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.svg",
