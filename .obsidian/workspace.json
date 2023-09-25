@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "객프 정리 노트들/객체지향 3주차.md",
+                "file": "객프 정리 노트들/객체지향 프로그래밍 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "객프 정리 노트들/객체지향 3주차.md",
+                "file": "객프 정리 노트들/객체지향 프로그래밍 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "객프 정리 노트들/객체지향 3주차.md",
+                "file": "객프 정리 노트들/객체지향 프로그래밍 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "객프 정리 노트들/객체지향 3주차.md"
+                "file": "객프 정리 노트들/객체지향 프로그래밍 정리.md"
               }
             }
           }
@@ -183,8 +183,8 @@
   },
   "active": "4619ac12d4dd930b",
   "lastOpenFiles": [
-    "객프 정리 노트들/객체지향 2주차.md",
     "객프 정리 노트들/객체지향 3주차.md",
+    "객프 정리 노트들/객체지향 2주차.md",
     "Excalidraw/leetcode.excalidraw.md",
     "Excalidraw/Test.excalidraw.md",
     "객프 정리 노트들/객체지향 프로그래밍 정리.md",
