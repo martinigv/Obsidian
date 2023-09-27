@@ -51,11 +51,9 @@
             "id": "299db1d471478fb3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/leetcode.excalidraw.md"
               }
             }
           }
@@ -126,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
+                "file": "Excalidraw/leetcode.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
+                "file": "Excalidraw/leetcode.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md"
+                "file": "Excalidraw/leetcode.excalidraw.md"
               }
             }
           }
@@ -193,8 +191,8 @@
   },
   "active": "299db1d471478fb3",
   "lastOpenFiles": [
-    "Excalidraw/leetcode.excalidraw.md",
     "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
+    "Excalidraw/leetcode.excalidraw.md",
     "과동아리 알고리즘 스터디",
     "객프 정리 노트들/객체지향 2주차.md",
     "객프 정리 노트들/객체지향 3주차.md",
