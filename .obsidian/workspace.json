@@ -8,46 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "52e5efb16278d60e",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Test.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "3c9d5fc97bd2f733",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "객프 정리 노트들/객체지향 2주차.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5056d0c32c58fd73",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "4619ac12d4dd930b",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/leetcode.excalidraw.md"
-              }
-            }
-          },
-          {
             "id": "299db1d471478fb3",
             "type": "leaf",
             "state": {
@@ -57,8 +17,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,6 +150,13 @@
   },
   "active": "299db1d471478fb3",
   "lastOpenFiles": [
+    "첨부파일/폰트폴더/Nanum_Pen_Script/OFL.txt",
+    "첨부파일/폰트폴더/Nanum_Pen_Script/NanumPenScript-Regular.ttf",
+    "첨부파일/폰트폴더/Nanum_Pen_Script",
+    "첨부파일/폰트폴더/Nanum_Pen_Script.zip",
+    "첨부파일/폰트폴더",
+    "첨부파일",
+    "Excalidraw/폰트폴더",
     "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
     "Excalidraw/leetcode.excalidraw.md",
     "과동아리 알고리즘 스터디",
@@ -206,7 +172,6 @@
     "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.svg",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
-    "Excalidraw",
-    "객프 정리 노트들"
+    "Excalidraw"
   ]
 }
