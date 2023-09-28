@@ -13,7 +13,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/leetcode.excalidraw.md"
+                "file": "Excalidraw/leetcode0605.excalidraw.md"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/leetcode.excalidraw.md",
+                "file": "Excalidraw/leetcode0605.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/leetcode.excalidraw.md",
+                "file": "Excalidraw/leetcode0605.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/leetcode.excalidraw.md"
+                "file": "Excalidraw/leetcode0605.excalidraw.md"
               }
             }
           }
@@ -150,6 +150,8 @@
   },
   "active": "299db1d471478fb3",
   "lastOpenFiles": [
+    "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
+    "Excalidraw/leetcode0605.excalidraw.md",
     "첨부파일/폰트폴더/Nanum_Pen_Script/OFL.txt",
     "첨부파일/폰트폴더/Nanum_Pen_Script/NanumPenScript-Regular.ttf",
     "첨부파일/폰트폴더/Nanum_Pen_Script",
@@ -157,8 +159,6 @@
     "첨부파일/폰트폴더",
     "첨부파일",
     "Excalidraw/폰트폴더",
-    "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
-    "Excalidraw/leetcode.excalidraw.md",
     "과동아리 알고리즘 스터디",
     "객프 정리 노트들/객체지향 2주차.md",
     "객프 정리 노트들/객체지향 3주차.md",
@@ -171,7 +171,6 @@
     "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.md",
     "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.svg",
     "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts",
-    "Excalidraw"
+    "Excalidraw/Scripts"
   ]
 }
