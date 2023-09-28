@@ -13,11 +13,22 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/leetcode0605.excalidraw.md"
+                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "dc0a5d083914b612",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-09-28 20.23.19.excalidraw.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/leetcode0605.excalidraw.md",
+                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-09-28 20.23.19.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/leetcode0605.excalidraw.md",
+                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-09-28 20.23.19.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/leetcode0605.excalidraw.md"
+                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-09-28 20.23.19.excalidraw.md"
               }
             }
           }
@@ -148,10 +159,12 @@
       "obsidian-bible-reference:Bible Verse Lookup": false
     }
   },
-  "active": "299db1d471478fb3",
+  "active": "1991ea9b6018c998",
   "lastOpenFiles": [
+    "Excalidraw/과동아리 알고리즘 스터디 그림",
+    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md",
+    "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-09-28 20.23.19.excalidraw.md",
     "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
-    "Excalidraw/leetcode0605.excalidraw.md",
     "첨부파일/폰트폴더/Nanum_Pen_Script/OFL.txt",
     "첨부파일/폰트폴더/Nanum_Pen_Script/NanumPenScript-Regular.ttf",
     "첨부파일/폰트폴더/Nanum_Pen_Script",
