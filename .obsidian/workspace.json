@@ -16,8 +16,19 @@
                 "file": "Excalidraw/leetcode.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "e4218cb4ac7b3807",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,7 +159,7 @@
       "obsidian-bible-reference:Bible Verse Lookup": false
     }
   },
-  "active": "299db1d471478fb3",
+  "active": "e4218cb4ac7b3807",
   "lastOpenFiles": [
     "첨부파일/폰트폴더/Nanum_Pen_Script/OFL.txt",
     "첨부파일/폰트폴더/Nanum_Pen_Script/NanumPenScript-Regular.ttf",
