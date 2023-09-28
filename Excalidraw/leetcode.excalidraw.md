@@ -234,9 +234,9 @@ n 1 감소 ^IuFZHEEa
 
 9 ^Hsu8hWeF
 
-0 ^FE4e94Lx
+1 ^FE4e94Lx
 
-0 ^YGw7Tt0o
+-1 ^YGw7Tt0o
 
 -1 ^BUr11TSu
 
@@ -323,6 +323,8 @@ n 1 감소 ^IuFZHEEa
 8 ^GyO4yYaO
 
 9 ^kbDwq4RB
+
+2. 하나를 심었을 때 그 인접한 index의 값들도 -1로 바꿔준다. ^Bv6YkFo9
 
 %%
 # Drawing
@@ -8306,7 +8308,7 @@ n 1 감소 ^IuFZHEEa
 			"baseline": 16
 		},
 		{
-			"id": "R4d0Ok_6-reHz8WuphFqS",
+			"id": "yJ914_qy2-PiwGcJm6qdG",
 			"type": "arrow",
 			"x": -625.757986974589,
 			"y": 1374.997675837023,
@@ -8325,12 +8327,12 @@ n 1 감소 ^IuFZHEEa
 			"roundness": {
 				"type": 2
 			},
-			"seed": 161655849,
-			"version": 43,
-			"versionNonce": 1348519463,
+			"seed": 343422215,
+			"version": 45,
+			"versionNonce": 907461353,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1695872164839,
+			"updated": 1695876196647,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -8733,12 +8735,12 @@ n 1 감소 ^IuFZHEEa
 		{
 			"id": "FE4e94Lx",
 			"type": "text",
-			"x": -588.5507505955454,
+			"x": -586.1987532200571,
 			"y": 1872.6366853452662,
-			"width": 10.02398681640625,
+			"width": 5.3199920654296875,
 			"height": 33.6,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 4,
@@ -8749,22 +8751,22 @@ n 1 감소 ^IuFZHEEa
 			"frameId": null,
 			"roundness": null,
 			"seed": 337903943,
-			"version": 228,
-			"versionNonce": 311542473,
+			"version": 230,
+			"versionNonce": 215593513,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1695872208478,
+			"updated": 1695876158655,
 			"link": null,
 			"locked": false,
-			"text": "0",
-			"rawText": "0",
+			"text": "1",
+			"rawText": "1",
 			"fontSize": 28,
 			"fontFamily": 4,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"baseline": 26,
 			"containerId": "0YJNMNd3ebVbs_bVPdfLs",
-			"originalText": "0",
+			"originalText": "1",
 			"lineHeight": 1.2
 		},
 		{
@@ -8802,12 +8804,12 @@ n 1 감소 ^IuFZHEEa
 		{
 			"id": "YGw7Tt0o",
 			"type": "text",
-			"x": -547.1544412625551,
+			"x": -549.9824365628481,
 			"y": 1872.6366853452662,
-			"width": 10.02398681640625,
+			"width": 15.679977416992188,
 			"height": 33.6,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 4,
@@ -8818,22 +8820,22 @@ n 1 감소 ^IuFZHEEa
 			"frameId": null,
 			"roundness": null,
 			"seed": 296290887,
-			"version": 226,
-			"versionNonce": 276063369,
+			"version": 229,
+			"versionNonce": 1741435015,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1695872208478,
+			"updated": 1695876172692,
 			"link": null,
 			"locked": false,
-			"text": "0",
-			"rawText": "0",
+			"text": "-1",
+			"rawText": "-1",
 			"fontSize": 28,
 			"fontFamily": 4,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"baseline": 26,
 			"containerId": "cGFztGQwi1sJMNrCM12F4",
-			"originalText": "0",
+			"originalText": "-1",
 			"lineHeight": 1.2
 		},
 		{
@@ -9414,6 +9416,87 @@ n 1 감소 ^IuFZHEEa
 			"baseline": 16
 		},
 		{
+			"id": "R4d0Ok_6-reHz8WuphFqS",
+			"type": "arrow",
+			"x": -612.5600477041472,
+			"y": 1694.3878061817159,
+			"width": 1.0558351416353844,
+			"height": 63.87802606893865,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 161655849,
+			"version": 109,
+			"versionNonce": 2137241033,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1695876197957,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					1.0558351416353844,
+					63.87802606893865
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "Bv6YkFo9",
+			"type": "text",
+			"x": -817.9199827522223,
+			"y": 1801.555073057704,
+			"width": 480.19970703125,
+			"height": 33.6,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1369806729,
+			"version": 198,
+			"versionNonce": 1665973289,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1695876285551,
+			"link": null,
+			"locked": false,
+			"text": "2. 하나를 심었을 때 그 인접한 index의 값들도 -1로 바꿔준다.",
+			"rawText": "2. 하나를 심었을 때 그 인접한 index의 값들도 -1로 바꿔준다.",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 26,
+			"containerId": null,
+			"originalText": "2. 하나를 심었을 때 그 인접한 index의 값들도 -1로 바꿔준다.",
+			"lineHeight": 1.2
+		},
+		{
 			"type": "rectangle",
 			"version": 1523,
 			"versionNonce": 113280647,
@@ -9494,7 +9577,7 @@ n 1 감소 ^IuFZHEEa
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"scrollX": 1103.5233885645841,
-		"scrollY": -660.1312952535404,
+		"scrollY": -1240.8406231529818,
 		"zoom": {
 			"value": 1.8942351141128584
 		},
