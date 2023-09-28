@@ -10420,6 +10420,102 @@ n 1 감소 ^IuFZHEEa
 			"baseline": 16
 		},
 		{
+			"id": "lN8DiQiASxuXbFiElIl6a",
+			"type": "arrow",
+			"x": -781.822397764748,
+			"y": 2138.938699513477,
+			"width": 1.1716728529029297,
+			"height": 28.705984896122118,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1113676969,
+			"version": 88,
+			"versionNonce": 2111352455,
+			"isDeleted": false,
+			"boundElements": [],
+			"updated": 1695886430025,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0.5858364264514648,
+					-15.231747087738313
+				],
+				[
+					-0.5858364264514648,
+					-28.705984896122118
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "1Ez1-LneSZnALXtyK3_3i",
+			"type": "arrow",
+			"x": -610.1723248144662,
+			"y": 2137.767026660574,
+			"width": 1.1716728529029297,
+			"height": 28.705984896122118,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1296504713,
+			"version": 142,
+			"versionNonce": 1566963911,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1695886432739,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0.5858364264514648,
+					-15.231747087738313
+				],
+				[
+					-0.5858364264514648,
+					-28.705984896122118
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
 			"id": "vlE2GfNu",
 			"type": "text",
 			"x": -739.7881822712067,
@@ -10603,12 +10699,97 @@ n 1 감소 ^IuFZHEEa
 			"containerId": null,
 			"originalText": "",
 			"lineHeight": 1.2
+		},
+		{
+			"id": "YZXcvUEm",
+			"type": "text",
+			"x": -785.1565595072418,
+			"y": 2106.9069524257384,
+			"width": 7.839996337890625,
+			"height": 33.6,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1750224807,
+			"version": 3,
+			"versionNonce": 1815388521,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1695886430025,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"baseline": 26,
+			"containerId": "lN8DiQiASxuXbFiElIl6a",
+			"originalText": "",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "tTcRN7-zK7LtlSPb7LVqd",
+			"type": "arrow",
+			"x": -694.5327702234783,
+			"y": 2169.402193688954,
+			"width": 1.1716728529029297,
+			"height": 28.705984896122118,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 307915625,
+			"version": 178,
+			"versionNonce": 836876201,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1695886428262,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0.5858364264514648,
+					-15.231747087738313
+				],
+				[
+					-0.5858364264514648,
+					-28.705984896122118
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
 		}
 	],
 	"appState": {
 		"theme": "dark",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#1e1e1e",
+		"currentItemStrokeColor": "#e03131",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "hachure",
 		"currentItemStrokeWidth": 4,
