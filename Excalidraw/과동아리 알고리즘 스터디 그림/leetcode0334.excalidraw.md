@@ -316,6 +316,13 @@ right_max ^m1PRb5jM
 
 어떻게 설명을 해볼까 ^YJOkNBbD
 
+1.num[i] < num[j] < num[k]
+2. i < j < k
+ ^hgYJFuK2
+
+[i] 는 항상 최소로 갱신!
+[k] 는 항상 최고로 갱신!  ^ffiV8VT2
+
 %%
 # Drawing
 ```json
@@ -8696,6 +8703,135 @@ right_max ^m1PRb5jM
 			"lineHeight": 1.2
 		},
 		{
+			"id": "hgYJFuK2",
+			"type": "text",
+			"x": -1969.5530072898525,
+			"y": 56.484247581882755,
+			"width": 273.7838134765625,
+			"height": 100.80000000000001,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 123791054,
+			"version": 61,
+			"versionNonce": 1457219726,
+			"isDeleted": false,
+			"boundElements": [],
+			"updated": 1696007987302,
+			"link": null,
+			"locked": false,
+			"text": "1.num[i] < num[j] < num[k]\n2. i < j < k\n",
+			"rawText": "1.num[i] < num[j] < num[k]\n2. i < j < k\n",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 93,
+			"containerId": null,
+			"originalText": "1.num[i] < num[j] < num[k]\n2. i < j < k\n",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "ARYwpkJzN-n2oRWfVPfCS",
+			"type": "line",
+			"x": -1994.168391905237,
+			"y": 70.33040142803662,
+			"width": 24.615384615384528,
+			"height": 39.230769230769226,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 420082962,
+			"version": 255,
+			"versionNonce": 1987946638,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1696008004015,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-23.84615384615381,
+					23.076923076923038
+				],
+				[
+					0,
+					38.46153846153845
+				],
+				[
+					0.7692307692307168,
+					39.230769230769226
+				]
+			],
+			"lastCommittedPoint": [
+				96.15384615384619,
+				87.69230769230768
+			],
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": null
+		},
+		{
+			"id": "ffiV8VT2",
+			"type": "text",
+			"x": -1987.2453149821577,
+			"y": 214.1765552741901,
+			"width": 202.3559112548828,
+			"height": 67.2,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1431249550,
+			"version": 126,
+			"versionNonce": 337349518,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1696008437526,
+			"link": null,
+			"locked": false,
+			"text": "[i] 는 항상 최소로 갱신!\n[k] 는 항상 최고로 갱신! ",
+			"rawText": "[i] 는 항상 최소로 갱신!\n[k] 는 항상 최고로 갱신! ",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 60,
+			"containerId": null,
+			"originalText": "[i] 는 항상 최소로 갱신!\n[k] 는 항상 최고로 갱신! ",
+			"lineHeight": 1.2
+		},
+		{
 			"id": "ZYAS3E58",
 			"type": "text",
 			"x": -1914.9376226744678,
@@ -8731,6 +8867,245 @@ right_max ^m1PRb5jM
 			"containerId": null,
 			"originalText": "",
 			"lineHeight": 1.2
+		},
+		{
+			"id": "5YRH8681",
+			"type": "text",
+			"x": -1974.168391905237,
+			"y": 71.0996321972674,
+			"width": 7.839996337890625,
+			"height": 33.6,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 2121530514,
+			"version": 12,
+			"versionNonce": 1063690830,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1696007860984,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 26,
+			"containerId": null,
+			"originalText": "",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "B6FZo6RQPns1kLKK_OV2d",
+			"type": "arrow",
+			"x": -1985.7068534436985,
+			"y": 73.40732450495966,
+			"width": 42.30769230769238,
+			"height": 20,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 442452302,
+			"version": 19,
+			"versionNonce": 2061752850,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1696007969933,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-42.30769230769238,
+					20
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "hgYJFuK2",
+				"focus": 0.9193249191636341,
+				"gap": 16.15384615384596
+			},
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "BvnNEF5v0CyHVcng9Hzug",
+			"type": "arrow",
+			"x": -1988.7837765206218,
+			"y": 70.33040142803662,
+			"width": 36.15384615384619,
+			"height": 46.15384615384613,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 285080978,
+			"version": 175,
+			"versionNonce": 1969205650,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1696007987302,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-33.84615384615381,
+					24.615384615384585
+				],
+				[
+					2.3076923076923777,
+					46.15384615384613
+				]
+			],
+			"lastCommittedPoint": [
+				2.3076923076923777,
+				46.15384615384613
+			],
+			"startBinding": {
+				"elementId": "hgYJFuK2",
+				"focus": 1.0009326636304483,
+				"gap": 19.230769230769283
+			},
+			"endBinding": {
+				"elementId": "hgYJFuK2",
+				"focus": -0.7672030634348872,
+				"gap": 16.923076923076906
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "-KaT_KsjTzSKdumkUQxvy",
+			"type": "arrow",
+			"x": -2022.6299303667756,
+			"y": 92.63809373572889,
+			"width": 16.923076923076906,
+			"height": 0,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 412835086,
+			"version": 14,
+			"versionNonce": 1929500626,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1696008013532,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-16.923076923076906,
+					0
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "LGjNt7La2zV6vWjv5jmoa",
+			"type": "arrow",
+			"x": -2020.3222380590832,
+			"y": 93.40732450495966,
+			"width": 117.69230769230762,
+			"height": 146.1538461538462,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1885015442,
+			"version": 151,
+			"versionNonce": 2011783634,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1696008046446,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-57.69230769230762,
+					109.23076923076923
+				],
+				[
+					60,
+					146.1538461538462
+				]
+			],
+			"lastCommittedPoint": [
+				60,
+				146.1538461538462
+			],
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
 		}
 	],
 	"appState": {
@@ -8748,8 +9123,8 @@ right_max ^m1PRb5jM
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 2284.168391905237,
-		"scrollY": 306.68882934119415,
+		"scrollX": 1611.8606995975417,
+		"scrollY": 217.45806011042532,
 		"zoom": {
 			"value": 1.3
 		},
