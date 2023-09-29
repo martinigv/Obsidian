@@ -36,9 +36,37 @@
                 "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "95d8f4bd4b54cc43",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "776a95f850934bfe",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "58de110b347f34b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CalendarEvents/무제 파일.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -104,7 +132,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +148,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,9 +169,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -166,14 +190,17 @@
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "obsidian-bible-reference:Bible Verse Lookup": false
+      "obsidian-bible-reference:Bible Verse Lookup": false,
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "9cdf5a983c7ddc30",
+  "active": "95d8f4bd4b54cc43",
   "lastOpenFiles": [
+    "CalendarEvents/무제 파일.md",
+    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md",
+    "CalendarEvents",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0680.excalidraw.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md",
-    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림",
     "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
     "첨부파일/폰트폴더/Nanum_Pen_Script/OFL.txt",
@@ -193,7 +220,6 @@
     "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.svg",
     "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.md",
     "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.md",
-    "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.svg",
-    "Excalidraw/Scripts/Downloaded"
+    "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.svg"
   ]
 }
