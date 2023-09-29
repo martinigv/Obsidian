@@ -38,31 +38,11 @@
             }
           },
           {
-            "id": "95d8f4bd4b54cc43",
+            "id": "f4451e6868fa7d4d",
             "type": "leaf",
             "state": {
               "type": "full-calendar-view",
               "state": {}
-            }
-          },
-          {
-            "id": "776a95f850934bfe",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "58de110b347f34b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CalendarEvents/무제 파일.md",
-                "mode": "source",
-                "source": false
-              }
             }
           }
         ],
@@ -132,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,6 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +151,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md"
+              }
             }
           }
         ]
@@ -194,7 +178,7 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "95d8f4bd4b54cc43",
+  "active": "f4451e6868fa7d4d",
   "lastOpenFiles": [
     "CalendarEvents/무제 파일.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md",
