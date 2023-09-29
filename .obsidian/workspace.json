@@ -16,22 +16,24 @@
             }
           },
           {
+            "id": "59f0c661ae544d6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "299db1d471478fb3",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
                 "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "59f0c661ae544d6d",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0680.excalidraw.md"
               }
             }
           },
@@ -122,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0680.excalidraw.md",
+                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0680.excalidraw.md",
+                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0680.excalidraw.md"
+                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md"
               }
             }
           }
@@ -188,12 +190,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "59f0c661ae544d6d",
+  "active": "299db1d471478fb3",
   "lastOpenFiles": [
-    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md",
-    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0680.excalidraw.md",
     "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
+    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md",
+    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md",
     "객프 정리 노트들/객체지향 3주차.md",
     "첨부파일/복사용 파일.md",
     "CalendarEvents/무제 파일.md",
