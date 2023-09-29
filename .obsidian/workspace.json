@@ -8,7 +8,25 @@
         "type": "tabs",
         "children": [
           {
+            "id": "f4451e6868fa7d4d",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
+          },
+          {
             "id": "299db1d471478fb3",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "59f0c661ae544d6d",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -36,27 +54,9 @@
                 "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md"
               }
             }
-          },
-          {
-            "id": "f4451e6868fa7d4d",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "59f0c661ae544d6d",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md"
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -190,12 +190,12 @@
   },
   "active": "59f0c661ae544d6d",
   "lastOpenFiles": [
+    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0680.excalidraw.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md",
+    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md",
     "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
     "CalendarEvents/무제 파일.md",
     "CalendarEvents",
-    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0680.excalidraw.md",
-    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림",
     "첨부파일/폰트폴더/Nanum_Pen_Script/OFL.txt",
     "첨부파일/폰트폴더/Nanum_Pen_Script/NanumPenScript-Regular.ttf",
