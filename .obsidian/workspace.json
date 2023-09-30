@@ -53,9 +53,11 @@
             "id": "9cdf5a983c7ddc30",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md"
+                "file": "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -126,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md",
+                "file": "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md",
+                "file": "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md"
+                "file": "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md"
               }
             }
           }
