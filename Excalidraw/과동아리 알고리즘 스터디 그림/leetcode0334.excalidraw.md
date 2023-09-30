@@ -8796,8 +8796,8 @@ right_max ^m1PRb5jM
 		},
 		{
 			"type": "text",
-			"version": 61,
-			"versionNonce": 1457219726,
+			"version": 63,
+			"versionNonce": 1535126714,
 			"isDeleted": false,
 			"id": "hgYJFuK2",
 			"fillStyle": "hachure",
@@ -8806,8 +8806,8 @@ right_max ^m1PRb5jM
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1969.5530072898525,
-			"y": 56.484247581882755,
+			"x": -1970.0622304651106,
+			"y": 55.97498555242231,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 273.7838134765625,
@@ -8817,7 +8817,7 @@ right_max ^m1PRb5jM
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1696007987302,
+			"updated": 1696049526503,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -8829,7 +8829,7 @@ right_max ^m1PRb5jM
 			"containerId": null,
 			"originalText": "1.num[i] < num[j] < num[k]\n2. i < j < k\n",
 			"lineHeight": 1.2,
-			"baseline": 93
+			"baseline": 94
 		},
 		{
 			"type": "line",
@@ -9522,8 +9522,8 @@ right_max ^m1PRb5jM
 		},
 		{
 			"type": "rectangle",
-			"version": 1143,
-			"versionNonce": 1121492498,
+			"version": 1188,
+			"versionNonce": 11855226,
 			"isDeleted": false,
 			"id": "8LI9i2566DaDiH4YJmnJS",
 			"fillStyle": "hachure",
@@ -9532,8 +9532,8 @@ right_max ^m1PRb5jM
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1610.6496841791472,
-			"y": 715.3001719415777,
+			"x": -1609.6310824118218,
+			"y": 715.8094728252404,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 42,
@@ -9548,14 +9548,14 @@ right_max ^m1PRb5jM
 					"id": "XUYMWEMF"
 				}
 			],
-			"updated": 1696009122164,
+			"updated": 1696049558820,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 102,
-			"versionNonce": 503253970,
+			"version": 147,
+			"versionNonce": 1924015674,
 			"isDeleted": false,
 			"id": "XUYMWEMF",
 			"fillStyle": "hachure",
@@ -9564,8 +9564,8 @@ right_max ^m1PRb5jM
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1594.6616775873504,
-			"y": 720.5001719415777,
+			"x": -1593.643075820025,
+			"y": 721.0094728252404,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 10.02398681640625,
@@ -9575,7 +9575,7 @@ right_max ^m1PRb5jM
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1696009122164,
+			"updated": 1696049558820,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -9860,8 +9860,8 @@ right_max ^m1PRb5jM
 		},
 		{
 			"type": "arrow",
-			"version": 292,
-			"versionNonce": 1754645774,
+			"version": 293,
+			"versionNonce": 1297455674,
 			"isDeleted": false,
 			"id": "3rxAibvl8IBxrH3F2Go8o",
 			"fillStyle": "hachure",
@@ -9883,7 +9883,7 @@ right_max ^m1PRb5jM
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1696009995893,
+			"updated": 1696049168693,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -11349,12 +11349,41 @@ right_max ^m1PRb5jM
 			"originalText": "0 1 6이 가능하지만 1로 채우게 되면 불가능하게 됨",
 			"lineHeight": 1.2,
 			"baseline": 26
+		},
+		{
+			"id": "ZzcNb02j8ELxGo-Vc2sPa",
+			"type": "ellipse",
+			"x": -797.7422783364228,
+			"y": 413.27147465773885,
+			"width": 53.473329031589515,
+			"height": 90.14077796577237,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 488778170,
+			"version": 1409,
+			"versionNonce": 1377727718,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1696049427586,
+			"link": null,
+			"locked": false
 		}
 	],
 	"appState": {
 		"theme": "dark",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#1e1e1e",
+		"currentItemStrokeColor": "#e03131",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "hachure",
 		"currentItemStrokeWidth": 2,
@@ -11366,10 +11395,10 @@ right_max ^m1PRb5jM
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 2277.3055712477912,
-		"scrollY": 551.0227957929005,
+		"scrollX": 2247.506097884556,
+		"scrollY": -342.84900279972385,
 		"zoom": {
-			"value": 0.75
+			"value": 1.5708765756920926
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
