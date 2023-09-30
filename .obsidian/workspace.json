@@ -53,9 +53,11 @@
             "id": "9cdf5a983c7ddc30",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md"
+                "file": "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -126,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md",
+                "file": "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md",
+                "file": "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md"
+                "file": "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md"
               }
             }
           }
@@ -194,10 +196,10 @@
   },
   "active": "9cdf5a983c7ddc30",
   "lastOpenFiles": [
+    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md",
     "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0680.excalidraw.md",
-    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md",
     "객프 정리 노트들/객체지향 3주차.md",
     "첨부파일/복사용 파일.md",
     "CalendarEvents/무제 파일.md",
