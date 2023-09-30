@@ -2466,8 +2466,8 @@ if (i < fsize - 1)
 		},
 		{
 			"type": "arrow",
-			"version": 87,
-			"versionNonce": 843782930,
+			"version": 88,
+			"versionNonce": 1270307386,
 			"isDeleted": false,
 			"id": "z_GMt-4ipaV8ILLifZrVc",
 			"fillStyle": "hachure",
@@ -2489,7 +2489,7 @@ if (i < fsize - 1)
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1696010004477,
+			"updated": 1696046769779,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3368,8 +3368,8 @@ if (i < fsize - 1)
 		},
 		{
 			"type": "ellipse",
-			"version": 24,
-			"versionNonce": 471147755,
+			"version": 97,
+			"versionNonce": 1771848506,
 			"isDeleted": false,
 			"id": "BYy9Yn6xSX3XTBbQtVqeI",
 			"fillStyle": "hachure",
@@ -3378,8 +3378,8 @@ if (i < fsize - 1)
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -738.2058411736061,
-			"y": 63.15099366956633,
+			"x": -738.7252163908671,
+			"y": 62.631618452305304,
 			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
 			"width": 28.61206558863421,
@@ -3391,7 +3391,7 @@ if (i < fsize - 1)
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1695826023503,
+			"updated": 1696046868577,
 			"link": null,
 			"locked": false
 		},
@@ -10762,8 +10762,8 @@ if (i < fsize - 1)
 		},
 		{
 			"type": "arrow",
-			"version": 138,
-			"versionNonce": 1410984146,
+			"version": 139,
+			"versionNonce": 1191445242,
 			"isDeleted": false,
 			"id": "5QdFvpzarZ8rH4qPRgdoB",
 			"fillStyle": "hachure",
@@ -10785,7 +10785,7 @@ if (i < fsize - 1)
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1696010004528,
+			"updated": 1696046769911,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -10810,8 +10810,8 @@ if (i < fsize - 1)
 		},
 		{
 			"type": "arrow",
-			"version": 180,
-			"versionNonce": 1984495250,
+			"version": 181,
+			"versionNonce": 742233018,
 			"isDeleted": false,
 			"id": "Qw_JDbKP0KvO9Zjsx2VI7",
 			"fillStyle": "hachure",
@@ -10833,7 +10833,7 @@ if (i < fsize - 1)
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1696010004530,
+			"updated": 1696046769917,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -11040,12 +11040,41 @@ if (i < fsize - 1)
 			"originalText": "0이 연속 3인 것을 찾자! -> 이게 다임 ㄹㅇ",
 			"lineHeight": 1.2,
 			"baseline": 34
+		},
+		{
+			"id": "mipvgjdnpBzCmKVntHKwk",
+			"type": "ellipse",
+			"x": -567.2737236179943,
+			"y": 1855.2885807553102,
+			"width": 48.30264809527125,
+			"height": 67.51980851445387,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 541627770,
+			"version": 142,
+			"versionNonce": 856242534,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1696046987876,
+			"link": null,
+			"locked": false
 		}
 	],
 	"appState": {
 		"theme": "dark",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#1e1e1e",
+		"currentItemStrokeColor": "#e03131",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "hachure",
 		"currentItemStrokeWidth": 4,
@@ -11057,10 +11086,10 @@ if (i < fsize - 1)
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 2648.946554020773,
-		"scrollY": 532.1362116501314,
+		"scrollX": 1159.2406918905413,
+		"scrollY": -1522.6074502847525,
 		"zoom": {
-			"value": 0.45
+			"value": 1.5402887284216236
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
