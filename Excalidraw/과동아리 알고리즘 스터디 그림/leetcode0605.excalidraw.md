@@ -379,6 +379,8 @@ if (i < fsize - 1)
 
 다른 답 ^EhtOz4oP
 
+0이 연속 3인 것을 찾자! -> 이게 다임 ㄹㅇ ^MGj5JIi6
+
 %%
 # Drawing
 ```json
@@ -2464,8 +2466,8 @@ if (i < fsize - 1)
 		},
 		{
 			"type": "arrow",
-			"version": 85,
-			"versionNonce": 112265170,
+			"version": 87,
+			"versionNonce": 843782930,
 			"isDeleted": false,
 			"id": "z_GMt-4ipaV8ILLifZrVc",
 			"fillStyle": "hachure",
@@ -2487,7 +2489,7 @@ if (i < fsize - 1)
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1695997523575,
+			"updated": 1696010004477,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -10760,8 +10762,8 @@ if (i < fsize - 1)
 		},
 		{
 			"type": "arrow",
-			"version": 136,
-			"versionNonce": 648297874,
+			"version": 138,
+			"versionNonce": 1410984146,
 			"isDeleted": false,
 			"id": "5QdFvpzarZ8rH4qPRgdoB",
 			"fillStyle": "hachure",
@@ -10783,7 +10785,7 @@ if (i < fsize - 1)
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1695997523624,
+			"updated": 1696010004528,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -10808,8 +10810,8 @@ if (i < fsize - 1)
 		},
 		{
 			"type": "arrow",
-			"version": 178,
-			"versionNonce": 1445641042,
+			"version": 180,
+			"versionNonce": 1984495250,
 			"isDeleted": false,
 			"id": "Qw_JDbKP0KvO9Zjsx2VI7",
 			"fillStyle": "hachure",
@@ -10831,7 +10833,7 @@ if (i < fsize - 1)
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1695997523626,
+			"updated": 1696010004530,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -11001,6 +11003,43 @@ if (i < fsize - 1)
 			"originalText": "다른 답",
 			"lineHeight": 1.2,
 			"baseline": 34
+		},
+		{
+			"type": "text",
+			"version": 104,
+			"versionNonce": 2040302158,
+			"isDeleted": false,
+			"id": "MGj5JIi6",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": 74.37514302155799,
+			"y": -333.88116636341647,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 466.8477478027344,
+			"height": 43.199999999999996,
+			"seed": 1895677006,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1696009939375,
+			"link": null,
+			"locked": false,
+			"fontSize": 36,
+			"fontFamily": 4,
+			"text": "0이 연속 3인 것을 찾자! -> 이게 다임 ㄹㅇ",
+			"rawText": "0이 연속 3인 것을 찾자! -> 이게 다임 ㄹㅇ",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "0이 연속 3인 것을 찾자! -> 이게 다임 ㄹㅇ",
+			"lineHeight": 1.2,
+			"baseline": 34
 		}
 	],
 	"appState": {
@@ -11018,10 +11057,10 @@ if (i < fsize - 1)
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 30.96643128226731,
-		"scrollY": 951.8747737416345,
+		"scrollX": 2648.946554020773,
+		"scrollY": 532.1362116501314,
 		"zoom": {
-			"value": 0.8500000000000003
+			"value": 0.45
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
