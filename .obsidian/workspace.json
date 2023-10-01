@@ -27,8 +27,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,8 +159,9 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "b5829cff52fd9b69",
+  "active": "f4451e6868fa7d4d",
   "lastOpenFiles": [
+    "CalendarEvents/2023-10-02 세미나 발표자료 준비.md",
     "객프 정리 노트들/notes_3.md",
     "객프 정리 노트들/notes_2.md",
     "객프 정리 노트들/객체지향 프로그래밍 정리.md",
