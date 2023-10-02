@@ -26,8 +26,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3ab17d1e9b6e6706",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "객프 정리 노트들/notes_2.md",
+                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "객프 정리 노트들/notes_2.md",
+                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "객프 정리 노트들/notes_2.md"
+                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md"
               }
             }
           }
@@ -159,21 +170,21 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f4451e6868fa7d4d",
+  "active": "3ab17d1e9b6e6706",
   "lastOpenFiles": [
+    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md",
+    "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
+    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0680.excalidraw.md",
+    "객프 정리 노트들/notes_2.md",
     "CalendarEvents/(Every S,F,R,W,T,M,U) LeetcodeCrashCourse.md",
     "CalendarEvents/(Every R,S,F,W,T,M,U) UE5 인강(1시간 분량).md",
     "CalendarEvents/(Every F,W,T,M) 학교복습.md",
     "CalendarEvents/2023-10-02 세미나 발표자료 준비.md",
     "객프 정리 노트들/notes_3.md",
-    "객프 정리 노트들/notes_2.md",
     "객프 정리 노트들/객체지향 프로그래밍 정리.md",
     "CalendarEvents/2023-10-05 모프 과제 마감.md",
     "CalendarEvents/무제 파일.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md",
-    "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
-    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0680.excalidraw.md",
-    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md",
     "첨부파일/복사용 파일.md",
     "CalendarEvents",
     "Excalidraw/과동아리 알고리즘 스터디 그림",
