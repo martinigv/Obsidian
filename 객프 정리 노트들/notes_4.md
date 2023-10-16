@@ -161,6 +161,13 @@ int main() {
 
 ## 과정
 n이라는 정수의 개수를 입력받을 변수를 선언하고 cin을 이용하여 n에 입력받은 수를 할당한다.
+(단, 입력이 0일 경우 다시 입력하도록 한다)
+포인터 변수 p를 선언하고 n개의 배열을 동적 할당한다.
+(단, 할당할 수 없을 시 return)
+각 p의 인덱스에 접근하여 입력받은 수를 할당한다.
+똑같이 p의 인덱스에 차례대로 접근하여 sum변수에 더해준다.
+sum을 출력한다
+마지막 중요 **동적할당으로 사용된 저장공간을 다시 반환해줘야한다**
 
 ## main.cpp
 ```c++
@@ -191,3 +198,48 @@ int main() {
 	delete[] p;
 }
 ```
+
+# Slide27(4-10)
+
+## 문제
+원의 개수를 입력받고 Circle 배열을 동적 생성하라. 반지름 값을 입력 받아 Circle 배열에 저장하고
+면적이 100에서 200 사이인 원의 개수를 출력하라.
+## Circle.h
+```c++
+#include <iostream>
+using namespace std;
+class Circle {
+	int radius;
+public:
+	Circle();
+	~Circle() { }
+	void setRadius(int r) { radius = r; }
+	double getArea() { return 3.14 * radius * radius; }
+};
+Circle::Circle() {
+	radius = 1;
+}
+```
+
+## main.cpp
+int main() {
+	cout << "생성하고자 하는 원의 개수?";
+	int n, radius;
+	cin >> n; // 원의 개수 입력
+	Circle* pArray = new Circle[n]; // n 개의 Circle 배열 생성
+	for (int i = 0; i < n; i++) {
+		cout << "원" << i + 1 << ": "; // 프롬프트 출력
+		cin >> radius; // 반지름 입력
+		pArray[i].setRadius(radius); // 각 Circle 객체를 반지름으로 초기화
+	}
+	int count = 0; // 카운트 변수
+	Circle* p = pArray;
+	for (int i = 0; i < n; i++) {
+		cout << p->getArea() << ' '; // 원의 면적 출력
+		if (p->getArea() >= 100 && p->getArea() <= 200)
+			count++;
+		p++;
+	}
+	cout << endl << "면적이 100에서 200 사이인 원의 개수는 "
+		<< count << endl;
+	delete[] pArray; // 객체 배열 소멸
