@@ -8,7 +8,7 @@ p = &a;
 
 a의 데이터값은 3;
 
-# slide04
+# slide04(4-1)
 ## main.cpp
 ```c++
 #include<iostream>
@@ -58,8 +58,9 @@ public:
 	}
 };
 ```
-# Slide06
+# Slide06(4-2)
 ## main.cpp(헤더파일은 위와 같음)
+
 ```c++
 #include <iostream>
 #include "Circle.h"
@@ -77,5 +78,19 @@ int main() {
 		p++;
 	}
 	
+}
+```
+# Slide10(4-3)
+## main.cpp
+```c++
+#include <iostream>
+using namespace std;
+
+class Circle {
+	int radius;
+public:
+	Circle() { radius = 1 }
+	Circle(int r) { radius =r }
+	double 
 }
 ```
