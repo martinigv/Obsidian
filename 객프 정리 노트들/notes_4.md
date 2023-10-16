@@ -152,3 +152,42 @@ int main() {
 	delete p;
 }
 ```
+
+# Slide19(4-6)
+
+## 문제
+사용자로부터 입력할 정수의 개수를 입력 받아 배열을 동적 할당 받고, 하나씩 정수를 입력 받은 후
+합을 출력하는 프로그램을 작성하라.
+
+## 과정
+n이라는 정수의 개수를 입력받을 변수를 선언하고 cin을 이용하여 n에 입력받은 수를 할당한다.
+
+## main.cpp
+```c++
+#include <iostream>
+using namespace std;
+
+int main() {
+	int n;
+	do {
+		cout << "정수 개수 적어라";
+		cin >> n;
+	} while (!n);
+
+	int* p = new int[n];
+	if (!p) {
+		cout << "할당 안돼요";
+		return 0;
+	}
+	cout << "정수 입력해라";
+	for (int i = 0; i < n; i++) {
+		cin >> p[i];
+	}
+	int sum{ 0 };
+	for (int i = 0; i < n; i++) {
+		sum += p[i];
+	}
+	cout << sum << endl;
+	delete[] p;
+}
+```
