@@ -8,6 +8,10 @@ tags: [excalidraw]
 
 
 # Text Elements
+value를 언제 더해? -> preorder
+어떻게 더해? -> psum(variable)
+ ^E54vXoRj
+
 
 # Embedded files
 44c8859718b4b243220cdbed608be3683bef3bca: [[Pasted image 20231028184327.png]]
@@ -50,6 +54,43 @@ tags: [excalidraw]
 				1,
 				1
 			]
+		},
+		{
+			"id": "E54vXoRj",
+			"type": "text",
+			"x": -361,
+			"y": 90.9578125,
+			"width": 373.6798095703125,
+			"height": 129.6,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1738896622,
+			"version": 260,
+			"versionNonce": 1088002226,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1698486825305,
+			"link": null,
+			"locked": false,
+			"text": "value를 언제 더해? -> preorder\n어떻게 더해? -> psum(variable)\n",
+			"rawText": "value를 언제 더해? -> preorder\n어떻게 더해? -> psum(variable)\n",
+			"fontSize": 36,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 120,
+			"containerId": null,
+			"originalText": "value를 언제 더해? -> preorder\n어떻게 더해? -> psum(variable)\n",
+			"lineHeight": 1.2
 		},
 		{
 			"id": "FD8eGZKJ",
@@ -99,8 +140,8 @@ tags: [excalidraw]
 		"currentItemStrokeStyle": "solid",
 		"currentItemRoughness": 1,
 		"currentItemOpacity": 100,
-		"currentItemFontFamily": 1,
-		"currentItemFontSize": 28,
+		"currentItemFontFamily": 4,
+		"currentItemFontSize": 36,
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
