@@ -8,8 +8,11 @@ tags: [excalidraw]
 
 
 # Text Elements
-value를 언제 더해? -> preorder
-어떻게 더해? -> psum(variable)
+node들을 차례대로 탐색
+node들의 값을 더해
+1) 언제 더해? -> preorder
+2) 어떻게 더해 -> 변수(각 노드당)
+그 값이 targetSum과 같은가?
  ^E54vXoRj
 
 
@@ -60,8 +63,8 @@ value를 언제 더해? -> preorder
 			"type": "text",
 			"x": -361,
 			"y": 90.9578125,
-			"width": 373.6798095703125,
-			"height": 129.6,
+			"width": 368.7117919921875,
+			"height": 259.2,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -74,22 +77,22 @@ value를 언제 더해? -> preorder
 			"frameId": null,
 			"roundness": null,
 			"seed": 1738896622,
-			"version": 260,
-			"versionNonce": 1088002226,
+			"version": 570,
+			"versionNonce": 1389818418,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1698486825305,
+			"updated": 1698489074600,
 			"link": null,
 			"locked": false,
-			"text": "value를 언제 더해? -> preorder\n어떻게 더해? -> psum(variable)\n",
-			"rawText": "value를 언제 더해? -> preorder\n어떻게 더해? -> psum(variable)\n",
+			"text": "node들을 차례대로 탐색\nnode들의 값을 더해\n1) 언제 더해? -> preorder\n2) 어떻게 더해 -> 변수(각 노드당)\n그 값이 targetSum과 같은가?\n",
+			"rawText": "node들을 차례대로 탐색\nnode들의 값을 더해\n1) 언제 더해? -> preorder\n2) 어떻게 더해 -> 변수(각 노드당)\n그 값이 targetSum과 같은가?\n",
 			"fontSize": 36,
 			"fontFamily": 4,
 			"textAlign": "left",
 			"verticalAlign": "top",
-			"baseline": 120,
+			"baseline": 250,
 			"containerId": null,
-			"originalText": "value를 언제 더해? -> preorder\n어떻게 더해? -> psum(variable)\n",
+			"originalText": "node들을 차례대로 탐색\nnode들의 값을 더해\n1) 언제 더해? -> preorder\n2) 어떻게 더해 -> 변수(각 노드당)\n그 값이 targetSum과 같은가?\n",
 			"lineHeight": 1.2
 		},
 		{
