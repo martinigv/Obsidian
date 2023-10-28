@@ -16,39 +16,19 @@
             }
           },
           {
-            "id": "3ab17d1e9b6e6706",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0011.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "c7526c5e8016999e",
+            "id": "df33e93db8fe5fa5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "객프 정리 노트들/notes_4.md",
+                "file": "Leetcode 풀이/Binary Tree/Leetcode0112(PathSum).md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "569d29a6e638db8e",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.16"
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "객프 정리 노트들/notes_4.md",
+                "file": "Leetcode 풀이/Binary Tree/Leetcode0112(PathSum).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "객프 정리 노트들/notes_4.md",
+                "file": "Leetcode 풀이/Binary Tree/Leetcode0112(PathSum).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "객프 정리 노트들/notes_4.md"
+                "file": "Leetcode 풀이/Binary Tree/Leetcode0112(PathSum).md"
               }
             }
           }
@@ -180,12 +160,15 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "569d29a6e638db8e",
+  "active": "1991ea9b6018c998",
   "lastOpenFiles": [
+    "Leetcode 풀이/Binary Tree",
+    "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
+    "Leetcode 풀이/Binary Tree/Leetcode0112(PathSum).md",
+    "객프 정리 노트들/notes_4.md",
+    "Leetcode 풀이",
     "객프 정리 노트들/무제 파일.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0011.excalidraw.md",
-    "객프 정리 노트들/notes_4.md",
-    "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode1679.excalidraw.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0283.excalidraw.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0155.excalidraw.md",
@@ -212,7 +195,6 @@
     "첨부파일/폰트폴더",
     "첨부파일",
     "Excalidraw/폰트폴더",
-    "과동아리 알고리즘 스터디",
     "Excalidraw/Test.excalidraw.md",
     "Excalidraw/Scripts/Downloaded/Elbow connectors.svg",
     "Excalidraw/Scripts/Downloaded/Elbow connectors.md",
