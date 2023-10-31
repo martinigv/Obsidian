@@ -31,9 +31,11 @@
             "id": "cc6c12b84c286ec1",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode1679.excalidraw.md"
+                "file": "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode1679.excalidraw.md",
+                "file": "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode1679.excalidraw.md",
+                "file": "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode1679.excalidraw.md"
+                "file": "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md"
               }
             }
           }
@@ -172,11 +174,11 @@
   },
   "active": "cc6c12b84c286ec1",
   "lastOpenFiles": [
+    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode1679.excalidraw.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0680.excalidraw.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0011.excalidraw.md",
     "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
-    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode1679.excalidraw.md",
     "Excalidraw/Leetcode(개인용)/Leetcode0112.excalidraw.md",
     "Leetcode 풀이/Binary Tree/Leetcode0112(PathSum).md",
     "첨부파일/복사용 파일.md",
