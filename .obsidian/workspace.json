@@ -16,24 +16,26 @@
             }
           },
           {
-            "id": "df33e93db8fe5fa5",
+            "id": "9f7f6bf060594997",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode 풀이/Binary Tree/Leetcode0112(PathSum).md",
+                "file": "객프 정리 노트들/notes_ex.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cc6c12b84c286ec1",
+            "id": "ebd7184a04177feb",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode1679.excalidraw.md"
+                "file": "객프 정리 노트들/note_4.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode1679.excalidraw.md",
+                "file": "객프 정리 노트들/note_4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode1679.excalidraw.md",
+                "file": "객프 정리 노트들/note_4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode1679.excalidraw.md"
+                "file": "객프 정리 노트들/note_4.md"
               }
             }
           }
@@ -170,10 +172,13 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "cc6c12b84c286ec1",
+  "active": "ebd7184a04177feb",
   "lastOpenFiles": [
-    "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
+    "객프 정리 노트들/notes_2.md",
+    "객프 정리 노트들/note_4.md",
+    "객프 정리 노트들/notes_ex.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode1679.excalidraw.md",
+    "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0680.excalidraw.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0011.excalidraw.md",
@@ -183,14 +188,12 @@
     "첨부파일/Pasted image 20231028184327.png",
     "Excalidraw/Leetcode(개인용)",
     "Leetcode 풀이/Binary Tree",
-    "객프 정리 노트들/notes_4.md",
     "Leetcode 풀이",
     "객프 정리 노트들/무제 파일.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0283.excalidraw.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0155.excalidraw.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md",
     "첨부파일/Pasted image 20231003174807.png",
-    "객프 정리 노트들/notes_2.md",
     "CalendarEvents/(Every S,F,R,W,T,M,U) LeetcodeCrashCourse.md",
     "CalendarEvents/(Every R,S,F,W,T,M,U) UE5 인강(1시간 분량).md",
     "CalendarEvents/(Every F,W,T,M) 학교복습.md",
