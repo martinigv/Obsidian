@@ -2,11 +2,31 @@
 ## 프렌드 함수
 1. 클래스의 멤버 함수가 아닌 외부 함수
 2. 프렌드 키워드로 클래스 내에 선언된 함수
-3. 프렌드 선언의 필요성
-4. 
+**클래스의 모든 맴버를 접근할 수 있게 됨** <- 주된 이유
+
+### 프렌드 함수의 3가지 형태
+* 전역 함수
+```c++
+class Rect {
+...
+	friend bool equals(Rect r, Rect s);
+}
+```
+* 다른 클래스의 멤버 함수
+```c++
+class Rect {
+	friend bool RectManager::equals(Rect r, Rect s);
+}
+```
+* 다른 클래스 전체
+```c++
+class Rect {
+	friend RectManager;
+}
+```
 ## slide09
 ### 요약
-
+다른 클래스 RectManager 전체를 friend 함수로 Rect 클래스에 선언하여 RectManager의 멤버 함수에서 Rect의 private 멤버 변수
 
 ### code
 ```c++
