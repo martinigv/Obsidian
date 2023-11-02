@@ -137,7 +137,20 @@ int main() {
 ## slide25
 
 ### 요약
-Power&
+전위 연산자 함수를 멤버 함수로 구현하여 kick과 punch를 증감시킨다.
+*주의사항*
+```
+Power& Power::operater++() {
+	return *this
+}
+```
+this -> 객체를 가리키는 포인터이므로
+
+```
+*this 
+```
+는 객체의 주소를 가리킴
+리턴해야 할 타입이 Power& 이므로 this (x)  * this(o)
 ### code
 ```c++
 #include <iostream>
