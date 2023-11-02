@@ -188,6 +188,18 @@ int main() {
 
 ### 요약
 
+b = 2 + a -> b = +(2, a);
+`주의`
+b = 2.+(a) (xxx) -> 구현된 함수 때문
+
+```c++
+Power operator+(int op1, Power op2) {
+	Power tmp; // 임시 객체 생성
+	tmp.kick = op1 + op2.kick; // kick 더하기
+	tmp.punch = op1 + op2.punch; // punch 더하기
+	return tmp; // 임시 객체 리턴
+```
+2 -> op1, a -> op2
 ### code
 ```c++
 #include <iostream>
