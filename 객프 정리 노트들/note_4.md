@@ -100,6 +100,8 @@ int main() {
 코드로 예시를 살펴보자
 ## slide17
 
+### 요약
+
 ### code
 ```c++
 #include <iostream>
