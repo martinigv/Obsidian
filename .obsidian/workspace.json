@@ -33,14 +33,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "객프 정리 노트들/note_4.md",
+                "file": "Leetcode 풀이/Binary Tree/Leetcode0979(Distribute Coins in Binary Tree).md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "59e7e5610d92437e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Leetcode(개인용)/Leetcode0979.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "객프 정리 노트들/note_4.md",
+                "file": "Excalidraw/Leetcode(개인용)/Leetcode0979.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "객프 정리 노트들/note_4.md",
+                "file": "Excalidraw/Leetcode(개인용)/Leetcode0979.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "객프 정리 노트들/note_4.md"
+                "file": "Excalidraw/Leetcode(개인용)/Leetcode0979.excalidraw.md"
               }
             }
           }
@@ -172,10 +182,14 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "ebd7184a04177feb",
+  "active": "59e7e5610d92437e",
   "lastOpenFiles": [
-    "객프 정리 노트들/무제 파일.md",
+    "Leetcode 풀이/Binary Tree/Leetcode0979(Distribute Coins in Binary Tree).md",
+    "Excalidraw/Leetcode(개인용)/Leetcode0979.excalidraw.md",
+    "Excalidraw/Leetcode(개인용)/무제 파일.md",
+    "Leetcode 풀이/Binary Tree/Leetcode0112(PathSum).md",
     "객프 정리 노트들/note_4.md",
+    "객프 정리 노트들/무제 파일.md",
     "객프 정리 노트들/notes_2.md",
     "객프 정리 노트들/notes_ex.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode1679.excalidraw.md",
@@ -184,7 +198,6 @@
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0011.excalidraw.md",
     "Excalidraw/Leetcode(개인용)/Leetcode0112.excalidraw.md",
-    "Leetcode 풀이/Binary Tree/Leetcode0112(PathSum).md",
     "첨부파일/복사용 파일.md",
     "첨부파일/Pasted image 20231028184327.png",
     "Excalidraw/Leetcode(개인용)",
@@ -209,11 +222,8 @@
     "첨부파일/폰트폴더/Nanum_Pen_Script",
     "첨부파일/폰트폴더/Nanum_Pen_Script.zip",
     "첨부파일/폰트폴더",
-    "Excalidraw/Test.excalidraw.md",
     "Excalidraw/Scripts/Downloaded/Elbow connectors.svg",
-    "Excalidraw/Scripts/Downloaded/Elbow connectors.md",
     "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.svg",
-    "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.md",
     "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.svg"
   ]
 }
