@@ -12,9 +12,6 @@ tags: [excalidraw]
 
 5 ^tkKy2zW8
 
-코인을 각 노드에 1개씩 갖다 놓는다
- ^orX1Be36
-
 0 ^DF9qWFmt
 
 0 ^owFKeU0J
@@ -877,43 +874,6 @@ tags: [excalidraw]
 			]
 		},
 		{
-			"id": "orX1Be36",
-			"type": "text",
-			"x": -221,
-			"y": 85.7578125,
-			"width": 339.15582275390625,
-			"height": 86.39999999999999,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"seed": 430920293,
-			"version": 147,
-			"versionNonce": 214321381,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1699174138996,
-			"link": null,
-			"locked": false,
-			"text": "코인을 각 노드에 1개씩 갖다 놓는다\n",
-			"rawText": "코인을 각 노드에 1개씩 갖다 놓는다\n",
-			"fontSize": 36,
-			"fontFamily": 4,
-			"textAlign": "left",
-			"verticalAlign": "top",
-			"baseline": 77,
-			"containerId": null,
-			"originalText": "코인을 각 노드에 1개씩 갖다 놓는다\n",
-			"lineHeight": 1.2
-		},
-		{
 			"type": "ellipse",
 			"version": 1171,
 			"versionNonce": 1765510117,
@@ -1652,6 +1612,43 @@ tags: [excalidraw]
 			"containerId": "Vkc3cRXYLdDSVhkDtBwkn",
 			"originalText": "",
 			"lineHeight": 1.2
+		},
+		{
+			"id": "orX1Be36",
+			"type": "text",
+			"x": -221,
+			"y": 95.7578125,
+			"width": 10,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 430920293,
+			"version": 161,
+			"versionNonce": 327217989,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1699184584480,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "",
+			"lineHeight": 1.25
 		}
 	],
 	"appState": {
