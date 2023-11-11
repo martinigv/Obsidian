@@ -11,6 +11,8 @@
 
 ## 접근 지정자 protected
 
+### 8-2
+
 ```c++
 #include <iostream>
 #include <string>
@@ -106,7 +108,7 @@ public:
 class B : public A {
 public:
 	B() { cout << "생성자 B" << endl; }
-}
+};
 ```
 
 ```c++
@@ -131,10 +133,101 @@ public:
 class B : public A {
 public:
 	B() { cout << "생성자 B" << endl; }
-}
+};
 ```
 컴파일 에러
 
 이유: 부모 클래스의 기본 생성자를 호출했는데 매개변수 생성자만 존재하므로 컴파일 에러가 발생한다
 
-#### 매개변수생성자를 
+#### 자식 클래스의 매개변수 생성자를 호출
+
+```c++
+class A { 
+public: 
+	A() { cout << "생성자 A" << endl; } 
+	A(int x) { cout << "매개변수생성자 A" << x << endl; } 
+};
+```
+
+```c++
+class B : public A {
+public:
+	B() { cout << "생성자 B" << endl; }
+	B(int x) {
+		cout << "매개변수생성자 B" << x << endl;
+	}
+};
+```
+
+```c++
+int main() { B b(5); }
+```
+
+실행결과:
+생성자 A
+매개변수생성자 B5
+
+이유: 묵시적으로 부모 클래스의 기본 생성자를 호출
+
+#### 어떻게 부모 클래스의 매개변수생성자를 호출할 수 있는가?
+
+```c++
+class B : public A {
+public:
+	B() { cout << "생성자 B" << endl; }
+	B(int x) : A(x+3){
+		cout << "매개변수생성자 B" << x << endl;
+	}
+};
+```
+
+실행결과:
+매개변수생성자 A8
+매개변수생성자 B5
+
+명시를 해주면 된다.
+
+### 8-3
+
+```c++
+#include <iostream>
+#include <string>
+using namespace std;
+class TV {
+	int size; // 스크린 크기
+public:
+	TV() { size = 20; }
+	TV(int size) { this->size = size; } // size = 32
+	int getSize() { return size; }
+};
+class WideTV : public TV { // TV를 상속받는 WideTV
+	bool videoIn;
+public:
+	WideTV(int size, bool videoIn) : TV(size) { // size = 32, videoIn = true
+		this->videoIn = videoIn;
+	}
+	bool getVideoIn() { return videoIn; }
+};
+class SmartTV : public WideTV { // WideTV를 상속받는 SmartTV
+	string ipAddr; // 인터넷 주소
+public:
+	SmartTV(string ipAddr, int size) : WideTV(size, true) { // ipAddr = 192.0.0.1, size = 32 
+		this->ipAddr = ipAddr;
+	}
+	string getIpAddr() { return ipAddr; }
+};
+
+int main() {
+	// 32 인치 크기에 "192.0.0.1"의 인터넷 주소를 가지는 스마트 TV 객체 생성
+	SmartTV htv("192.0.0.1", 32);
+	cout << "size=" << htv.getSize() << endl;
+	cout << "videoIn=" << boolalpha << htv.getVideoIn() << endl;
+	cout << "IP=" << htv.getIpAddr() << endl;
+}
+```
+
+매개변수 전달 받는 순서:
+아래 -> 위(값은 주석 참고)
+![[Pasted image 20231111190416.png]]
+
+## 상속 지정
