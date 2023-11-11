@@ -322,3 +322,44 @@ private이므로 외부에서 직접 접근 못함
 ##### 오류 5
 protected 이므로 외부에서 직접 접근 못함
 
+### 8-6
+
+```c++
+#include <iostream>
+using namespace std;
+class Base {
+	int a;
+protected:
+	void setA(int a) { this->a = a; }
+public:
+	void showA() { cout << a; }
+};
+class Derived : private Base {
+	int b;
+protected:
+	void setB(int b) { this->b = b; }
+public:
+	void showB() {
+		setA(5); // 1
+		showA(); // 2
+		cout << b;
+	}
+};
+class GrandDerived : private Derived {
+	int c;
+protected:
+	void setAB(int x) {
+		setA(x); // 3
+		showA(); // 4
+		setB(x); // 5
+	}
+};
+```
+
+#### 오류 3 4
+##### 오류 3
+Derived가 Base를 상속받은 후에 private으로 지정했으므로 GrandDerived에서 접근 불가
+##### 오류 4
+오류 3과 동일
+
+
