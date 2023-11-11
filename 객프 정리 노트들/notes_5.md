@@ -231,3 +231,40 @@ int main() {
 ![[Pasted image 20231111190416.png]]
 
 ## 상속 지정
+
+요약:
+* public - 부모 클래스의 protected, public 멤버 속성을 그대로 계승
+* private - 부모 클래스의 protected, public 멤버를 private으로 계승
+* protected - 부모 클래스의 protected, public 멤버를 protected로 계승
+주의할 점!!!
+직접 상속받은 "후"에 적용이 된다 -> 예시는 아래에서 계속
+
+```c++
+#include <iostream>
+using namespace std;
+class Base {
+	int a;
+protected:
+	void setA(int a) { this->a = a; }
+public:
+	void showA() { cout << a; }
+};
+class Derived : private Base {
+	int b;
+protected:
+	void setB(int b) { this->b = b; }
+public:
+	void showB() { cout << b; }
+};
+int main() {
+	Derived x;
+	x.a = 5; // 1
+	x.setA(10); // 2
+	x.showA(); // 3
+	x.b = 10; // 4
+	x.setB(10); // 5
+	x.showB(); // 6
+}
+```
+
+오류: 1 2 3 4 5
