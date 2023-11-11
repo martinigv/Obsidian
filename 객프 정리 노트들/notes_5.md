@@ -85,7 +85,7 @@ protected로 선언된 맴버 변수들은 private과 마찬가지로 외부에�
 #### 오류 6
 오류 5번과 같은 이유
 
-### 부모/자식 클래스 간의 생성자 호출 관계 
+## 부모/자식 클래스 간의 생성자 호출 관계 
 #### 질문 1
 * 파생 클래스의 객체가 생성될 때 파생 클래스의 생성자와 기본 클래스의 생성자가 모두 실행이 되는가?
 둘 다 실행이 된다.
@@ -238,6 +238,7 @@ int main() {
 * protected - 부모 클래스의 protected, public 멤버를 protected로 계승
 주의할 점!!!
 직접 상속받은 "후"에 적용이 된다 -> 예시는 아래에서 계속
+### 8-4
 
 ```c++
 #include <iostream>
@@ -267,14 +268,57 @@ int main() {
 }
 ```
 
-### 오류: 1 2 3 4 5
-#### 오류 1
+#### 오류: 1 2 3 4 5
+##### 오류 1
 부모 클래스의 private 변수기 때문에 외부에서 직접 접근 못함
-#### 오류 2
-외부에서 직접 접근 못함
-#### 오류 3
+##### 오류 2
+private 으로 바뀌어 외부에서 직접 접근 못함
+##### 오류 3
+private으로 바뀌어 외부에서 직접 접근 못함
+##### 오류 4
+private이므로 외부에서 직접 접근 못함
+##### 오류 5
+protected이므로 외부에서 직접 접근 못함
 
-#### 오류 4
-외부에서 직접 접근 못함
-#### 오류 5
+### 8-5
+```c++
+#include <iostream>
+using namespace std;
+class Base {
+	int a;
+protected:
+	void setA(int a) { this->a = a; }
+public:
+	void showA() { cout << a; }
+};
+class Derived : protected Base {
+	int b;
+protected:
+	void setB(int b) { this->b = b; }
+public:
+	void showB() { cout << b; }
+};
+int main() {
+	Derived x;
+	x.a = 5; // 1
+	x.setA(10); // 2
+	x.showA(); // 3
+	x.b = 10; // 4
+	x.setB(10); // 5
+	x.showB(); // 6
+}
+```
+
+#### 오류 1 2 3 4 5
+
+##### 오류 1
+부모 클래스의 protected 이므로 외부에서 직접 접근 못함
+##### 오류 2
+오류 1번과 동일
+##### 오류 3
+오류 1번과 동일
+##### 오류 4
+private이므로 외부에서 직접 접근 못함
+##### 오류 5
+protected 이므로 외부에서 직접 접근 못함
 
