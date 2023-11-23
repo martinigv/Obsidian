@@ -19,9 +19,11 @@
             "id": "45cc9d8d922f91d8",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-11-10 18.05.55.excalidraw.md"
+                "file": "객프 정리 노트들/notes_6.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-11-10 18.05.55.excalidraw.md",
+                "file": "객프 정리 노트들/notes_6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-11-10 18.05.55.excalidraw.md",
+                "file": "객프 정리 노트들/notes_6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-11-10 18.05.55.excalidraw.md"
+                "file": "객프 정리 노트들/notes_6.md"
               }
             }
           }
@@ -160,13 +162,15 @@
   },
   "active": "45cc9d8d922f91d8",
   "lastOpenFiles": [
+    "객프 정리 노트들/객체지향 프로그래밍 정리.md",
+    "객프 정리 노트들/notes_6.md",
+    "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-11-10 18.05.55.excalidraw.md",
     "객프 정리 노트들/notes_ex.md",
     "Leetcode 풀이/Binary Tree/Leetcode0979(Distribute Coins in Binary Tree).md",
     "객프 정리 노트들/notes_5.md",
     "첨부파일/Pasted image 20231111190416.png",
     "첨부파일/복사용 파일.md",
     "첨부파일/Pasted image 20231111190345.png",
-    "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-11-10 18.05.55.excalidraw.md",
     "Excalidraw/Leetcode(개인용)/Leetcode0979.excalidraw.md",
     "Excalidraw/Leetcode(개인용)/무제 파일.md",
     "Leetcode 풀이/Binary Tree/Leetcode0112(PathSum).md",
@@ -191,7 +195,6 @@
     "CalendarEvents/(Every F,W,T,M) 학교복습.md",
     "CalendarEvents/2023-10-02 세미나 발표자료 준비.md",
     "객프 정리 노트들/notes_3.md",
-    "객프 정리 노트들/객체지향 프로그래밍 정리.md",
     "CalendarEvents",
     "Excalidraw/과동아리 알고리즘 스터디 그림",
     "첨부파일/폰트폴더/Nanum_Pen_Script/OFL.txt",
