@@ -11,8 +11,10 @@
             "id": "167d4fdea358477f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-11-10 18.05.55.excalidraw.md"
+              }
             }
           }
         ]
@@ -81,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-11-10 18.05.55.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-11-10 18.05.55.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-11-10 18.05.55.excalidraw.md"
+              }
             }
           }
         ]
@@ -145,6 +151,8 @@
   },
   "active": "167d4fdea358477f",
   "lastOpenFiles": [
+    "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
+    "무제 폴더",
     "LinearAlgebra(MIT)/Lecture01/Drawing_2023-11-27 23.34.10.excalidraw.md",
     "LinearAlgebra(MIT)/Lecture01",
     "LinearAlgebra(MIT)",
@@ -165,7 +173,6 @@
     "객프 정리 노트들/note_4.md",
     "객프 정리 노트들/notes_2.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode1679.excalidraw.md",
-    "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0680.excalidraw.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0011.excalidraw.md",
@@ -179,12 +186,10 @@
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md",
     "첨부파일/Pasted image 20231003174807.png",
     "CalendarEvents/(Every S,F,R,W,T,M,U) LeetcodeCrashCourse.md",
-    "CalendarEvents/(Every R,S,F,W,T,M,U) UE5 인강(1시간 분량).md",
     "CalendarEvents",
     "Excalidraw/과동아리 알고리즘 스터디 그림",
     "첨부파일/폰트폴더/Nanum_Pen_Script/OFL.txt",
     "첨부파일/폰트폴더/Nanum_Pen_Script/NanumPenScript-Regular.ttf",
-    "첨부파일/폰트폴더/Nanum_Pen_Script",
     "Excalidraw/Scripts/Downloaded/Elbow connectors.svg",
     "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.svg",
     "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.svg"
