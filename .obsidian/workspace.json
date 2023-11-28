@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "c922dda687a5d334",
+        "id": "80a525031ef393db",
         "type": "tabs",
         "children": [
           {
-            "id": "f4451e6868fa7d4d",
+            "id": "167d4fdea358477f",
             "type": "leaf",
             "state": {
-              "type": "full-calendar-view",
+              "type": "empty",
               "state": {}
             }
           }
@@ -143,8 +143,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f4451e6868fa7d4d",
+  "active": "167d4fdea358477f",
   "lastOpenFiles": [
+    "LinearAlgebra(MIT)/Lecture01/Drawing_2023-11-27 23.34.10.excalidraw.md",
+    "LinearAlgebra(MIT)/Lecture01",
+    "LinearAlgebra(MIT)",
     "객프 정리 노트들/notes_7.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-11-10 18.05.55.excalidraw.md",
     "Calculus1/Drawing 2023-11-22 23.29.17.excalidraw.md",
@@ -177,14 +180,11 @@
     "첨부파일/Pasted image 20231003174807.png",
     "CalendarEvents/(Every S,F,R,W,T,M,U) LeetcodeCrashCourse.md",
     "CalendarEvents/(Every R,S,F,W,T,M,U) UE5 인강(1시간 분량).md",
-    "CalendarEvents/(Every F,W,T,M) 학교복습.md",
     "CalendarEvents",
     "Excalidraw/과동아리 알고리즘 스터디 그림",
     "첨부파일/폰트폴더/Nanum_Pen_Script/OFL.txt",
     "첨부파일/폰트폴더/Nanum_Pen_Script/NanumPenScript-Regular.ttf",
     "첨부파일/폰트폴더/Nanum_Pen_Script",
-    "첨부파일/폰트폴더/Nanum_Pen_Script.zip",
-    "첨부파일/폰트폴더",
     "Excalidraw/Scripts/Downloaded/Elbow connectors.svg",
     "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.svg",
     "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.svg"
