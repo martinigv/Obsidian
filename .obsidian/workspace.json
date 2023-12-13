@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "객프 정리 노트들/notes_8.md",
+                "file": "객프 정리 노트들/notes_9.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "객프 정리 노트들/notes_8.md",
+                "file": "객프 정리 노트들/notes_9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "객프 정리 노트들/notes_8.md",
+                "file": "객프 정리 노트들/notes_9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "객프 정리 노트들/notes_8.md"
+                "file": "객프 정리 노트들/notes_9.md"
               }
             }
           }
@@ -153,8 +153,9 @@
   },
   "active": "167d4fdea358477f",
   "lastOpenFiles": [
-    "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-11-10 18.05.55.excalidraw.md",
     "객프 정리 노트들/notes_8.md",
+    "객프 정리 노트들/notes_9.md",
+    "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-11-10 18.05.55.excalidraw.md",
     "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
     "무제 폴더",
     "LinearAlgebra(MIT)/Lecture01/Drawing_2023-11-27 23.34.10.excalidraw.md",
@@ -188,7 +189,6 @@
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0155.excalidraw.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md",
     "첨부파일/Pasted image 20231003174807.png",
-    "CalendarEvents/(Every S,F,R,W,T,M,U) LeetcodeCrashCourse.md",
     "CalendarEvents",
     "Excalidraw/과동아리 알고리즘 스터디 그림",
     "첨부파일/폰트폴더/Nanum_Pen_Script/OFL.txt",
