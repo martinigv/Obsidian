@@ -11,13 +11,26 @@
             "id": "167d4fdea358477f",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Thomas_Calculus/2.Limits_and_Continuity/2.1.Rates_of_Cange_and_Tangent_Lines_to_Curves.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "038c869d3ed2df42",
+            "type": "leaf",
+            "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-11-10 18.05.55.excalidraw.md"
+                "file": "Thomas_Calculus/2.Limits_and_Continuity/Drawing_2023-12-16 19.41.22.excalidraw.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-11-10 18.05.55.excalidraw.md",
+                "file": "Thomas_Calculus/2.Limits_and_Continuity/Drawing_2023-12-16 19.41.22.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-11-10 18.05.55.excalidraw.md",
+                "file": "Thomas_Calculus/2.Limits_and_Continuity/Drawing_2023-12-16 19.41.22.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-11-10 18.05.55.excalidraw.md"
+                "file": "Thomas_Calculus/2.Limits_and_Continuity/Drawing_2023-12-16 19.41.22.excalidraw.md"
               }
             }
           }
@@ -149,13 +162,18 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "167d4fdea358477f",
+  "active": "038c869d3ed2df42",
   "lastOpenFiles": [
+    "Thomas_Calculus/2.Limits_and_Continuity/2.1.Rates_of_Cange_and_Tangent_Lines_to_Curves.md",
+    "Thomas_Calculus/2.Limits_and_Continuity/Drawing_2023-12-16 19.41.22.excalidraw.md",
+    "Calculus1/Lecture1.2(Properties of Limits&Techniques of Limit computation)/Computing Limits.excalidraw.md",
+    "Thomas_Calculus/2.Limits_and_Continuity",
+    "Thomas_Calculus",
+    "Calculus1/Lecture1.1(Introduction to Limits).excalidraw.md",
+    "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-11-10 18.05.55.excalidraw.md",
     "객프 정리 노트들/notes_9.md",
     "객프 정리 노트들/notes_8.md",
-    "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-11-10 18.05.55.excalidraw.md",
     "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
-    "무제 폴더",
     "LinearAlgebra(MIT)/Lecture01/Drawing_2023-11-27 23.34.10.excalidraw.md",
     "LinearAlgebra(MIT)/Lecture01",
     "LinearAlgebra(MIT)",
@@ -178,19 +196,14 @@
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0680.excalidraw.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0011.excalidraw.md",
-    "Excalidraw/Leetcode(개인용)/Leetcode0112.excalidraw.md",
     "첨부파일/Pasted image 20231028184327.png",
     "Excalidraw/Leetcode(개인용)",
     "Leetcode 풀이/Binary Tree",
     "Leetcode 풀이",
-    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0283.excalidraw.md",
-    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0155.excalidraw.md",
-    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0334.excalidraw.md",
     "첨부파일/Pasted image 20231003174807.png",
     "CalendarEvents",
     "Excalidraw/과동아리 알고리즘 스터디 그림",
     "첨부파일/폰트폴더/Nanum_Pen_Script/OFL.txt",
-    "첨부파일/폰트폴더/Nanum_Pen_Script/NanumPenScript-Regular.ttf",
     "Excalidraw/Scripts/Downloaded/Elbow connectors.svg",
     "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.svg",
     "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.svg"
