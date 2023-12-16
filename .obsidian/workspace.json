@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thomas_Calculus/2.Limits_and_Continuity/2.1.Rates_of_Cange_and_Tangent_Lines_to_Curves.md",
+                "file": "Vocabs/Vocabs_in_thomas_calculus.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thomas_Calculus/2.Limits_and_Continuity/2.1.Rates_of_Cange_and_Tangent_Lines_to_Curves.md",
+                "file": "Vocabs/Vocabs_in_thomas_calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thomas_Calculus/2.Limits_and_Continuity/2.1.Rates_of_Cange_and_Tangent_Lines_to_Curves.md",
+                "file": "Vocabs/Vocabs_in_thomas_calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thomas_Calculus/2.Limits_and_Continuity/2.1.Rates_of_Cange_and_Tangent_Lines_to_Curves.md"
+                "file": "Vocabs/Vocabs_in_thomas_calculus.md"
               }
             }
           }
@@ -148,13 +148,16 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "obsidian-bible-reference:Bible Verse Lookup": false,
-      "obsidian-full-calendar:Open Full Calendar": false
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "obsidian-wordnet-plugin:WordNet Dictionary": false
     }
   },
   "active": "167d4fdea358477f",
   "lastOpenFiles": [
-    "Thomas_Calculus/2.Limits_and_Continuity/2.1.Rates_of_Cange_and_Tangent_Lines_to_Curves.excalidraw.md",
     "Thomas_Calculus/2.Limits_and_Continuity/2.1.Rates_of_Cange_and_Tangent_Lines_to_Curves.md",
+    "Vocabs/Vocabs_in_thomas_calculus.md",
+    "Vocabs",
+    "Thomas_Calculus/2.Limits_and_Continuity/2.1.Rates_of_Cange_and_Tangent_Lines_to_Curves.excalidraw.md",
     "Calculus1/Lecture1.2(Properties of Limits&Techniques of Limit computation)/Computing Limits.excalidraw.md",
     "Thomas_Calculus/2.Limits_and_Continuity",
     "Thomas_Calculus",
@@ -184,7 +187,6 @@
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode1679.excalidraw.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0680.excalidraw.md",
     "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0605.excalidraw.md",
-    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode0011.excalidraw.md",
     "첨부파일/Pasted image 20231028184327.png",
     "Excalidraw/Leetcode(개인용)",
     "Leetcode 풀이/Binary Tree",
@@ -192,7 +194,6 @@
     "첨부파일/Pasted image 20231003174807.png",
     "CalendarEvents",
     "Excalidraw/과동아리 알고리즘 스터디 그림",
-    "첨부파일/폰트폴더/Nanum_Pen_Script/OFL.txt",
     "Excalidraw/Scripts/Downloaded/Elbow connectors.svg",
     "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.svg",
     "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.svg"

@@ -1,0 +1,3 @@
+**negligible**
+so small as to be meaningless; insignificant; "the effect was negligible"  
+무시할 만한
