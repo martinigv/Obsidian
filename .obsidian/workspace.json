@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "038c869d3ed2df42",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Thomas_Calculus/2.Limits_and_Continuity/Drawing_2023-12-16 19.41.22.excalidraw.md"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thomas_Calculus/2.Limits_and_Continuity/Drawing_2023-12-16 19.41.22.excalidraw.md",
+                "file": "Thomas_Calculus/2.Limits_and_Continuity/2.1.Rates_of_Cange_and_Tangent_Lines_to_Curves.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thomas_Calculus/2.Limits_and_Continuity/Drawing_2023-12-16 19.41.22.excalidraw.md",
+                "file": "Thomas_Calculus/2.Limits_and_Continuity/2.1.Rates_of_Cange_and_Tangent_Lines_to_Curves.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thomas_Calculus/2.Limits_and_Continuity/Drawing_2023-12-16 19.41.22.excalidraw.md"
+                "file": "Thomas_Calculus/2.Limits_and_Continuity/2.1.Rates_of_Cange_and_Tangent_Lines_to_Curves.md"
               }
             }
           }
@@ -162,10 +151,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "038c869d3ed2df42",
+  "active": "167d4fdea358477f",
   "lastOpenFiles": [
+    "Thomas_Calculus/2.Limits_and_Continuity/2.1.Rates_of_Cange_and_Tangent_Lines_to_Curves.excalidraw.md",
     "Thomas_Calculus/2.Limits_and_Continuity/2.1.Rates_of_Cange_and_Tangent_Lines_to_Curves.md",
-    "Thomas_Calculus/2.Limits_and_Continuity/Drawing_2023-12-16 19.41.22.excalidraw.md",
     "Calculus1/Lecture1.2(Properties of Limits&Techniques of Limit computation)/Computing Limits.excalidraw.md",
     "Thomas_Calculus/2.Limits_and_Continuity",
     "Thomas_Calculus",
