@@ -30,4 +30,8 @@ in a random manner; "the houses were randomly scattered"; "bullets were fired in
 move or swing from side to side regularly; "the needle on the meter was oscillating"  
 진동하다
 
+**rational**
+an integer or a fraction  
+유리수의
+
 
