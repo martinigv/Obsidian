@@ -26,4 +26,8 @@ the ratio of two quantities to be divided
 in a random manner; "the houses were randomly scattered"; "bullets were fired into the crowd at random"  
 임의로
 
+**oscillate**
+move or swing from side to side regularly; "the needle on the meter was oscillating"  
+진동하다
+
 
