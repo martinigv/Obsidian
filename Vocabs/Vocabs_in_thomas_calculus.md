@@ -16,3 +16,10 @@ a straight line at right angles to another line
 
 **polynomial**
 a mathematical function that is the sum of a number of terms  
+다항식
+
+**quotient**
+the ratio of two quantities to be divided  
+몫/분수
+
+
