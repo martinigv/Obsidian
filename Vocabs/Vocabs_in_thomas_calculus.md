@@ -34,4 +34,10 @@ move or swing from side to side regularly; "the needle on the meter was oscillat
 an integer or a fraction  
 유리수의
 
+**denominator**
+the divisor of a fraction  
+분모
 
+**conjugate**
+formed by the union of two compounds; "a conjugated protein"  
+(수학)켤례수
