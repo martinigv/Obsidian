@@ -40,4 +40,4 @@ the divisor of a fraction
 
 **conjugate**
 formed by the union of two compounds; "a conjugated protein"  
-(수학)켤례수
+(수학)켤례
