@@ -22,4 +22,8 @@ a mathematical function that is the sum of a number of terms
 the ratio of two quantities to be divided  
 몫/분수
 
+**arbitrarily**
+in a random manner; "the houses were randomly scattered"; "bullets were fired into the crowd at random"  
+임의로
+
 
