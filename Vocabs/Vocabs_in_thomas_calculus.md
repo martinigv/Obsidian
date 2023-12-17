@@ -10,3 +10,7 @@ a ratio of two quantities that is constant
 occurring with no delay; "relief was instantaneous"; "instant gratification"  
 동시에 일어나는
 
+**perpendicular**
+a straight line at right angles to another line  
+수직
+
