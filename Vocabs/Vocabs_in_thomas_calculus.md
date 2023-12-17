@@ -14,3 +14,5 @@ occurring with no delay; "relief was instantaneous"; "instant gratification"
 a straight line at right angles to another line  
 수직
 
+**polynomial**
+a mathematical function that is the sum of a number of terms  
