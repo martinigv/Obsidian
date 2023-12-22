@@ -18,8 +18,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a989c6e3ed1e98f4",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,7 +161,7 @@
       "obsidian-wordnet-plugin:WordNet Dictionary": false
     }
   },
-  "active": "167d4fdea358477f",
+  "active": "a989c6e3ed1e98f4",
   "lastOpenFiles": [
     "Thomas_Calculus/2.Limits_and_Continuity/2.2Limits_of_function_and_Limit_laws.excalidraw.md",
     "Thomas_Calculus/2.Limits_and_Continuity/2.2Limits_of_function_and_Limit_laws.md",
