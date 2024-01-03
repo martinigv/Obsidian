@@ -44,7 +44,13 @@ formed by the union of two compounds; "a conjugated protein"
 
 **derivative**
 the result of mathematical differentiation; the instantaneous change of one quantity relative to another; df(x)/dx  
+도함수
+
+**differentiation**
+the process of calculating a derivative
 미분
+
+
 
 
 
