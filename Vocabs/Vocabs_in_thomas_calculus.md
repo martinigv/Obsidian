@@ -47,3 +47,5 @@ the result of mathematical differentiation; the instantaneous change of one quan
 미분
 
 
+
+
