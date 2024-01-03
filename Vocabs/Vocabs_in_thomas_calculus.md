@@ -41,3 +41,9 @@ the divisor of a fraction
 **conjugate**
 formed by the union of two compounds; "a conjugated protein"  
 (수학)켤례
+
+**derivative**
+the result of mathematical differentiation; the instantaneous change of one quantity relative to another; df(x)/dx  
+미분
+
+
