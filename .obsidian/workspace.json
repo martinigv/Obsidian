@@ -33,14 +33,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode 풀이/ArrayandString/SlidingWindow/1413. Minimum Value to Get Positive Step by Step Sum.md",
+                "file": "Leetcode 풀이/ArrayandString/PrefixSum/2090. K Radius Subarray Averages.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "2c8f027143deac35",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Leetcode(개인용)/Leetcode2090.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leetcode 풀이/ArrayandString/SlidingWindow/1413. Minimum Value to Get Positive Step by Step Sum.md",
+                "file": "Excalidraw/Leetcode(개인용)/Leetcode2090.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leetcode 풀이/ArrayandString/SlidingWindow/1413. Minimum Value to Get Positive Step by Step Sum.md",
+                "file": "Excalidraw/Leetcode(개인용)/Leetcode2090.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leetcode 풀이/ArrayandString/SlidingWindow/1413. Minimum Value to Get Positive Step by Step Sum.md"
+                "file": "Excalidraw/Leetcode(개인용)/Leetcode2090.excalidraw.md"
               }
             }
           }
@@ -173,10 +183,14 @@
       "obsidian-wordnet-plugin:WordNet Dictionary": false
     }
   },
-  "active": "794ede6b79771fd0",
+  "active": "2c8f027143deac35",
   "lastOpenFiles": [
+    "Leetcode 풀이/ArrayandString/PrefixSum/2090. K Radius Subarray Averages.md",
+    "Excalidraw/Leetcode(개인용)/Leetcode2090.excalidraw.md",
+    "Leetcode 풀이/ArrayandString/PrefixSum/1413. Minimum Value to Get Positive Step by Step Sum.md",
+    "Leetcode 풀이/BinaryTree/Leetcode0979(Distribute Coins in Binary Tree).md",
+    "첨부파일/복사용 파일.md",
     "첨부파일/Leetcode1413.excalidraw.png",
-    "Leetcode 풀이/ArrayandString/SlidingWindow/1413. Minimum Value to Get Positive Step by Step Sum.md",
     "첨부파일/Pasted image 20231003174807.png",
     "첨부파일/Pasted image 20231028184327.png",
     "첨부파일/Pasted image 20231111190416.png",
@@ -185,9 +199,8 @@
     "Excalidraw/Leetcode(개인용)/Leetcode1413.excalidraw.md",
     "Leetcode 풀이/ArrayandString/Leetcode1413.excalidraw.md",
     "Leetcode 풀이/BinaryTree/Leetcode0112(PathSum).md",
-    "Leetcode 풀이/BinaryTree/Leetcode0979(Distribute Coins in Binary Tree).md",
     "Vocabs/Vocabs_in_thomas_calculus.md",
-    "Leetcode 풀이/ArrayandString/SlidingWindow",
+    "Leetcode 풀이/ArrayandString/PrefixSum",
     "Leetcode 풀이/ArrayandString",
     "Thomas_Calculus/2.Limits_and_Continuity/2.2Limits_of_function_and_Limit_laws.excalidraw.md",
     "Thomas_Calculus/2.Limits_and_Continuity/2.2Limits_of_function_and_Limit_laws.md",
@@ -211,8 +224,6 @@
     "객프 정리 노트들/객체지향 프로그래밍 정리.md",
     "객프 정리 노트들/notes_ex.md",
     "객프 정리 노트들/notes_5.md",
-    "첨부파일/복사용 파일.md",
-    "Excalidraw/Leetcode(개인용)/Leetcode0979.excalidraw.md",
     "Excalidraw/Leetcode(개인용)",
     "Leetcode 풀이/BinaryTree",
     "Leetcode 풀이",
