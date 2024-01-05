@@ -56,6 +56,14 @@ if (i < 0) {
     i = length - i; 
 } ^MQXL5LrB
 
+initialize prefixArr;
+
+for (int i = 0; i < nums.size(); i++) {
+    check if each element is less than k;
+    
+    initialize avgArr[i]
+} ^rO49Rrii
+
 %%
 # Drawing
 ```json
@@ -3058,6 +3066,43 @@ if (i < 0) {
 			"lineHeight": 1.25
 		},
 		{
+			"id": "rO49Rrii",
+			"type": "text",
+			"x": -387,
+			"y": 209.5625,
+			"width": 563.1358032226562,
+			"height": 245,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 379690992,
+			"version": 279,
+			"versionNonce": 1022940432,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1704473049739,
+			"link": null,
+			"locked": false,
+			"text": "initialize prefixArr;\n\nfor (int i = 0; i < nums.size(); i++) {\n    check if each element is less than k;\n    \n    initialize avgArr[i]\n}",
+			"rawText": "initialize prefixArr;\n\nfor (int i = 0; i < nums.size(); i++) {\n    check if each element is less than k;\n    \n    initialize avgArr[i]\n}",
+			"fontSize": 28,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 235,
+			"containerId": null,
+			"originalText": "initialize prefixArr;\n\nfor (int i = 0; i < nums.size(); i++) {\n    check if each element is less than k;\n    \n    initialize avgArr[i]\n}",
+			"lineHeight": 1.25
+		},
+		{
 			"id": "qGBtaG9p",
 			"type": "text",
 			"x": -365.10837083766233,
@@ -4005,6 +4050,43 @@ if (i < 0) {
 			"isDeleted": true,
 			"boundElements": null,
 			"updated": 1704472762004,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 28,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 25,
+			"containerId": null,
+			"originalText": "",
+			"lineHeight": 1.25
+		},
+		{
+			"id": "CfjMr7Td",
+			"type": "text",
+			"x": 125,
+			"y": 297.5625,
+			"width": 14,
+			"height": 35,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 905620752,
+			"version": 2,
+			"versionNonce": 424373744,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1704472927177,
 			"link": null,
 			"locked": false,
 			"text": "",
