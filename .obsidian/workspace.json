@@ -31,9 +31,11 @@
             "id": "794ede6b79771fd0",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Leetcode(개인용)/Leetcode1413.excalidraw.md"
+                "file": "Leetcode 풀이/ArrayandString/SlidingWindow/1413. Minimum Value to Get Positive Step by Step Sum.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Leetcode(개인용)/Leetcode1413.excalidraw.md",
+                "file": "Leetcode 풀이/ArrayandString/SlidingWindow/1413. Minimum Value to Get Positive Step by Step Sum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Leetcode(개인용)/Leetcode1413.excalidraw.md",
+                "file": "Leetcode 풀이/ArrayandString/SlidingWindow/1413. Minimum Value to Get Positive Step by Step Sum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Leetcode(개인용)/Leetcode1413.excalidraw.md"
+                "file": "Leetcode 풀이/ArrayandString/SlidingWindow/1413. Minimum Value to Get Positive Step by Step Sum.md"
               }
             }
           }
@@ -173,8 +175,13 @@
   },
   "active": "794ede6b79771fd0",
   "lastOpenFiles": [
+    "첨부파일/Leetcode1413.excalidraw.png",
     "Leetcode 풀이/ArrayandString/SlidingWindow/1413. Minimum Value to Get Positive Step by Step Sum.md",
+    "첨부파일/Pasted image 20231003174807.png",
+    "첨부파일/Pasted image 20231028184327.png",
+    "첨부파일/Pasted image 20231111190416.png",
     "첨부파일/Pasted image 20240106004948.png",
+    "첨부파일/Pasted image 20231111190345.png",
     "Excalidraw/Leetcode(개인용)/Leetcode1413.excalidraw.md",
     "Leetcode 풀이/ArrayandString/Leetcode1413.excalidraw.md",
     "Leetcode 풀이/BinaryTree/Leetcode0112(PathSum).md",
@@ -204,15 +211,11 @@
     "객프 정리 노트들/객체지향 프로그래밍 정리.md",
     "객프 정리 노트들/notes_ex.md",
     "객프 정리 노트들/notes_5.md",
-    "첨부파일/Pasted image 20231111190416.png",
     "첨부파일/복사용 파일.md",
-    "첨부파일/Pasted image 20231111190345.png",
     "Excalidraw/Leetcode(개인용)/Leetcode0979.excalidraw.md",
-    "첨부파일/Pasted image 20231028184327.png",
     "Excalidraw/Leetcode(개인용)",
     "Leetcode 풀이/BinaryTree",
     "Leetcode 풀이",
-    "첨부파일/Pasted image 20231003174807.png",
     "Excalidraw/Scripts/Downloaded/Elbow connectors.svg",
     "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.svg",
     "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.svg"
