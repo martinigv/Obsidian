@@ -26,9 +26,19 @@
               "type": "full-calendar-view",
               "state": {}
             }
+          },
+          {
+            "id": "794ede6b79771fd0",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Leetcode 풀이/ArrayandString/SlidingWindow/Drawing_2024-01-06 00.01.56.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vocabs/Vocabs_in_thomas_calculus.md",
+                "file": "Leetcode 풀이/ArrayandString/SlidingWindow/Drawing_2024-01-06 00.01.56.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vocabs/Vocabs_in_thomas_calculus.md",
+                "file": "Leetcode 풀이/ArrayandString/SlidingWindow/Drawing_2024-01-06 00.01.56.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vocabs/Vocabs_in_thomas_calculus.md"
+                "file": "Leetcode 풀이/ArrayandString/SlidingWindow/Drawing_2024-01-06 00.01.56.excalidraw.md"
               }
             }
           }
@@ -161,12 +171,15 @@
       "obsidian-wordnet-plugin:WordNet Dictionary": false
     }
   },
-  "active": "a989c6e3ed1e98f4",
+  "active": "794ede6b79771fd0",
   "lastOpenFiles": [
+    "Vocabs/Vocabs_in_thomas_calculus.md",
+    "Leetcode 풀이/ArrayandString/SlidingWindow/Drawing_2024-01-06 00.01.56.excalidraw.md",
+    "Leetcode 풀이/ArrayandString/SlidingWindow",
+    "Leetcode 풀이/ArrayandString",
     "Thomas_Calculus/2.Limits_and_Continuity/2.2Limits_of_function_and_Limit_laws.excalidraw.md",
     "Thomas_Calculus/2.Limits_and_Continuity/2.2Limits_of_function_and_Limit_laws.md",
     "Thomas_Calculus/2.Limits_and_Continuity/2.1.Rates_of_Cange_and_Tangent_Lines_to_Curves.md",
-    "Vocabs/Vocabs_in_thomas_calculus.md",
     "Vocabs",
     "Thomas_Calculus/2.Limits_and_Continuity/2.1.Rates_of_Cange_and_Tangent_Lines_to_Curves.excalidraw.md",
     "Calculus1/Lecture1.2(Properties of Limits&Techniques of Limit computation)/Computing Limits.excalidraw.md",
@@ -185,24 +198,21 @@
     "객프 정리 노트들/notes_6.md",
     "객프 정리 노트들/객체지향 프로그래밍 정리.md",
     "객프 정리 노트들/notes_ex.md",
-    "Leetcode 풀이/Binary Tree/Leetcode0979(Distribute Coins in Binary Tree).md",
+    "Leetcode 풀이/BinaryTree/Leetcode0979(Distribute Coins in Binary Tree).md",
     "객프 정리 노트들/notes_5.md",
     "첨부파일/Pasted image 20231111190416.png",
     "첨부파일/복사용 파일.md",
     "첨부파일/Pasted image 20231111190345.png",
     "Excalidraw/Leetcode(개인용)/Leetcode0979.excalidraw.md",
     "Excalidraw/Leetcode(개인용)/무제 파일.md",
-    "Leetcode 풀이/Binary Tree/Leetcode0112(PathSum).md",
+    "Leetcode 풀이/BinaryTree/Leetcode0112(PathSum).md",
     "객프 정리 노트들/note_4.md",
     "객프 정리 노트들/notes_2.md",
-    "Excalidraw/과동아리 알고리즘 스터디 그림/leetcode1679.excalidraw.md",
     "첨부파일/Pasted image 20231028184327.png",
     "Excalidraw/Leetcode(개인용)",
-    "Leetcode 풀이/Binary Tree",
+    "Leetcode 풀이/BinaryTree",
     "Leetcode 풀이",
     "첨부파일/Pasted image 20231003174807.png",
-    "CalendarEvents",
-    "Excalidraw/과동아리 알고리즘 스터디 그림",
     "Excalidraw/Scripts/Downloaded/Elbow connectors.svg",
     "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.svg",
     "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.svg"
