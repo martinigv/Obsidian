@@ -35,10 +35,10 @@ initial value
 
 3 ^4WeBUmmR
 
-for (initial value++) {
+while (check if each elements of Array is less than 1) {
+    initialValue++;
+
     add prefixArray
-    
-    check if each elements of Array is less than 1        
 } ^EQS86QLM
 
 %%
@@ -1088,7 +1088,7 @@ for (initial value++) {
 			"type": "text",
 			"x": -475,
 			"y": 110.5625,
-			"width": 808.4437255859375,
+			"width": 765.2676391601562,
 			"height": 175,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
@@ -1102,22 +1102,22 @@ for (initial value++) {
 			"frameId": null,
 			"roundness": null,
 			"seed": 191494416,
-			"version": 173,
-			"versionNonce": 121356784,
+			"version": 259,
+			"versionNonce": 1730650896,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1704467516556,
+			"updated": 1704469402357,
 			"link": null,
 			"locked": false,
-			"text": "for (initial value++) {\n    add prefixArray\n    \n    check if each elements of Array is less than 1        \n}",
-			"rawText": "for (initial value++) {\n    add prefixArray\n    \n    check if each elements of Array is less than 1        \n}",
+			"text": "while (check if each elements of Array is less than 1) {\n    initialValue++;\n\n    add prefixArray\n}",
+			"rawText": "while (check if each elements of Array is less than 1) {\n    initialValue++;\n\n    add prefixArray\n}",
 			"fontSize": 28,
 			"fontFamily": 1,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"baseline": 165,
 			"containerId": null,
-			"originalText": "for (initial value++) {\n    add prefixArray\n    \n    check if each elements of Array is less than 1        \n}",
+			"originalText": "while (check if each elements of Array is less than 1) {\n    initialValue++;\n\n    add prefixArray\n}",
 			"lineHeight": 1.25
 		},
 		{

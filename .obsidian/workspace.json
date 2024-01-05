@@ -33,7 +33,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Leetcode 풀이/ArrayandString/SlidingWindow/Drawing_2024-01-06 00.01.56.excalidraw.md"
+                "file": "Excalidraw/Leetcode(개인용)/Leetcode1413.excalidraw.md"
               }
             }
           }
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leetcode 풀이/ArrayandString/SlidingWindow/Drawing_2024-01-06 00.01.56.excalidraw.md",
+                "file": "Excalidraw/Leetcode(개인용)/Leetcode1413.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leetcode 풀이/ArrayandString/SlidingWindow/Drawing_2024-01-06 00.01.56.excalidraw.md",
+                "file": "Excalidraw/Leetcode(개인용)/Leetcode1413.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leetcode 풀이/ArrayandString/SlidingWindow/Drawing_2024-01-06 00.01.56.excalidraw.md"
+                "file": "Excalidraw/Leetcode(개인용)/Leetcode1413.excalidraw.md"
               }
             }
           }
@@ -173,8 +173,13 @@
   },
   "active": "794ede6b79771fd0",
   "lastOpenFiles": [
+    "Leetcode 풀이/ArrayandString/SlidingWindow/1413. Minimum Value to Get Positive Step by Step Sum.md",
+    "첨부파일/Pasted image 20240106004948.png",
+    "Excalidraw/Leetcode(개인용)/Leetcode1413.excalidraw.md",
+    "Leetcode 풀이/ArrayandString/Leetcode1413.excalidraw.md",
+    "Leetcode 풀이/BinaryTree/Leetcode0112(PathSum).md",
+    "Leetcode 풀이/BinaryTree/Leetcode0979(Distribute Coins in Binary Tree).md",
     "Vocabs/Vocabs_in_thomas_calculus.md",
-    "Leetcode 풀이/ArrayandString/SlidingWindow/Drawing_2024-01-06 00.01.56.excalidraw.md",
     "Leetcode 풀이/ArrayandString/SlidingWindow",
     "Leetcode 풀이/ArrayandString",
     "Thomas_Calculus/2.Limits_and_Continuity/2.2Limits_of_function_and_Limit_laws.excalidraw.md",
@@ -198,16 +203,11 @@
     "객프 정리 노트들/notes_6.md",
     "객프 정리 노트들/객체지향 프로그래밍 정리.md",
     "객프 정리 노트들/notes_ex.md",
-    "Leetcode 풀이/BinaryTree/Leetcode0979(Distribute Coins in Binary Tree).md",
     "객프 정리 노트들/notes_5.md",
     "첨부파일/Pasted image 20231111190416.png",
     "첨부파일/복사용 파일.md",
     "첨부파일/Pasted image 20231111190345.png",
     "Excalidraw/Leetcode(개인용)/Leetcode0979.excalidraw.md",
-    "Excalidraw/Leetcode(개인용)/무제 파일.md",
-    "Leetcode 풀이/BinaryTree/Leetcode0112(PathSum).md",
-    "객프 정리 노트들/note_4.md",
-    "객프 정리 노트들/notes_2.md",
     "첨부파일/Pasted image 20231028184327.png",
     "Excalidraw/Leetcode(개인용)",
     "Leetcode 풀이/BinaryTree",
