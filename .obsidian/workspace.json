@@ -4,55 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "80a525031ef393db",
+        "id": "0d767bacaa4f5e7d",
         "type": "tabs",
         "children": [
           {
-            "id": "167d4fdea358477f",
+            "id": "671f937f536cec92",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Vocabs/Vocabs_in_thomas_calculus.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a989c6e3ed1e98f4",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "794ede6b79771fd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Leetcode 풀이/ArrayandString/PrefixSum/2090. K Radius Subarray Averages.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c8f027143deac35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GameEngine/H_war/Map/HexGridMap/HexGridMap.md",
-                "mode": "source",
-                "source": false
+                "file": "LinearAlgebra(MIT)/Lecture01/Lecture1.3.excalidraw.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GameEngine/H_war/Map/HexGridMap/HexGridMap.md",
+                "file": "LinearAlgebra(MIT)/Lecture01/Lecture1.3.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GameEngine/H_war/Map/HexGridMap/HexGridMap.md",
+                "file": "LinearAlgebra(MIT)/Lecture01/Lecture1.3.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GameEngine/H_war/Map/HexGridMap/HexGridMap.md"
+                "file": "LinearAlgebra(MIT)/Lecture01/Lecture1.3.excalidraw.md"
               }
             }
           }
@@ -171,8 +136,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "remotely-save:Remotely Save": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
@@ -180,21 +143,30 @@
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "obsidian-bible-reference:Bible Verse Lookup": false,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "obsidian-wordnet-plugin:WordNet Dictionary": false
+      "obsidian-wordnet-plugin:WordNet Dictionary": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-bible-reference:Bible Verse Lookup": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2c8f027143deac35",
+  "active": "671f937f536cec92",
   "lastOpenFiles": [
-    "GameEngine/What i need to know.md",
+    "LinearAlgebra(MIT)/Lecture01/Lecture1.2.excalidraw.md",
+    "LinearAlgebra(MIT)/Lecture01/Lecture1.3.excalidraw.md",
+    "LinearAlgebra(MIT)/Lecture01/Drawing 2023-12-23 20.10.30.excalidraw.md",
+    "LinearAlgebra(MIT)/Lecture01/Lecture1.1_book.excalidraw.md",
+    "LinearAlgebra(MIT)/Lecture01/Lecture01.excalidraw.md",
+    "LinearAlgebra(MIT)/Lecture02/Lecture02(Elimination with matrices).excalidraw.md",
+    "Vocabs/Vocabs_in_thomas_calculus.md",
+    "Leetcode 풀이/ArrayandString/PrefixSum/2090. K Radius Subarray Averages.md",
     "GameEngine/H_war/Map/HexGridMap/HexGridMap.md",
+    "GameEngine/What i need to know.md",
     "GameEngine/H_war",
     "GameEngine/H_war/Map/HexGridMap",
     "GameEngine/H_war/Map",
     "Excalidraw/Leetcode(개인용)/Leetcode2090.excalidraw.md",
     "Leetcode 풀이/ArrayandString/PrefixSum/1413. Minimum Value to Get Positive Step by Step Sum.md",
-    "Leetcode 풀이/ArrayandString/PrefixSum/2090. K Radius Subarray Averages.md",
     "GameEngine",
     "Leetcode 풀이/BinaryTree/Leetcode0112(PathSum).md",
     "Leetcode 풀이/BinaryTree/Leetcode0979(Distribute Coins in Binary Tree).md",
@@ -207,7 +179,6 @@
     "첨부파일/Pasted image 20231111190345.png",
     "Excalidraw/Leetcode(개인용)/Leetcode1413.excalidraw.md",
     "Leetcode 풀이/ArrayandString/Leetcode1413.excalidraw.md",
-    "Vocabs/Vocabs_in_thomas_calculus.md",
     "Leetcode 풀이/ArrayandString/PrefixSum",
     "Leetcode 풀이/ArrayandString",
     "Thomas_Calculus/2.Limits_and_Continuity/2.2Limits_of_function_and_Limit_laws.excalidraw.md",
@@ -222,13 +193,7 @@
     "Excalidraw/과동아리 알고리즘 스터디 그림/Drawing_2023-11-10 18.05.55.excalidraw.md",
     "객프 정리 노트들/notes_9.md",
     "객프 정리 노트들/notes_8.md",
-    "과동아리 알고리즘 스터디/과동아리 알고리즘 스터디.md",
-    "LinearAlgebra(MIT)/Lecture01/Drawing_2023-11-27 23.34.10.excalidraw.md",
     "LinearAlgebra(MIT)/Lecture01",
-    "객프 정리 노트들/notes_7.md",
-    "Calculus1/Drawing 2023-11-22 23.29.17.excalidraw.md",
-    "객프 정리 노트들/notes_6.md",
-    "객프 정리 노트들/객체지향 프로그래밍 정리.md",
     "Excalidraw/Scripts/Downloaded/Elbow connectors.svg",
     "Excalidraw/Scripts/Downloaded/Deconstruct selected elements into new drawing.svg",
     "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.svg"

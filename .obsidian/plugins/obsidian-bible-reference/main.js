@@ -291,9 +291,9 @@ var require_md5 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/big-integer@1.6.51/node_modules/big-integer/BigInteger.js
+// node_modules/.pnpm/big-integer@1.6.52/node_modules/big-integer/BigInteger.js
 var require_BigInteger = __commonJS({
-  "node_modules/.pnpm/big-integer@1.6.51/node_modules/big-integer/BigInteger.js"(exports, module2) {
+  "node_modules/.pnpm/big-integer@1.6.52/node_modules/big-integer/BigInteger.js"(exports, module2) {
     var bigInt = function(undefined2) {
       "use strict";
       var BASE = 1e7, LOG_BASE = 7, MAX_INT = 9007199254740992, MAX_INT_ARR = smallToArray(MAX_INT), DEFAULT_ALPHABET = "0123456789abcdefghijklmnopqrstuvwxyz";
@@ -1511,7 +1511,7 @@ var require_BigInteger = __commonJS({
       BigInteger.prototype.toString = function(radix, alphabet) {
         if (radix === undefined2)
           radix = 10;
-        if (radix !== 10)
+        if (radix !== 10 || alphabet)
           return toBaseString(this, radix, alphabet);
         var v = this.value, l = v.length, str = String(v[--l]), zeros = "0000000", digit;
         while (--l >= 0) {
@@ -1524,7 +1524,7 @@ var require_BigInteger = __commonJS({
       SmallInteger.prototype.toString = function(radix, alphabet) {
         if (radix === undefined2)
           radix = 10;
-        if (radix != 10)
+        if (radix != 10 || alphabet)
           return toBaseString(this, radix, alphabet);
         return String(this.value);
       };
@@ -1646,9 +1646,9 @@ var require_BigInteger = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/utils/hashing/index.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/utils/hashing/index.js
 var require_hashing = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/utils/hashing/index.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/utils/hashing/index.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -1704,9 +1704,9 @@ var require_hashing = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/segments/constants.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/segments/constants.js
 var require_constants = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/segments/constants.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/segments/constants.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.CONDITION_OPERATORS = exports.IN = exports.MODULO = exports.IS_NOT_SET = exports.IS_SET = exports.PERCENTAGE_SPLIT = exports.REGEX = exports.NOT_EQUAL = exports.NOT_CONTAINS = exports.GREATER_THAN_INCLUSIVE = exports.CONTAINS = exports.LESS_THAN_INCLUSIVE = exports.LESS_THAN = exports.GREATER_THAN = exports.EQUAL = exports.RULE_TYPES = exports.NONE_RULE = exports.ANY_RULE = exports.ALL_RULE = void 0;
@@ -1747,9 +1747,9 @@ var require_constants = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/segments/evaluators.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/segments/evaluators.js
 var require_evaluators = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/segments/evaluators.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/segments/evaluators.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.traitsMatchSegmentCondition = exports.evaluateIdentityInSegment = exports.getIdentitySegments = void 0;
@@ -1795,9 +1795,9 @@ var require_evaluators = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/utils/errors.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/utils/errors.js
 var require_errors = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/utils/errors.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/utils/errors.js"(exports) {
     "use strict";
     var __extends = exports && exports.__extends || function() {
       var extendStatics = function(d, b) {
@@ -1836,9 +1836,9 @@ var require_errors = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/environments/models.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/environments/models.js
 var require_models = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/environments/models.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/environments/models.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.EnvironmentModel = exports.EnvironmentAPIKeyModel = void 0;
@@ -1877,9 +1877,9 @@ var require_models = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/environments/integrations/models.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/environments/integrations/models.js
 var require_models2 = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/environments/integrations/models.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/environments/integrations/models.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.IntegrationModel = void 0;
@@ -2425,9 +2425,9 @@ var init_esm_browser = __esm({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/features/models.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/features/models.js
 var require_models3 = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/features/models.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/features/models.js"(exports) {
     "use strict";
     var __values = exports && exports.__values || function(o) {
       var s = typeof Symbol === "function" && Symbol.iterator, m = s && o[s], i = 0;
@@ -2576,9 +2576,9 @@ var require_models3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/utils/collections.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/utils/collections.js
 var require_collections = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/utils/collections.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/utils/collections.js"(exports) {
     "use strict";
     var __extends = exports && exports.__extends || function() {
       var extendStatics = function(d, b) {
@@ -2617,9 +2617,9 @@ var require_collections = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/identities/models.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/identities/models.js
 var require_models4 = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/identities/models.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/identities/models.js"(exports) {
     "use strict";
     var __read = exports && exports.__read || function(o, n) {
       var m = typeof Symbol === "function" && o[Symbol.iterator];
@@ -2757,9 +2757,9 @@ var require_models4 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/identities/traits/models.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/identities/traits/models.js
 var require_models5 = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/identities/traits/models.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/identities/traits/models.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.TraitModel = void 0;
@@ -5209,9 +5209,9 @@ var require_semver2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/features/util.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/features/util.js
 var require_util = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/features/util.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/features/util.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.buildFeatureSegment = exports.buildFeatureStateModel = exports.buildFeatureModel = void 0;
@@ -5238,9 +5238,9 @@ var require_util = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/segments/util.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/segments/util.js
 var require_util2 = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/segments/util.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/segments/util.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.removeSemverSuffix = exports.isSemver = exports.buildSegmentModel = exports.buildSegmentRuleModel = exports.buildSegmentConditionModel = void 0;
@@ -5283,9 +5283,9 @@ var require_util2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/utils/index.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/utils/index.js
 var require_utils = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/utils/index.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/utils/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getCastingFunction = void 0;
@@ -5314,9 +5314,9 @@ var require_utils = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/segments/models.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/segments/models.js
 var require_models6 = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/segments/models.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/segments/models.js"(exports) {
     "use strict";
     var __assign = exports && exports.__assign || function() {
       __assign = Object.assign || function(t) {
@@ -5490,9 +5490,9 @@ var require_models6 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/organisations/models.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/organisations/models.js
 var require_models7 = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/organisations/models.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/organisations/models.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.OrganisationModel = void 0;
@@ -5520,9 +5520,9 @@ var require_models7 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/index.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/index.js
 var require_flagsmith_engine = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/index.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/index.js"(exports) {
     "use strict";
     var __values = exports && exports.__values || function(o) {
       var s = typeof Symbol === "function" && Symbol.iterator, m = s && o[s], i = 0;
@@ -5689,9 +5689,9 @@ var require_flagsmith_engine = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/organisations/util.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/organisations/util.js
 var require_util3 = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/organisations/util.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/organisations/util.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.buildOrganizationModel = void 0;
@@ -5703,9 +5703,9 @@ var require_util3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/projects/models.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/projects/models.js
 var require_models8 = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/projects/models.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/projects/models.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ProjectModel = void 0;
@@ -5726,9 +5726,9 @@ var require_models8 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/projects/util.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/projects/util.js
 var require_util4 = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/projects/util.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/projects/util.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.buildProjectModel = void 0;
@@ -5747,9 +5747,9 @@ var require_util4 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/environments/util.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/environments/util.js
 var require_util5 = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/flagsmith-engine/environments/util.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/flagsmith-engine/environments/util.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.buildEnvironmentAPIKeyModel = exports.buildEnvironmentModel = void 0;
@@ -5922,9 +5922,9 @@ var require_quick_format_unescaped = __commonJS({
   }
 });
 
-// node_modules/.pnpm/pino@8.15.1/node_modules/pino/browser.js
+// node_modules/.pnpm/pino@8.17.1/node_modules/pino/browser.js
 var require_browser2 = __commonJS({
-  "node_modules/.pnpm/pino@8.15.1/node_modules/pino/browser.js"(exports, module2) {
+  "node_modules/.pnpm/pino@8.17.1/node_modules/pino/browser.js"(exports, module2) {
     "use strict";
     var format = require_quick_format_unescaped();
     module2.exports = pino;
@@ -6317,12 +6317,14 @@ var require_browser2 = __commonJS({
         return defd(self) || defd(window) || defd(this) || {};
       }
     }
+    module2.exports.default = pino;
+    module2.exports.pino = pino;
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/sdk/analytics.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/sdk/analytics.js
 var require_analytics = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/sdk/analytics.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/sdk/analytics.js"(exports) {
     "use strict";
     var __awaiter = exports && exports.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -6506,9 +6508,9 @@ var require_analytics = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/sdk/errors.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/sdk/errors.js
 var require_errors2 = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/sdk/errors.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/sdk/errors.js"(exports) {
     "use strict";
     var __extends = exports && exports.__extends || function() {
       var extendStatics = function(d, b) {
@@ -6558,9 +6560,9 @@ var require_errors2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/sdk/models.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/sdk/models.js
 var require_models9 = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/sdk/models.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/sdk/models.js"(exports) {
     "use strict";
     var __extends = exports && exports.__extends || function() {
       var extendStatics = function(d, b) {
@@ -6740,9 +6742,9 @@ var require_models9 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/sdk/polling_manager.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/sdk/polling_manager.js
 var require_polling_manager = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/sdk/polling_manager.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/sdk/polling_manager.js"(exports) {
     "use strict";
     var __awaiter = exports && exports.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -6894,9 +6896,9 @@ var require_polling_manager = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/sdk/utils.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/sdk/utils.js
 var require_utils2 = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/sdk/utils.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/sdk/utils.js"(exports) {
     "use strict";
     var __awaiter = exports && exports.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -7086,9 +7088,9 @@ var require_utils2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/sdk/index.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/sdk/index.js
 var require_sdk = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/sdk/index.js"(exports) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/sdk/index.js"(exports) {
     "use strict";
     var __awaiter = exports && exports.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -7272,11 +7274,17 @@ var require_sdk = __commonJS({
       /** @class */
       function() {
         function Flagsmith3(data) {
+          if (data === void 0) {
+            data = {};
+          }
           var _a;
-          this.apiUrl = DEFAULT_API_URL;
+          this.environmentKey = void 0;
+          this.apiUrl = void 0;
           this.enableLocalEvaluation = false;
           this.environmentRefreshIntervalSeconds = 60;
           this.enableAnalytics = false;
+          this.offlineMode = false;
+          this.offlineHandler = void 0;
           this.agent = data.agent;
           this.environmentKey = data.environmentKey;
           this.apiUrl = data.apiUrl || this.apiUrl;
@@ -7287,11 +7295,18 @@ var require_sdk = __commonJS({
           this.retries = data.retries;
           this.enableAnalytics = data.enableAnalytics || false;
           this.defaultFlagHandler = data.defaultFlagHandler;
-          this.environmentFlagsUrl = "".concat(this.apiUrl, "flags/");
-          this.identitiesUrl = "".concat(this.apiUrl, "identities/");
-          this.environmentUrl = "".concat(this.apiUrl, "environment-document/");
           this.onEnvironmentChange = data.onEnvironmentChange;
           this.logger = data.logger || (0, pino_1.default)();
+          this.offlineMode = data.offlineMode || false;
+          this.offlineHandler = data.offlineHandler;
+          if (this.offlineMode && !this.offlineHandler) {
+            throw new Error("ValueError: offlineHandler must be provided to use offline mode.");
+          } else if (this.defaultFlagHandler && this.offlineHandler) {
+            throw new Error("ValueError: Cannot use both defaultFlagHandler and offlineHandler.");
+          }
+          if (this.offlineHandler) {
+            this.environment = this.offlineHandler.getEnvironment();
+          }
           if (!!data.cache) {
             var missingMethods = ["has", "get", "set"].filter(function(method) {
               return data.cache && !data.cache[method];
@@ -7301,20 +7316,30 @@ var require_sdk = __commonJS({
             }
             this.cache = data.cache;
           }
-          if (this.enableLocalEvaluation) {
-            if (!this.environmentKey.startsWith("ser.")) {
-              console.error("In order to use local evaluation, please generate a server key in the environment settings page.");
+          if (!this.offlineMode) {
+            if (!this.environmentKey) {
+              throw new Error("ValueError: environmentKey is required.");
             }
-            this.environmentDataPollingManager = new polling_manager_1.EnvironmentDataPollingManager(this, this.environmentRefreshIntervalSeconds);
-            this.environmentDataPollingManager.start();
-            this.updateEnvironment();
+            var apiUrl = data.apiUrl || DEFAULT_API_URL;
+            this.apiUrl = apiUrl.endsWith("/") ? apiUrl : "".concat(apiUrl, "/");
+            this.environmentFlagsUrl = "".concat(this.apiUrl, "flags/");
+            this.identitiesUrl = "".concat(this.apiUrl, "identities/");
+            this.environmentUrl = "".concat(this.apiUrl, "environment-document/");
+            if (this.enableLocalEvaluation) {
+              if (!this.environmentKey.startsWith("ser.")) {
+                console.error("In order to use local evaluation, please generate a server key in the environment settings page.");
+              }
+              this.environmentDataPollingManager = new polling_manager_1.EnvironmentDataPollingManager(this, this.environmentRefreshIntervalSeconds);
+              this.environmentDataPollingManager.start();
+              this.updateEnvironment();
+            }
+            this.analyticsProcessor = data.enableAnalytics ? new analytics_1.AnalyticsProcessor({
+              environmentKey: this.environmentKey,
+              baseApiUrl: this.apiUrl,
+              requestTimeoutMs: this.requestTimeoutMs,
+              logger: this.logger
+            }) : void 0;
           }
-          this.analyticsProcessor = data.enableAnalytics ? new analytics_1.AnalyticsProcessor({
-            environmentKey: this.environmentKey,
-            baseApiUrl: this.apiUrl,
-            requestTimeoutMs: this.requestTimeoutMs,
-            logger: this.logger
-          }) : void 0;
         }
         Flagsmith3.prototype.getEnvironmentFlags = function() {
           return __awaiter(this, void 0, void 0, function() {
@@ -7335,7 +7360,7 @@ var require_sdk = __commonJS({
                   if (!!cachedItem) {
                     return [2, cachedItem];
                   }
-                  if (this.enableLocalEvaluation) {
+                  if (this.enableLocalEvaluation && !this.offlineMode) {
                     return [2, new Promise(function(resolve, reject) {
                       return _this.environmentPromise.then(function() {
                         resolve(_this.getEnvironmentFlagsFromDocument());
@@ -7383,6 +7408,9 @@ var require_sdk = __commonJS({
                         return reject(e);
                       });
                     })];
+                  }
+                  if (this.offlineMode) {
+                    return [2, this.getIdentityFlagsFromDocument(identifier, traits || {})];
                   }
                   return [2, this.getIdentityFlagsFromApi(identifier, traits)];
               }
@@ -7521,6 +7549,9 @@ var require_sdk = __commonJS({
             return __generator(this, function(_a) {
               switch (_a.label) {
                 case 0:
+                  if (!this.environmentUrl) {
+                    throw new Error("`apiUrl` argument is missing or invalid.");
+                  }
                   return [4, this.getJSONResponse(this.environmentUrl, "GET")];
                 case 1:
                   environment_data = _a.sent();
@@ -7589,9 +7620,14 @@ var require_sdk = __commonJS({
             return __generator(this, function(_a) {
               switch (_a.label) {
                 case 0:
-                  _a.trys.push([0, 4, , 5]);
-                  return [4, this.getJSONResponse(this.environmentFlagsUrl, "GET")];
+                  if (!this.environmentFlagsUrl) {
+                    throw new Error("`apiUrl` argument is missing or invalid.");
+                  }
+                  _a.label = 1;
                 case 1:
+                  _a.trys.push([1, 5, , 6]);
+                  return [4, this.getJSONResponse(this.environmentFlagsUrl, "GET")];
+                case 2:
                   apiFlags = _a.sent();
                   flags = models_3.Flags.fromAPIFlags({
                     apiFlags,
@@ -7599,15 +7635,18 @@ var require_sdk = __commonJS({
                     defaultFlagHandler: this.defaultFlagHandler
                   });
                   if (!!!this.cache)
-                    return [3, 3];
+                    return [3, 4];
                   return [4, this.cache.set("flags", flags)];
-                case 2:
-                  _a.sent();
-                  _a.label = 3;
                 case 3:
-                  return [2, flags];
+                  _a.sent();
+                  _a.label = 4;
                 case 4:
+                  return [2, flags];
+                case 5:
                   e_3 = _a.sent();
+                  if (this.offlineHandler) {
+                    return [2, this.getEnvironmentFlagsFromDocument()];
+                  }
                   if (this.defaultFlagHandler) {
                     return [2, new models_3.Flags({
                       flags: {},
@@ -7615,7 +7654,7 @@ var require_sdk = __commonJS({
                     })];
                   }
                   throw e_3;
-                case 5:
+                case 6:
                   return [
                     2
                     /*return*/
@@ -7630,10 +7669,15 @@ var require_sdk = __commonJS({
             return __generator(this, function(_a) {
               switch (_a.label) {
                 case 0:
-                  _a.trys.push([0, 4, , 5]);
+                  if (!this.identitiesUrl) {
+                    throw new Error("`apiUrl` argument is missing or invalid.");
+                  }
+                  _a.label = 1;
+                case 1:
+                  _a.trys.push([1, 5, , 6]);
                   data = (0, utils_1.generateIdentitiesData)(identifier, traits);
                   return [4, this.getJSONResponse(this.identitiesUrl, "POST", data)];
-                case 1:
+                case 2:
                   jsonResponse = _a.sent();
                   flags = models_3.Flags.fromAPIFlags({
                     apiFlags: jsonResponse["flags"],
@@ -7641,15 +7685,18 @@ var require_sdk = __commonJS({
                     defaultFlagHandler: this.defaultFlagHandler
                   });
                   if (!!!this.cache)
-                    return [3, 3];
+                    return [3, 4];
                   return [4, this.cache.set("flags-".concat(identifier), flags)];
-                case 2:
-                  _a.sent();
-                  _a.label = 3;
                 case 3:
-                  return [2, flags];
+                  _a.sent();
+                  _a.label = 4;
                 case 4:
+                  return [2, flags];
+                case 5:
                   e_4 = _a.sent();
+                  if (this.offlineHandler) {
+                    return [2, this.getIdentityFlagsFromDocument(identifier, traits)];
+                  }
                   if (this.defaultFlagHandler) {
                     return [2, new models_3.Flags({
                       flags: {},
@@ -7657,7 +7704,7 @@ var require_sdk = __commonJS({
                     })];
                   }
                   throw e_4;
-                case 5:
+                case 6:
                   return [
                     2
                     /*return*/
@@ -7680,9 +7727,9 @@ var require_sdk = __commonJS({
   }
 });
 
-// node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/index.js
+// node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/index.js
 var require_build = __commonJS({
-  "node_modules/.pnpm/flagsmith-nodejs@3.1.1/node_modules/flagsmith-nodejs/build/index.js"(exports, module2) {
+  "node_modules/.pnpm/flagsmith-nodejs@3.2.0/node_modules/flagsmith-nodejs/build/index.js"(exports, module2) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -8427,57 +8474,9 @@ var require_platform = __commonJS({
   }
 });
 
-// node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/utils/utils.js
-var require_utils3 = __commonJS({
-  "node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/utils/utils.js"(exports) {
-    "use strict";
-    var __importDefault = exports && exports.__importDefault || function(mod) {
-      return mod && mod.__esModule ? mod : { "default": mod };
-    };
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.readJSONFilesInDirectory = exports.generateOrdinalNameVariations = void 0;
-    var fs_1 = __importDefault(require("fs"));
-    var path_1 = __importDefault(require("path"));
-    var generateOrdinalNameVariations = (startNumber, names) => {
-      const variations = [];
-      let numerals;
-      if (startNumber === 1) {
-        numerals = ["1", "I", "First"];
-      } else if (startNumber === 2) {
-        numerals = ["2", "II", "Second"];
-      } else if (startNumber === 3) {
-        numerals = ["3", "III", "Third"];
-      }
-      names.forEach((name) => {
-        numerals.forEach(function(numeral) {
-          variations.push(numeral + name);
-          variations.push(numeral + " " + name);
-        });
-      });
-      return variations;
-    };
-    exports.generateOrdinalNameVariations = generateOrdinalNameVariations;
-    var readJSONFilesInDirectory = (directoryPath) => {
-      try {
-        const files = fs_1.default.readdirSync(directoryPath);
-        const jsonFiles = files.filter((file) => path_1.default.extname(file) === ".json");
-        return jsonFiles.map((jsonFile) => {
-          const filePath = path_1.default.join(directoryPath, jsonFile);
-          const data = fs_1.default.readFileSync(filePath);
-          return JSON.parse(data.toString());
-        });
-      } catch (err) {
-        console.error("Error reading JSON files:", err);
-        throw err;
-      }
-    };
-    exports.readJSONFilesInDirectory = readJSONFilesInDirectory;
-  }
-});
-
-// node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/data/base.json
+// node_modules/.pnpm/bible-book-names-intl@3.0.9/node_modules/bible-book-names-intl/dist/data/base.json
 var require_base = __commonJS({
-  "node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/data/base.json"(exports, module2) {
+  "node_modules/.pnpm/bible-book-names-intl@3.0.9/node_modules/bible-book-names-intl/dist/data/base.json"(exports, module2) {
     module2.exports = {
       "1": {
         verses: [
@@ -9953,9 +9952,9 @@ var require_base = __commonJS({
   }
 });
 
-// node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/data/translations/en.json
+// node_modules/.pnpm/bible-book-names-intl@3.0.9/node_modules/bible-book-names-intl/dist/data/translations/en.json
 var require_en = __commonJS({
-  "node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/data/translations/en.json"(exports, module2) {
+  "node_modules/.pnpm/bible-book-names-intl@3.0.9/node_modules/bible-book-names-intl/dist/data/translations/en.json"(exports, module2) {
     module2.exports = {
       language: "en",
       "1": {
@@ -10545,9 +10544,9 @@ var require_en = __commonJS({
   }
 });
 
-// node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/data/translations/it.json
+// node_modules/.pnpm/bible-book-names-intl@3.0.9/node_modules/bible-book-names-intl/dist/data/translations/it.json
 var require_it = __commonJS({
-  "node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/data/translations/it.json"(exports, module2) {
+  "node_modules/.pnpm/bible-book-names-intl@3.0.9/node_modules/bible-book-names-intl/dist/data/translations/it.json"(exports, module2) {
     module2.exports = {
       language: "it",
       "1": {
@@ -11009,9 +11008,9 @@ var require_it = __commonJS({
   }
 });
 
-// node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/data/translations/jp.json
+// node_modules/.pnpm/bible-book-names-intl@3.0.9/node_modules/bible-book-names-intl/dist/data/translations/jp.json
 var require_jp = __commonJS({
-  "node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/data/translations/jp.json"(exports, module2) {
+  "node_modules/.pnpm/bible-book-names-intl@3.0.9/node_modules/bible-book-names-intl/dist/data/translations/jp.json"(exports, module2) {
     module2.exports = {
       note: "this is generated in ChatGPT, need extra review",
       language: "jp",
@@ -11411,95 +11410,634 @@ var require_jp = __commonJS({
   }
 });
 
-// node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/index.js
+// node_modules/.pnpm/bible-book-names-intl@3.0.9/node_modules/bible-book-names-intl/dist/data/translations/sp.json
+var require_sp = __commonJS({
+  "node_modules/.pnpm/bible-book-names-intl@3.0.9/node_modules/bible-book-names-intl/dist/data/translations/sp.json"(exports, module2) {
+    module2.exports = {
+      language: "sp",
+      "1": {
+        name: "G\xE9nesis",
+        shortNames: [
+          "Gen",
+          "Gn"
+        ],
+        startNumber: 0
+      },
+      "2": {
+        name: "\xC9xodo",
+        shortNames: [
+          "Exo",
+          "Ex"
+        ],
+        startNumber: 0
+      },
+      "3": {
+        name: "Lev\xEDtico",
+        shortNames: [
+          "Lev",
+          "Lv"
+        ],
+        startNumber: 0
+      },
+      "4": {
+        name: "N\xFAmeros",
+        shortNames: [
+          "Num",
+          "Nm"
+        ],
+        startNumber: 0
+      },
+      "5": {
+        name: "Deuteronomio",
+        shortNames: [
+          "Deu",
+          "Dt"
+        ],
+        startNumber: 0
+      },
+      "6": {
+        name: "Josu\xE9",
+        shortNames: [
+          "Jos"
+        ],
+        startNumber: 0
+      },
+      "7": {
+        name: "Jueces",
+        shortNames: [
+          "Jue"
+        ],
+        startNumber: 0
+      },
+      "8": {
+        name: "Rut",
+        shortNames: [
+          "Rt"
+        ],
+        startNumber: 0
+      },
+      "9": {
+        name: "Samuel",
+        shortNames: [
+          "Sam",
+          "S"
+        ],
+        startNumber: 1
+      },
+      "10": {
+        name: "Samuel",
+        shortNames: [
+          "Sam",
+          "S"
+        ],
+        startNumber: 2
+      },
+      "11": {
+        name: "Reyes",
+        shortNames: ["Rey", "Re", "R"],
+        startNumber: 1
+      },
+      "12": {
+        name: "Reyes",
+        shortNames: ["Rey", "Re", "R"],
+        startNumber: 2
+      },
+      "13": {
+        name: "Cr\xF3nicas",
+        shortNames: [
+          "Cro",
+          "Cr"
+        ],
+        startNumber: 1
+      },
+      "14": {
+        name: "Cr\xF3nicas",
+        shortNames: [
+          "Cro",
+          "Cr"
+        ],
+        startNumber: 2
+      },
+      "15": {
+        name: "Esdras",
+        shortNames: [
+          "Esd"
+        ],
+        startNumber: 0
+      },
+      "16": {
+        name: "Nehem\xEDas",
+        shortNames: [
+          "Neh"
+        ],
+        startNumber: 0
+      },
+      "17": {
+        name: "Ester",
+        shortNames: [
+          "Est"
+        ],
+        startNumber: 0
+      },
+      "18": {
+        name: "Job",
+        shortNames: [],
+        startNumber: 0
+      },
+      "19": {
+        name: "Salmos",
+        shortNames: [
+          "Sal"
+        ],
+        startNumber: 0
+      },
+      "20": {
+        name: "Proverbios",
+        shortNames: [
+          "Pro",
+          "Pr"
+        ],
+        startNumber: 0
+      },
+      "21": {
+        name: "Eclesiast\xE9s",
+        shortNames: [
+          "Ecl",
+          "Ec"
+        ],
+        startNumber: 0
+      },
+      "22": {
+        name: "Cantar de los Cantares",
+        shortNames: [
+          "Can",
+          "Cantares",
+          "Cnt"
+        ],
+        startNumber: 0
+      },
+      "23": {
+        name: "Isa\xEDas",
+        shortNames: [
+          "Isa",
+          "Is"
+        ],
+        startNumber: 0
+      },
+      "24": {
+        name: "Jerem\xEDas",
+        shortNames: [
+          "Jer",
+          "Jr"
+        ],
+        startNumber: 0
+      },
+      "25": {
+        name: "Lamentaciones",
+        shortNames: [
+          "Lam",
+          "Lm"
+        ],
+        startNumber: 0
+      },
+      "26": {
+        name: "Ezequiel",
+        shortNames: [
+          "Eze",
+          "Ez"
+        ],
+        startNumber: 0
+      },
+      "27": {
+        name: "Daniel",
+        shortNames: [
+          "Dan",
+          "Dn"
+        ],
+        startNumber: 0
+      },
+      "28": {
+        name: "Oseas",
+        shortNames: [
+          "Ose",
+          "Os"
+        ],
+        startNumber: 0
+      },
+      "29": {
+        name: "Joel",
+        shortNames: [
+          "Joe",
+          "Jl"
+        ],
+        startNumber: 0
+      },
+      "30": {
+        name: "Am\xF3s",
+        shortNames: [
+          "Amo",
+          "Am"
+        ],
+        startNumber: 0
+      },
+      "31": {
+        name: "Abd\xEDas",
+        shortNames: [
+          "Abd"
+        ],
+        startNumber: 0
+      },
+      "32": {
+        name: "Jon\xE1s",
+        shortNames: ["Jon"],
+        startNumber: 0
+      },
+      "33": {
+        name: "Miqueas",
+        shortNames: [
+          "Miq",
+          "Mi"
+        ],
+        startNumber: 0
+      },
+      "34": {
+        name: "Nah\xFAm",
+        shortNames: [
+          "Nah"
+        ],
+        startNumber: 0
+      },
+      "35": {
+        name: "Habacuc",
+        shortNames: [
+          "Hab"
+        ],
+        startNumber: 0
+      },
+      "36": {
+        name: "Sofon\xEDas",
+        shortNames: [
+          "Sof"
+        ],
+        startNumber: 0
+      },
+      "37": {
+        name: "Hageo",
+        shortNames: [
+          "Hag"
+        ],
+        startNumber: 0
+      },
+      "38": {
+        name: "Zaccar\xEDas",
+        shortNames: [
+          "Zac"
+        ],
+        startNumber: 0
+      },
+      "39": {
+        name: "Malaqu\xEDas",
+        shortNames: [
+          "Mal"
+        ],
+        startNumber: 0
+      },
+      "40": {
+        name: "Mateo",
+        shortNames: [
+          "Mat",
+          "Mt"
+        ],
+        startNumber: 0
+      },
+      "41": {
+        name: "Marcos",
+        shortNames: [
+          "Mar",
+          "Mr"
+        ],
+        startNumber: 0
+      },
+      "42": {
+        name: "Lucas",
+        shortNames: [
+          "Luc",
+          "Lc"
+        ],
+        startNumber: 0
+      },
+      "43": {
+        name: "Juan",
+        shortNames: [
+          "Jua",
+          "Jn"
+        ],
+        startNumber: 0
+      },
+      "44": {
+        name: "Hechos de los Ap\xF3stoles",
+        shortNames: [
+          "Hch"
+        ],
+        startNumber: 0
+      },
+      "45": {
+        name: "Romanos",
+        shortNames: [
+          "Rom",
+          "Ro"
+        ],
+        startNumber: 0
+      },
+      "46": {
+        name: "Corintios",
+        shortNames: [
+          "Cor",
+          "Co"
+        ],
+        startNumber: 1
+      },
+      "47": {
+        name: "Corintios",
+        shortNames: [
+          "Cor",
+          "Co"
+        ],
+        startNumber: 2
+      },
+      "48": {
+        name: "G\xE1latas",
+        shortNames: [
+          "Gal",
+          "Ga"
+        ],
+        startNumber: 0
+      },
+      "49": {
+        name: "Efesios",
+        shortNames: [
+          "Efe",
+          "Ef"
+        ],
+        startNumber: 0
+      },
+      "50": {
+        name: "Filipenses",
+        shortNames: [
+          "Fil"
+        ],
+        startNumber: 0
+      },
+      "51": {
+        name: "Colosenses",
+        shortNames: [
+          "Col"
+        ],
+        startNumber: 0
+      },
+      "52": {
+        name: "Tesalonicenses",
+        shortNames: [
+          "Tes",
+          "Ts"
+        ],
+        startNumber: 1
+      },
+      "53": {
+        name: "Tesalonicenses",
+        shortNames: [
+          "Tes",
+          "Ts"
+        ],
+        startNumber: 2
+      },
+      "54": {
+        name: "Timoteo",
+        shortNames: [
+          "Tim",
+          "Ti"
+        ],
+        startNumber: 1
+      },
+      "55": {
+        name: "Timoteo",
+        shortNames: [
+          "Tim",
+          "Ti"
+        ],
+        startNumber: 2
+      },
+      "56": {
+        name: "Tito",
+        shortNames: ["Tit"],
+        startNumber: 0
+      },
+      "57": {
+        name: "Filem\xF3n",
+        shortNames: [
+          "Flm"
+        ],
+        startNumber: 0
+      },
+      "58": {
+        name: "Hebreos",
+        shortNames: [
+          "Heb",
+          "He"
+        ],
+        startNumber: 0
+      },
+      "59": {
+        name: "Santiago",
+        shortNames: [
+          "Stg"
+        ],
+        startNumber: 0
+      },
+      "60": {
+        name: "Pedro",
+        shortNames: [
+          "Pe",
+          "P"
+        ],
+        startNumber: 1
+      },
+      "61": {
+        name: "Pedro",
+        shortNames: [
+          "Pe",
+          "P"
+        ],
+        startNumber: 2
+      },
+      "62": {
+        name: "Juan",
+        shortNames: [
+          "Jua",
+          "Jn"
+        ],
+        startNumber: 1
+      },
+      "63": {
+        name: "Juan",
+        shortNames: [
+          "Jua",
+          "Jn"
+        ],
+        startNumber: 2
+      },
+      "64": {
+        name: "Juan",
+        shortNames: [
+          "Jua",
+          "Jn"
+        ],
+        startNumber: 3
+      },
+      "65": {
+        name: "Judas",
+        shortNames: ["Jud"],
+        startNumber: 0
+      },
+      "66": {
+        name: "Apocalipsis",
+        shortNames: [
+          "Apo",
+          "Rev",
+          "Ap"
+        ],
+        startNumber: 0
+      }
+    };
+  }
+});
+
+// node_modules/.pnpm/bible-book-names-intl@3.0.9/node_modules/bible-book-names-intl/dist/index.js
 var require_dist = __commonJS({
-  "node_modules/.pnpm/bible-book-names-intl@2.1.4/node_modules/bible-book-names-intl/dist/index.js"(exports) {
+  "node_modules/.pnpm/bible-book-names-intl@3.0.9/node_modules/bible-book-names-intl/dist/index.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
     };
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getTranslationBooks = void 0;
-    var utils_1 = require_utils3();
     var base_json_1 = __importDefault(require_base());
     var en_json_1 = __importDefault(require_en());
     var it_json_1 = __importDefault(require_it());
     var jp_json_1 = __importDefault(require_jp());
+    var sp_json_1 = __importDefault(require_sp());
     var allTranslations = [
       en_json_1.default,
       it_json_1.default,
-      jp_json_1.default
+      jp_json_1.default,
+      sp_json_1.default
+      // add new translations here
     ];
-    var translationsDict = /* @__PURE__ */ new Map();
-    allTranslations.forEach((translation) => {
-      const books = [];
-      for (let i = 0; i < 66; i++) {
-        const rawBookInfo = translation["" + (i + 1)];
-        const bookBaseData = base_json_1.default["" + (i + 1)];
-        let newCombinedNames = rawBookInfo.shortNames.concat(rawBookInfo.name);
-        if ((rawBookInfo === null || rawBookInfo === void 0 ? void 0 : rawBookInfo.startNumber) > 0) {
-          newCombinedNames = (0, utils_1.generateOrdinalNameVariations)(rawBookInfo.startNumber, newCombinedNames);
+    var getLanguageToBookWithAbbreviationsDict = () => {
+      const languageToBookWithAbbreviationsDict2 = /* @__PURE__ */ new Map();
+      allTranslations.forEach((translation) => {
+        const books = [];
+        for (let i = 0; i < 66; i++) {
+          const rawBookInfo = translation["" + (i + 1)];
+          const bookBaseData = base_json_1.default["" + (i + 1)];
+          const { startNumber, name, shortNames } = rawBookInfo;
+          books.push(Object.assign(Object.assign({}, bookBaseData), { name, fullName: startNumber && startNumber >= 1 ? `${startNumber} ${name}` : name, abbreviations: shortNames, startNumber }));
         }
-        books.push(Object.assign(Object.assign({}, bookBaseData), { fullName: rawBookInfo.name, shortNames: rawBookInfo.shortNames, startNumber: rawBookInfo === null || rawBookInfo === void 0 ? void 0 : rawBookInfo.startNumber, names: newCombinedNames }));
-      }
-      translationsDict.set(translation.language, books);
-    });
+        languageToBookWithAbbreviationsDict2.set(translation.language, books);
+      });
+      return languageToBookWithAbbreviationsDict2;
+    };
+    var languageToBookWithAbbreviationsDict = getLanguageToBookWithAbbreviationsDict();
     var getTranslationBooks = (language) => {
-      if (!translationsDict.has(language)) {
+      if (!languageToBookWithAbbreviationsDict.has(language)) {
         const msg = `No translation found for language ${language}`;
         console.error(msg);
         throw new Error(msg);
       }
-      return translationsDict.get(language);
+      return languageToBookWithAbbreviationsDict.get(language);
     };
     exports.getTranslationBooks = getTranslationBooks;
-    var MultipleLanguageBibleBooks = [];
-    for (let i = 0; i < 66; i++) {
-      const book = {
-        // @ts-ignore
-        fullName: translationsDict === null || translationsDict === void 0 ? void 0 : translationsDict.get("en")[i].fullName,
-        // @ts-ignore
-        verses: translationsDict === null || translationsDict === void 0 ? void 0 : translationsDict.get("en")[i].verses,
-        names: [],
-        shortNames: []
-      };
-      translationsDict.forEach((books) => {
-        book["shortNames"] = [...new Set(book["shortNames"].concat(books[i].shortNames))];
-        book["names"] = [...new Set(book["names"].concat(books[i].fullName))];
-      });
-      book["names"] = [...book["names"], ...book["shortNames"]];
-      MultipleLanguageBibleBooks.push(book);
-    }
-    exports.default = MultipleLanguageBibleBooks;
+    exports.default = languageToBookWithAbbreviationsDict;
   }
 });
 
-// node_modules/.pnpm/bible-reference-toolkit@2.1.1/node_modules/bible-reference-toolkit/dist/lib/books.js
+// node_modules/.pnpm/bible-reference-toolkit@2.3.2/node_modules/bible-reference-toolkit/dist/lib/utils.js
+var require_utils3 = __commonJS({
+  "node_modules/.pnpm/bible-reference-toolkit@2.3.2/node_modules/bible-reference-toolkit/dist/lib/utils.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.generateOrdinalNameVariations = void 0;
+    var generateOrdinalNameVariations = (startNumber, names) => {
+      const variations = [];
+      let numerals;
+      if (startNumber === 1) {
+        numerals = ["1", "I", "First"];
+      } else if (startNumber === 2) {
+        numerals = ["2", "II", "Second"];
+      } else if (startNumber === 3) {
+        numerals = ["3", "III", "Third"];
+      }
+      names.forEach((name) => {
+        numerals.forEach(function(numeral) {
+          variations.push(numeral + name);
+          variations.push(numeral + " " + name);
+        });
+      });
+      return variations;
+    };
+    exports.generateOrdinalNameVariations = generateOrdinalNameVariations;
+  }
+});
+
+// node_modules/.pnpm/bible-reference-toolkit@2.3.2/node_modules/bible-reference-toolkit/dist/lib/books.js
 var require_books = __commonJS({
-  "node_modules/.pnpm/bible-reference-toolkit@2.1.1/node_modules/bible-reference-toolkit/dist/lib/books.js"(exports) {
+  "node_modules/.pnpm/bible-reference-toolkit@2.3.2/node_modules/bible-reference-toolkit/dist/lib/books.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
     };
     Object.defineProperty(exports, "__esModule", { value: true });
-    exports.BibleBooks = exports.getTranslationBooks = void 0;
+    exports.AllBibleBooksInAllSupportedLanguages = exports.SupportedLanguages = exports.LanguageToBookWithAbbreviationsDict = exports.getTranslationBooks = void 0;
     var bible_book_names_intl_1 = __importDefault(require_dist());
     var bible_book_names_intl_2 = require_dist();
-    Object.defineProperty(exports, "getTranslationBooks", { enumerable: true, get: function() {
-      return bible_book_names_intl_2.getTranslationBooks;
-    } });
-    exports.BibleBooks = bible_book_names_intl_1.default;
+    exports.getTranslationBooks = bible_book_names_intl_2.getTranslationBooks;
+    exports.LanguageToBookWithAbbreviationsDict = bible_book_names_intl_1.default;
+    exports.SupportedLanguages = [...bible_book_names_intl_1.default.keys()];
+    var getAllBibleBooksInAllSupportedLanguages = () => {
+      const allBibleBooksInAllSupportedLanguages = [];
+      for (let i = 0; i < 66; i++) {
+        const enTranslation = exports.LanguageToBookWithAbbreviationsDict === null || exports.LanguageToBookWithAbbreviationsDict === void 0 ? void 0 : exports.LanguageToBookWithAbbreviationsDict.get("en")[i];
+        const { fullName, verses, name } = enTranslation;
+        const book = {
+          name,
+          fullName,
+          verses,
+          abbreviations: []
+          // this will be the list of abbreviations and names for the book in all languages
+        };
+        exports.LanguageToBookWithAbbreviationsDict.forEach((books) => {
+          const theBook = books[i];
+          const { abbreviations, name: name2 } = theBook;
+          book["abbreviations"] = [...book["abbreviations"].concat(...abbreviations, name2)];
+        });
+        allBibleBooksInAllSupportedLanguages.push(book);
+      }
+      return allBibleBooksInAllSupportedLanguages;
+    };
+    exports.AllBibleBooksInAllSupportedLanguages = getAllBibleBooksInAllSupportedLanguages();
   }
 });
 
-// node_modules/.pnpm/bible-reference-toolkit@2.1.1/node_modules/bible-reference-toolkit/dist/lib/reference.js
+// node_modules/.pnpm/bible-reference-toolkit@2.3.2/node_modules/bible-reference-toolkit/dist/lib/reference.js
 var require_reference = __commonJS({
-  "node_modules/.pnpm/bible-reference-toolkit@2.1.1/node_modules/bible-reference-toolkit/dist/lib/reference.js"(exports) {
+  "node_modules/.pnpm/bible-reference-toolkit@2.3.2/node_modules/bible-reference-toolkit/dist/lib/reference.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.Reference = void 0;
+    var bible_book_names_intl_1 = require_dist();
+    var utils_1 = require_utils3();
     var books_1 = require_books();
-    var Reference3 = class {
+    var Reference2 = class {
       constructor(reference) {
         let book;
         let chapter;
@@ -11513,7 +12051,7 @@ var require_reference = __commonJS({
           }
           const bookName = referenceParts[1];
           const chapterAndVerse = referenceParts[2];
-          book = Reference3.bookIdFromName(bookName);
+          book = Reference2.bookIdFromName(bookName);
           const chapterAndVerseParts = chapterAndVerse.split(":");
           chapter = Number(chapterAndVerseParts[0]);
           verse = chapterAndVerseParts[1] ? Number(chapterAndVerseParts[1]) : void 0;
@@ -11528,37 +12066,46 @@ var require_reference = __commonJS({
         this.chapter = chapter;
         this.verse = verse;
       }
-      // Given a string of a book name (shortened or full length), get the book id
-      static bookIdFromName(name) {
-        name = name.toLowerCase();
-        const relativeBooks = books_1.BibleBooks.filter((book) => {
-          const bookNames = book.names.map((n) => {
-            return n.toLowerCase();
-          });
-          return bookNames.indexOf(name) > -1;
-        });
-        if (relativeBooks === null || relativeBooks === void 0 ? void 0 : relativeBooks.length) {
-          return books_1.BibleBooks.indexOf(relativeBooks[0]) + 1;
-        }
-        throw new Error('No book matched "' + name + '"');
+      /**
+       * Get the book id from a book name
+       * @param language, en, jp sp, it etc
+       * @param nameInTranslation
+       */
+      static bookIdFromTranslationAndName(language, nameInTranslation) {
+        const booksInTranslation = (0, bible_book_names_intl_1.getTranslationBooks)(language.toLowerCase());
+        return Reference2.getBookIdFromTranslationAndName(booksInTranslation, nameInTranslation);
       }
-      // Like moment.js startOf - ref.startOf('chapter') sets the ref to the first
+      // Given a string of a book name (shortened or full length), get the book id
+      static bookIdFromName(nameInAnySupportedTranslation) {
+        return Reference2.getBookIdFromTranslationAndName(books_1.AllBibleBooksInAllSupportedLanguages, nameInAnySupportedTranslation);
+      }
       // Given a book id, get the full length book name
-      static bookNameFromId(id) {
-        const book = books_1.BibleBooks[id - 1];
+      static bookEnglishFullNameFromId(id) {
+        return Reference2.bookNameFromTranslationAndId("en", id);
+      }
+      static bookNameFromTranslationAndId(language, id) {
+        const book = (0, bible_book_names_intl_1.getTranslationBooks)(language.toLowerCase())[id - 1];
         if (!book) {
           throw new Error("Book id out of range (no such book)");
         }
-        return book.names[0];
+        return book.fullName;
       }
+      /**
+       * Get full book name from Book Id in English
+       * @param id
+       */
+      static bookNameFromId(id) {
+        return Reference2.bookEnglishFullNameFromId(id);
+      }
+      // Like moment.js startOf - ref.startOf('chapter') sets the ref to the first
       // that number chapter
       static fromChapterId(chapterId) {
         let chaptersRemaining = chapterId;
         let bookIndex = 0;
         while (chaptersRemaining > 0) {
-          const chaptersInThisBook = books_1.BibleBooks[bookIndex].verses.length;
+          const chaptersInThisBook = books_1.AllBibleBooksInAllSupportedLanguages[bookIndex].verses.length;
           if (chaptersRemaining - chaptersInThisBook <= 0) {
-            return new Reference3({
+            return new Reference2({
               book: bookIndex + 1,
               chapter: chaptersRemaining
             });
@@ -11573,14 +12120,14 @@ var require_reference = __commonJS({
         let versesRemaining = verseId;
         let bookIndex = 0;
         while (versesRemaining > 0) {
-          const versesInThisBook = Reference3.versesInBookId(bookIndex + 1);
+          const versesInThisBook = Reference2.versesInBookId(bookIndex + 1);
           if (versesRemaining - versesInThisBook < 0) {
-            const book = books_1.BibleBooks[bookIndex];
+            const book = books_1.AllBibleBooksInAllSupportedLanguages[bookIndex];
             let chapterIndex = 0;
             while (versesRemaining > 0) {
               const versesInThisChapter = book.verses[chapterIndex];
               if (versesRemaining - versesInThisChapter < 0) {
-                return new Reference3({
+                return new Reference2({
                   book: bookIndex + 1,
                   chapter: chapterIndex + 1,
                   verse: versesRemaining
@@ -11597,25 +12144,25 @@ var require_reference = __commonJS({
       }
       // Get the number of verses in the given book id
       static versesInBookId(bookId) {
-        return books_1.BibleBooks[bookId - 1].verses.reduce(function sum(a, b) {
+        return books_1.AllBibleBooksInAllSupportedLanguages[bookId - 1].verses.reduce(function sum(a, b) {
           return a + b;
         });
       }
       // Get the number of verses in the given chapter id
       static versesInChapterId(chapterId) {
-        const reference = Reference3.fromChapterId(chapterId);
-        return books_1.BibleBooks[reference.book - 1].verses[reference.chapter - 1];
+        const reference = Reference2.fromChapterId(chapterId);
+        return books_1.AllBibleBooksInAllSupportedLanguages[reference.book - 1].verses[reference.chapter - 1];
       }
       // Get the number of chapters in the given book id
       static chaptersInBookId(bookId) {
-        return books_1.BibleBooks[bookId - 1].verses.length;
+        return books_1.AllBibleBooksInAllSupportedLanguages[bookId - 1].verses.length;
       }
       // Get the number of verses up to the start of the given book id
       static versesUpToBookId(bookId) {
         let count = 0;
         let booksLeft = bookId - 1;
         while (booksLeft > 0) {
-          count += Reference3.versesInBookId(booksLeft);
+          count += Reference2.versesInBookId(booksLeft);
           booksLeft -= 1;
         }
         return count;
@@ -11625,7 +12172,7 @@ var require_reference = __commonJS({
         let count = 0;
         let chaptersLeft = chapterId - 1;
         while (chaptersLeft > 0) {
-          count += Reference3.versesInChapterId(chaptersLeft);
+          count += Reference2.versesInChapterId(chaptersLeft);
           chaptersLeft -= 1;
         }
         return count;
@@ -11635,14 +12182,30 @@ var require_reference = __commonJS({
         let count = 0;
         let booksLeft = bookId - 1;
         while (booksLeft > 0) {
-          count += Reference3.chaptersInBookId(booksLeft);
+          count += Reference2.chaptersInBookId(booksLeft);
           booksLeft -= 1;
         }
         return count;
       }
+      static getBookIdFromTranslationAndName(books, name) {
+        const lowerName = name.toLowerCase();
+        const relativeBooks = books.filter((book) => {
+          let bookNames = [book.name, ...book.abbreviations];
+          if ((book === null || book === void 0 ? void 0 : book.startNumber) && book.startNumber > 0) {
+            bookNames = (0, utils_1.generateOrdinalNameVariations)(book.startNumber, bookNames);
+          }
+          return [book.fullName, ...bookNames].map((name2) => name2.toLowerCase()).indexOf(lowerName) > -1;
+        });
+        if (relativeBooks === null || relativeBooks === void 0 ? void 0 : relativeBooks.length) {
+          return books.indexOf(relativeBooks[0]) + 1;
+        }
+        const msg = `No book matched "${name}"`;
+        console.error(msg);
+        throw new Error(msg);
+      }
       // Is a Chapter level reference (no verse)
       isChapter() {
-        return this.verse == null;
+        return !this.verse;
       }
       // go to start of given unit, will make change to this reference
       startOf(unit, clone = this) {
@@ -11662,10 +12225,10 @@ var require_reference = __commonJS({
         return this.startOf(unit, clone);
       }
       clone() {
-        return new Reference3(this.toString());
+        return new Reference2(this.toString());
       }
       toString() {
-        const bookName = books_1.BibleBooks[this.book - 1].names[0];
+        const bookName = books_1.AllBibleBooksInAllSupportedLanguages[this.book - 1].fullName;
         let tmpString = bookName + " " + this.chapter;
         if (this.verse) {
           tmpString += ":" + this.verse;
@@ -11677,13 +12240,13 @@ var require_reference = __commonJS({
         let verseCount = 0;
         let bookIndex = this.book - 1;
         while (bookIndex >= 1) {
-          verseCount += Reference3.versesInBookId(bookIndex);
+          verseCount += Reference2.versesInBookId(bookIndex);
           bookIndex -= 1;
         }
         var chapterIndex = this.chapter - 1;
         while (chapterIndex >= 1) {
-          verseCount += Reference3.versesInBookId(bookIndex);
-          verseCount += books_1.BibleBooks[this.book - 1].verses[chapterIndex];
+          verseCount += Reference2.versesInBookId(bookIndex);
+          verseCount += books_1.AllBibleBooksInAllSupportedLanguages[this.book - 1].verses[chapterIndex];
         }
         if (this.verse != null) {
           verseCount += this.verse;
@@ -11692,7 +12255,7 @@ var require_reference = __commonJS({
       }
       // Get the chapter id for this reference
       toChapterId() {
-        const previousBookChapters = Reference3.chaptersUpToBookId(this.book);
+        const previousBookChapters = Reference2.chaptersUpToBookId(this.book);
         return previousBookChapters + this.chapter;
       }
       // Get the book id for this reference
@@ -11704,8 +12267,69 @@ var require_reference = __commonJS({
         return this.toVerseId();
       }
     };
-    exports.Reference = Reference3;
-    exports.default = Reference3;
+    exports.Reference = Reference2;
+    exports.default = Reference2;
+  }
+});
+
+// node_modules/.pnpm/bible-reference-toolkit@2.3.2/node_modules/bible-reference-toolkit/dist/lib/range.js
+var require_range2 = __commonJS({
+  "node_modules/.pnpm/bible-reference-toolkit@2.3.2/node_modules/bible-reference-toolkit/dist/lib/range.js"(exports) {
+    "use strict";
+    var __importDefault = exports && exports.__importDefault || function(mod) {
+      return mod && mod.__esModule ? mod : { "default": mod };
+    };
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Range = void 0;
+    var reference_1 = __importDefault(require_reference());
+    var Range = class {
+      constructor(start, end) {
+        this.start = new reference_1.default(start);
+        this.end = new reference_1.default(end);
+        if (start > end) {
+          this.start = new reference_1.default(end);
+          this.end = new reference_1.default(start);
+        }
+      }
+      distance() {
+        return {
+          verses: this.end.toVerseId() - this.start.toVerseId(),
+          chapters: this.end.toChapterId() - this.start.toChapterId(),
+          books: this.end.toBookId() - this.start.toBookId()
+        };
+      }
+      static isRange(value) {
+        return value instanceof Range || (value === null || value === void 0 ? void 0 : value.indexOf("-")) > -1;
+      }
+    };
+    exports.Range = Range;
+    exports.default = Range;
+  }
+});
+
+// node_modules/.pnpm/bible-reference-toolkit@2.3.2/node_modules/bible-reference-toolkit/dist/index.js
+var require_dist2 = __commonJS({
+  "node_modules/.pnpm/bible-reference-toolkit@2.3.2/node_modules/bible-reference-toolkit/dist/index.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.AllBibleBooksInAllSupportedLanguages = exports.getTranslationBooks = exports.Range = exports.Reference = void 0;
+    var reference_1 = require_reference();
+    var reference_2 = require_reference();
+    Object.defineProperty(exports, "Reference", { enumerable: true, get: function() {
+      return reference_2.Reference;
+    } });
+    var range_1 = require_range2();
+    Object.defineProperty(exports, "Range", { enumerable: true, get: function() {
+      return range_1.Range;
+    } });
+    var books_1 = require_books();
+    Object.defineProperty(exports, "getTranslationBooks", { enumerable: true, get: function() {
+      return books_1.getTranslationBooks;
+    } });
+    Object.defineProperty(exports, "AllBibleBooksInAllSupportedLanguages", { enumerable: true, get: function() {
+      return books_1.AllBibleBooksInAllSupportedLanguages;
+    } });
+    exports.default = reference_1.Reference;
   }
 });
 
@@ -11715,7 +12339,7 @@ __export(main_exports, {
   default: () => BibleReferencePlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian7 = require("obsidian");
+var import_obsidian8 = require("obsidian");
 
 // src/data/BibleApiSourceCollection.ts
 var BibleAPISourceCollection = {
@@ -11738,60 +12362,70 @@ var BibleVersionCollection = [
     key: "web",
     versionName: "World English Bible",
     language: "English",
+    code: "en",
     apiSource: BibleAPISourceCollection.bibleApi
   },
   {
     key: "clementine",
     versionName: "Clementine Latin Vulgate",
     language: "Latin",
+    code: "la",
     apiSource: BibleAPISourceCollection.bibleApi
   },
   {
     key: "kjv",
     versionName: "King James Version",
     language: "English",
+    code: "en",
     apiSource: BibleAPISourceCollection.bibleApi
   },
   {
     key: "bbe",
     versionName: "Bible in Basic English",
     language: "English",
+    code: "en",
     apiSource: BibleAPISourceCollection.bibleApi
   },
   {
     key: "oeb-us",
     versionName: "Open English Bible, US Edition",
     language: "English",
+    code: "en",
     apiSource: BibleAPISourceCollection.bibleApi
   },
   {
     key: "almeida",
     versionName: "Jo\xE3o Ferreira de Almeida",
     language: "Portuguese",
+    code: "pt",
     apiSource: BibleAPISourceCollection.bibleApi
   },
   {
     key: "rccv",
     versionName: "Romanian Corrected Cornilescu Version",
     language: "Romanian",
+    code: "ro",
     apiSource: BibleAPISourceCollection.bibleApi
   },
   {
     key: "cherokee",
     versionName: "Cherokee New Testament",
     language: "Cherokee",
+    code: "cu",
     apiSource: BibleAPISourceCollection.bibleApi
   },
   {
     key: "oeb-cw",
     versionName: "Open English Bible, Commonwealth Edition",
     language: "English (UK)",
+    code: "en",
     apiSource: BibleAPISourceCollection.bibleApi
   },
   {
     key: "webbe",
     versionName: "World English Bible, British Edition",
     language: "English (UK)",
+    code: "en",
     apiSource: BibleAPISourceCollection.bibleApi
   },
   // bolls life
@@ -11799,6 +12433,7 @@ var BibleVersionCollection = [
     key: "nkjv",
     versionName: "New King James Version",
     language: "English",
+    code: "en",
     apiSource: BibleAPISourceCollection.bollsLife,
     infoUrl: "https://wikipedia.org/wiki/New_King_James_Version"
   },
@@ -11806,80 +12441,145 @@ var BibleVersionCollection = [
     key: "niv",
     versionName: "New International Version, 1984",
     language: "English",
+    code: "en",
     apiSource: BibleAPISourceCollection.bollsLife
   },
   {
     key: "nrsvce",
     versionName: "New Revised Standard Version Catholic Edition (NRSVCE)",
     language: "English",
+    code: "en",
     apiSource: BibleAPISourceCollection.bollsLife
   },
   {
     key: "esv",
     versionName: "English Standard Version",
     language: "English",
+    code: "en",
+    apiSource: BibleAPISourceCollection.bollsLife
+  },
+  {
+    key: "nasb",
+    versionName: "New American Standard Bible (1995)",
+    language: "English",
+    code: "en",
+    apiSource: BibleAPISourceCollection.bollsLife
+  },
+  {
+    key: "elb",
+    versionName: "Elberfelder Bibel (1871)",
+    language: "German Deutsch",
+    code: "de",
+    apiSource: BibleAPISourceCollection.bollsLife
+  },
+  {
+    key: "lut",
+    versionName: "Luther (1912)",
+    language: "German Deutsch",
+    code: "de",
+    apiSource: BibleAPISourceCollection.bollsLife
+  },
+  {
+    key: "ntgt",
+    versionName: "Greek NT: Tischendorf 8th Ed.",
+    language: "Greek \u0395\u03BB\u03BB\u03B7\u03BD\u03B9\u03BA\u03AC",
+    apiSource: BibleAPISourceCollection.bollsLife
+  },
+  {
+    key: "tr",
+    versionName: "Elzevir Textus Receptus (1624)",
+    language: "Greek \u0395\u03BB\u03BB\u03B7\u03BD\u03B9\u03BA\u03AC",
+    apiSource: BibleAPISourceCollection.bollsLife
+  },
+  {
+    key: "lxx",
+    versionName: "Septuagint",
+    language: "Greek \u0395\u03BB\u03BB\u03B7\u03BD\u03B9\u03BA\u03AC",
+    apiSource: BibleAPISourceCollection.bollsLife
+  },
+  {
+    key: "wlc",
+    versionName: "Westminster Leningrad Codex (with Vowels)",
+    language: "Hebrew \u05E2\u05D1\u05E8\u05D9\u05EA",
+    apiSource: BibleAPISourceCollection.bollsLife
+  },
+  {
+    key: "dhnt",
+    versionName: "Delitzsch's Hebrew New Testament 1877, 1998 (with Vowels)",
+    language: "Hebrew \u05E2\u05D1\u05E8\u05D9\u05EA",
     apiSource: BibleAPISourceCollection.bollsLife
   },
   {
     key: "cuv",
     versionName: "Chinese Union Version (Traditional)",
     language: "Chinese",
+    code: "cn",
     apiSource: BibleAPISourceCollection.bollsLife
   },
   {
     key: "nr06",
     versionName: "Nuova Riveduta, 2006",
     language: "Latin / Italian",
+    code: "it",
     apiSource: BibleAPISourceCollection.bollsLife
   },
   {
     key: "svd",
     versionName: "Smith and Van Dyke",
     language: "Arabic \u0627\u0644\u0639\u0631\u0628\u064A\u0629",
+    code: "ar",
     apiSource: BibleAPISourceCollection.bollsLife
   },
   {
     key: "btx3",
     versionName: "La Biblia Textual 3ra Edicion",
     language: "Spanish",
+    code: "sp",
     apiSource: BibleAPISourceCollection.bollsLife
   },
   {
     key: "rv1960",
     versionName: "Reina Valera 1960",
     language: "Spanish",
+    code: "sp",
     apiSource: BibleAPISourceCollection.bollsLife
   },
   {
     key: "rv2004",
     versionName: "Reina Valera Gomez 2004",
     language: "Spanish",
+    code: "sp",
     apiSource: BibleAPISourceCollection.bollsLife
   },
   {
     key: "pdt",
     versionName: "Palabra de Dios para Todos",
     language: "Spanish",
+    code: "sp",
     apiSource: BibleAPISourceCollection.bollsLife
   },
   {
     key: "nvi",
     versionName: "Nueva Version Internacional",
     language: "Spanish",
+    code: "sp",
     apiSource: BibleAPISourceCollection.bollsLife
   },
   {
     key: "ntv",
     versionName: "Nueva Traduccion Viviente, 2009",
     language: "Spanish",
+    code: "sp",
     apiSource: BibleAPISourceCollection.bollsLife
   },
   {
     key: "lbla",
     versionName: "La Biblia de Las Americas, 1997",
     language: "Spanish",
+    code: "sp",
     apiSource: BibleAPISourceCollection.bollsLife
   },
+  // todo add langauge code
   {
     key: "bg",
     versionName: "Biblia gda\u0144ska, 1881",
@@ -11912,9 +12612,25 @@ var BibleVersionCollection = [
   }
 ];
 var DEFAULT_BIBLE_VERSION = BibleVersionCollection[11];
+var getBibleVersion = (key) => {
+  var _a;
+  return (_a = BibleVersionCollection.find((bibleVersion) => bibleVersion.key === key)) != null ? _a : DEFAULT_BIBLE_VERSION;
+};
+var allBibleVersionsWithLanguageNameAlphabetically = BibleVersionCollection.sort((a, b) => {
+  const languageCompare = a.language.localeCompare(b.language);
+  if (languageCompare === 0) {
+    return a.versionName.localeCompare(b.versionName);
+  } else {
+    return languageCompare;
+  }
+});
 
 // src/data/BibleVerseReferenceLinkPosition.ts
 var BibleVerseReferenceLinkPositionCollection = [
+  {
+    name: "None" /* None */,
+    description: "Hide (Clean and Simple)"
+  },
   {
     name: "Header" /* Header */,
     description: "Header (Bible Verse Header)"
@@ -11925,7 +12641,7 @@ var BibleVerseReferenceLinkPositionCollection = [
   },
   {
     name: "Both" /* AllAbove */,
-    description: "Both (Both of Above)"
+    description: "Both Header and Bottom"
   }
 ];
 
@@ -11984,6 +12700,12 @@ var APP_NAMING = {
   appUrl: "",
   defaultStatus: ""
 };
+var OutgoingLinkPositionEnum = ((OutgoingLinkPositionEnum2) => {
+  OutgoingLinkPositionEnum2[OutgoingLinkPositionEnum2["Header"] = "Header" /* Header */] = "Header";
+  OutgoingLinkPositionEnum2[OutgoingLinkPositionEnum2["Bottom"] = "Bottom" /* Bottom */] = "Bottom";
+  OutgoingLinkPositionEnum2[OutgoingLinkPositionEnum2["None"] = "None" /* None */] = "None";
+  return OutgoingLinkPositionEnum2;
+})(OutgoingLinkPositionEnum || {});
 var DEFAULT_SETTINGS = {
   bibleVersion: DEFAULT_BIBLE_VERSION.key,
   referenceLinkPosition: "Header" /* Header */,
@@ -11993,11 +12715,15 @@ var DEFAULT_SETTINGS = {
   bookTagging: false,
   chapterTagging: false,
   enableBibleVerseLookupRibbon: false,
-  optOutToEvents: false
+  optOutToEvents: false,
+  bookBacklinking: OutgoingLinkPositionEnum.None,
+  chapterBacklinking: OutgoingLinkPositionEnum.None,
+  bibleVersionStatusIndicator: "Short" /* Short */,
+  displayBibleIconPrefixAtHeader: true
 };
 
 // src/ui/BibleReferenceSettingTab.ts
-var import_obsidian = require("obsidian");
+var import_obsidian2 = require("obsidian");
 
 // src/provider/FeatureFlag.ts
 var import_flagsmith_nodejs = __toESM(require_build());
@@ -12361,141 +13087,92 @@ var FlagService = class {
   }
 };
 
+// src/obsidian/PluginEvent.ts
+var import_obsidian = require("obsidian");
+var PluginEvent = class extends import_obsidian.Events {
+  constructor() {
+    super();
+    this.refs = [];
+  }
+  static getInstance() {
+    if (!PluginEvent.instance) {
+      PluginEvent.instance = new PluginEvent();
+    }
+    return PluginEvent.instance;
+  }
+  on(name, callback, ctx) {
+    const ref = super.on(name, callback, ctx);
+    this.refs.push(ref);
+    return ref;
+  }
+  offAll() {
+    this.refs.forEach((ref) => {
+      this.offref(ref);
+    });
+  }
+};
+var pluginEvent = PluginEvent.getInstance();
+
 // src/ui/BibleReferenceSettingTab.ts
-var BibleReferenceSettingTab = class extends import_obsidian.PluginSettingTab {
+var BibleReferenceSettingTab = class extends import_obsidian2.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
-    this.getAllBibleVersionsWithLanguageNameAlphabetically = () => {
-      return this.getAllBibleVersionsWithLanguageName().sort((a, b) => {
-        const languageCompare = a.language.localeCompare(b.language);
-        if (languageCompare === 0) {
-          return a.versionName.localeCompare(b.versionName);
-        } else {
-          return languageCompare;
-        }
-      });
-    };
-    this.getAllBibleVersionsWithLanguageName = () => {
-      return BibleVersionCollection;
-    };
-    this.setUpVersionSettingsAndVersionOptions = (containerEl) => {
-      let allAvailableVersionOptions = this.getAllBibleVersionsWithLanguageNameAlphabetically();
-      const disableBibleAPI = FlagService.instance.isFeatureEnabled("disable-bible-api");
-      if (disableBibleAPI) {
-        allAvailableVersionOptions = allAvailableVersionOptions.filter((v) => {
-          return v.apiSource.name !== BibleAPISourceCollection.bibleApi.name;
-        });
+    this.plugin = plugin;
+  }
+  async display() {
+    this.containerEl.empty();
+    this.startListeningToEvents();
+    const headingSection = this.containerEl.createDiv();
+    headingSection.innerHTML = `
+        <iframe src="https://github.com/sponsors/tim-hub/button" title="Sponsor Obsidian Bible Reference" width="116" height="32px" style="margin-right: 2em"/>
+    `;
+    this.containerEl.createEl("h1", { text: APP_NAMING.appName });
+    this.setUpVersionSettingsAndVersionOptions();
+    this.containerEl.createEl("h2", { text: "Verses Rendering" });
+    this.setUpReferenceLinkPositionOptions();
+    this.setUpVerseFormatOptions();
+    this.setUpVerseNumberFormatOptions();
+    this.setUpBibleIconPrefixToggle();
+    this.setUpCollapsibleToggle();
+    this.setUpStatusIndicationOptions();
+    this.containerEl.createEl("h2", { text: "Others" });
+    this.setUpExpertSettings();
+    this.containerEl.createSpan({}, (span) => {
+      span.innerHTML = `
+<a href="https://github.com/tim-hub/obsidian-bible-reference">Github Repo</a> |
+<a href="https://github.com/tim-hub/obsidian-bible-reference/blob/master/docs/privacy.md">Privacy Policy</a> |
+<a href="https://github.com/sponsors/tim-hub/button">Support</a>
+    `;
+    });
+    this.expertSettingContainer = this.containerEl.createDiv();
+    if (this.plugin.settings.advancedSettings) {
+      this.displayExpertSettings();
+    }
+    EventStats.logUIOpen(
+      "settingsOpen",
+      { key: "open", value: 1 },
+      this.plugin.settings.optOutToEvents
+    );
+  }
+  startListeningToEvents() {
+    pluginEvent.on("bible-reference:settings:advanced", (value) => {
+      console.log("advanced", value);
+      if (this.plugin.settings.advancedSettings) {
+        this.displayExpertSettings();
+      } else {
+        (this == null ? void 0 : this.expertSettingContainer) && this.expertSettingContainer.empty();
       }
-      if (disableBibleAPI && !allAvailableVersionOptions.find(
-        (v) => v.key === this.plugin.settings.bibleVersion
-      )) {
-        this.plugin.settings.bibleVersion = DEFAULT_BIBLE_VERSION.key;
-      }
-      new import_obsidian.Setting(containerEl).setName("Default Bible Version").setDesc("Choose the Bible version you prefer").addDropdown((dropdown) => {
-        allAvailableVersionOptions.forEach((version2) => {
-          dropdown.addOption(
-            version2.key,
-            `${version2.language} - ${version2.versionName} @${version2.apiSource.name}`
-          );
-        });
-        dropdown.setValue(this.plugin.settings.bibleVersion).onChange(async (value) => {
-          this.plugin.settings.bibleVersion = value;
-          console.debug("Default Bible Version: " + value);
-          await this.plugin.saveSettings();
-          new import_obsidian.Notice(`Bible Reference - use Version ${value.toUpperCase()}`);
-          EventStats.logSettingChange(
-            "changeVersion",
-            { key: value, value: 1 },
-            this.plugin.settings.optOutToEvents
-          );
-        });
-      });
-    };
-    this.setUpReferenceLinkPositionOptions = (containerEl) => {
-      new import_obsidian.Setting(containerEl).setName("Verse Reference Link Position").setDesc("Where to put the bible verse reference link of the bible").addDropdown((dropdown) => {
-        var _a;
-        BibleVerseReferenceLinkPositionCollection.forEach(
-          ({ name, description }) => {
-            dropdown.addOption(name, description);
-          }
-        );
-        dropdown.setValue(
-          (_a = this.plugin.settings.referenceLinkPosition) != null ? _a : "Bottom" /* Bottom */
-        ).onChange(async (value) => {
-          this.plugin.settings.referenceLinkPosition = value;
-          console.debug("Bible Verse Reference Link Position: " + value);
-          await this.plugin.saveSettings();
-          new import_obsidian.Notice("Bible Reference Settings Updated ");
-          EventStats.logSettingChange(
-            "changeVerseFormatting",
-            { key: `link-position-${value}`, value: 1 },
-            this.plugin.settings.optOutToEvents
-          );
-        });
-      });
-    };
-    this.setUpVerseFormatOptions = (containerEl) => {
-      new import_obsidian.Setting(containerEl).setName("Verse Formatting Options").setDesc(
-        "Sets how to format the verses in Obsidian, either line by line or in 1 paragraph"
-      ).addDropdown((dropdown) => {
-        var _a;
-        BibleVerseFormatCollection.forEach(({ name, description }) => {
-          dropdown.addOption(name, description);
-        });
-        dropdown.setValue(
-          (_a = this.plugin.settings.verseFormatting) != null ? _a : "Single Line" /* SingleLine */
-        ).onChange(async (value) => {
-          this.plugin.settings.verseFormatting = value;
-          console.debug("Bible Verse Format To: " + value);
-          await this.plugin.saveSettings();
-          new import_obsidian.Notice("Bible Verse Format Settings Updated");
-          EventStats.logSettingChange(
-            "changeVerseFormatting",
-            { key: `verse-format-${value}`, value: 1 },
-            this.plugin.settings.optOutToEvents
-          );
-        });
-      });
-    };
-    this.setUpVerseNumberFormatOptions = (containerEl) => {
-      new import_obsidian.Setting(containerEl).setName("Verse Number Formatting Options").setDesc("Sets how to format the verse numbers in Obsidian").addDropdown((dropdown) => {
-        var _a;
-        BibleVerseNumberFormatCollection.forEach(({ name, description }) => {
-          dropdown.addOption(name, description);
-        });
-        dropdown.setValue(
-          (_a = this.plugin.settings.verseNumberFormatting) != null ? _a : "1. " /* Period */
-        ).onChange(async (value) => {
-          this.plugin.settings.verseNumberFormatting = value;
-          console.debug("Bible Verse Number Format To: " + value);
-          await this.plugin.saveSettings();
-          new import_obsidian.Notice("Bible Verse Format Number Settings Updated");
-          EventStats.logSettingChange(
-            "changeVerseFormatting",
-            { key: `verse-number-format-${value}`, value: 1 },
-            this.plugin.settings.optOutToEvents
-          );
-        });
-      });
-    };
-    this.setUpCollapsible = (containerEl) => {
-      new import_obsidian.Setting(containerEl).setName("Make Verses Collapsible").setDesc("Make the rendered verses collapsible").addToggle(
-        (toggle) => {
-          var _a;
-          return toggle.setValue(!!((_a = this.plugin.settings) == null ? void 0 : _a.collapsibleVerses)).onChange(async (value) => {
-            this.plugin.settings.collapsibleVerses = value;
-            await this.plugin.saveSettings();
-            EventStats.logSettingChange(
-              "changeVerseFormatting",
-              { key: `collapsible-${value}`, value: 1 },
-              this.plugin.settings.optOutToEvents
-            );
-          });
-        }
-      );
-    };
-    this.setUpBookTagging = (containerEl) => {
-      new import_obsidian.Setting(containerEl).setName("Add a Book Tag").setDesc("Add a hidden book tag at bottom, for example #John").addToggle(
+    });
+    pluginEvent.on("bible-reference:settings:re-render", (value) => {
+      console.log("re-render", value);
+      this.display();
+    });
+  }
+  displayExpertSettings() {
+    if (this.expertSettingContainer) {
+      this.expertSettingContainer.empty();
+      this.expertSettingContainer.createEl("h2", { text: "Expert Settings" });
+      new import_obsidian2.Setting(this.expertSettingContainer).setName("Add a Book Tag").setDesc("Add a hidden book tag at bottom, for example #John").addToggle(
         (toggle) => {
           var _a;
           return toggle.setValue(!!((_a = this.plugin.settings) == null ? void 0 : _a.bookTagging)).onChange(async (value) => {
@@ -12509,9 +13186,7 @@ var BibleReferenceSettingTab = class extends import_obsidian.PluginSettingTab {
           });
         }
       );
-    };
-    this.setUpChapterTagging = (containerEl) => {
-      new import_obsidian.Setting(containerEl).setName("Add a Chapter Tag").setDesc("Add a hidden chapter tag at bottom, for example #John1").addToggle(
+      new import_obsidian2.Setting(this.expertSettingContainer).setName("Add a Chapter Tag").setDesc("Add a hidden chapter tag at bottom, for example #John1").addToggle(
         (toggle) => {
           var _a;
           return toggle.setValue(!!((_a = this.plugin.settings) == null ? void 0 : _a.chapterTagging)).onChange(async (value) => {
@@ -12525,81 +13200,309 @@ var BibleReferenceSettingTab = class extends import_obsidian.PluginSettingTab {
           });
         }
       );
-    };
-    this.setUpOptOutEventsOptions = (containerEl) => {
-      new import_obsidian.Setting(containerEl).setName("Opt Out of Events Logging").setDesc(
-        "We used events logging to improve the plugin, this is very helpful for us, but if you want to opt out, you can do it here. (Excluding Errors Logs))"
-      ).addToggle(
-        (toggle) => {
-          var _a;
-          return toggle.setValue(!!((_a = this.plugin.settings) == null ? void 0 : _a.optOutToEvents)).onChange(async (value) => {
-            EventStats.logSettingChange(
-              "others",
-              { key: `opt-${value ? "out" : "in"}`, value: 1 },
-              this.plugin.settings.optOutToEvents
-            );
-            this.plugin.settings.optOutToEvents = value;
-            await this.plugin.saveSettings();
-            if (value) {
-              new import_obsidian.Notice(
-                "You have opted out of events logging, we will not log any events from now on"
-              );
-            } else {
-              new import_obsidian.Notice(
-                "Thanks for opting in to events logging, this is really valuable for us to improve the plugin"
-              );
-            }
-          });
+      const getOutgoingLinkPosition = (linkingPostion) => {
+        let value = linkingPostion;
+        if (!value) {
+          value = OutgoingLinkPositionEnum.None;
+        } else if (value === true) {
+          value = OutgoingLinkPositionEnum.Header;
+        }
+        return value;
+      };
+      new import_obsidian2.Setting(this.expertSettingContainer).setName("Add a Book Outgoing Link").setDesc("Makes an outgoing link for the book, for example [[John]]").addDropdown((dropdown) => {
+        var _a;
+        Object.keys(OutgoingLinkPositionEnum).forEach((name) => {
+          dropdown.addOption(name, name);
+        });
+        const value = getOutgoingLinkPosition(
+          (_a = this.plugin.settings) == null ? void 0 : _a.bookBacklinking
+        );
+        dropdown.setValue(value);
+        dropdown.onChange(async (value2) => {
+          this.plugin.settings.bookBacklinking = value2;
+          await this.plugin.saveSettings();
+        });
+      });
+      new import_obsidian2.Setting(this.expertSettingContainer).setName("Add a Chapter Outgoing Links").setDesc(
+        "Makes an outgoing link for the chapter, for example [[John1]] "
+      ).addDropdown((dropdown) => {
+        var _a;
+        Object.keys(OutgoingLinkPositionEnum).forEach((name) => {
+          dropdown.addOption(name, name);
+        });
+        const value = getOutgoingLinkPosition(
+          (_a = this.plugin.settings) == null ? void 0 : _a.chapterBacklinking
+        );
+        dropdown.setValue(value);
+        dropdown.onChange(async (value2) => {
+          this.plugin.settings.chapterBacklinking = value2;
+          await this.plugin.saveSettings();
+        });
+      });
+      this.setUpOptOutEventsOptions(this.expertSettingContainer);
+    }
+  }
+  setUpVersionSettingsAndVersionOptions() {
+    let allAvailableVersionOptions = allBibleVersionsWithLanguageNameAlphabetically;
+    const disableBibleAPI = FlagService.instance.isFeatureEnabled("disable-bible-api");
+    if (disableBibleAPI) {
+      allAvailableVersionOptions = allAvailableVersionOptions.filter((v) => {
+        return v.apiSource.name !== BibleAPISourceCollection.bibleApi.name;
+      });
+    }
+    if (disableBibleAPI && !allAvailableVersionOptions.find(
+      (v) => v.key === this.plugin.settings.bibleVersion
+    )) {
+      this.plugin.settings.bibleVersion = DEFAULT_BIBLE_VERSION.key;
+    }
+    new import_obsidian2.Setting(this.containerEl).setName("Default Bible Version").setDesc("Choose the Bible version you prefer").addDropdown((dropdown) => {
+      allAvailableVersionOptions.forEach((version2) => {
+        dropdown.addOption(
+          version2.key,
+          `${version2.language} - ${version2.versionName} @${version2.apiSource.name}`
+        );
+      });
+      dropdown.setValue(this.plugin.settings.bibleVersion).onChange(async (value) => {
+        this.plugin.settings.bibleVersion = value;
+        console.debug("Default Bible Version: " + value);
+        await this.plugin.saveSettings();
+        pluginEvent.trigger("bible-reference:settings:version", [value]);
+        new import_obsidian2.Notice(`Bible Reference - use Version ${value.toUpperCase()}`);
+        EventStats.logSettingChange(
+          "changeVersion",
+          { key: value, value: 1 },
+          this.plugin.settings.optOutToEvents
+        );
+      });
+    });
+  }
+  setUpStatusIndicationOptions() {
+    new import_obsidian2.Setting(this.containerEl).setName("Display Selected Version at Status Bar").setDesc("The way of display the selected Bible Version at status bar").addDropdown((dropdown) => {
+      var _a;
+      dropdown.addOption(
+        "Full" /* Full */,
+        "Full" /* Full */
+      );
+      dropdown.addOption(
+        "Short" /* Short */,
+        "Short" /* Short */
+      );
+      dropdown.addOption(
+        "Hide" /* Hide */,
+        "Hide" /* Hide */
+      );
+      dropdown.setValue(
+        (_a = this.plugin.settings.bibleVersionStatusIndicator) != null ? _a : "Short" /* Short */
+      ).onChange(async (value) => {
+        this.plugin.settings.bibleVersionStatusIndicator = value;
+        await this.plugin.saveSettings();
+        pluginEvent.trigger("bible-reference:settings:version", [
+          this.plugin.settings.bibleVersion
+        ]);
+        EventStats.logSettingChange(
+          "others",
+          { key: `version-status-indicator-${value}`, value: 1 },
+          this.plugin.settings.optOutToEvents
+        );
+      });
+    });
+  }
+  setUpReferenceLinkPositionOptions() {
+    new import_obsidian2.Setting(this.containerEl).setName("Verse Reference Position").setDesc("Where to put the reference link of the Bible").addDropdown((dropdown) => {
+      var _a;
+      BibleVerseReferenceLinkPositionCollection.forEach(
+        ({ name, description }) => {
+          dropdown.addOption(name, description);
         }
       );
-    };
-    this.plugin = plugin;
+      dropdown.setValue(
+        (_a = this.plugin.settings.referenceLinkPosition) != null ? _a : "None" /* None */
+      ).onChange(async (value) => {
+        this.plugin.settings.referenceLinkPosition = value;
+        console.debug("Bible Verse Reference Link Position: " + value);
+        await this.plugin.saveSettings();
+        new import_obsidian2.Notice("Bible Reference Settings Updated ");
+        EventStats.logSettingChange(
+          "changeVerseFormatting",
+          { key: `link-position-${value}`, value: 1 },
+          this.plugin.settings.optOutToEvents
+        );
+      });
+    });
   }
-  async display() {
-    const { containerEl } = this;
-    containerEl.empty();
-    const headingSection = containerEl.createDiv();
-    headingSection.innerHTML = `
-        <iframe src="https://github.com/sponsors/tim-hub/button" title="Sponsor Obsidian Bible Reference" width="116" height="32px" style="margin-right: 2em"/>
-    `;
-    containerEl.createEl("h1", { text: APP_NAMING.appName });
-    this.setUpVersionSettingsAndVersionOptions(containerEl);
-    containerEl.createEl("h2", { text: "Verses Rendering" });
-    this.setUpReferenceLinkPositionOptions(containerEl);
-    this.setUpVerseFormatOptions(containerEl);
-    this.setUpVerseNumberFormatOptions(containerEl);
-    this.setUpCollapsible(containerEl);
-    containerEl.createEl("h2", { text: "Tagging and Linking Settings" });
-    containerEl.createSpan({}, (span) => {
-      span.innerHTML = `
-        <small>Only if you want to add tags at the bottom of verses</small>
-      `;
+  setUpVerseFormatOptions() {
+    new import_obsidian2.Setting(this.containerEl).setName("Verse Formatting Options").setDesc(
+      "Sets how to format the verses in Obsidian, either line by line or in 1 paragraph"
+    ).addDropdown((dropdown) => {
+      var _a;
+      BibleVerseFormatCollection.forEach(({ name, description }) => {
+        dropdown.addOption(name, description);
+      });
+      dropdown.setValue(
+        (_a = this.plugin.settings.verseFormatting) != null ? _a : "Single Line" /* SingleLine */
+      ).onChange(async (value) => {
+        this.plugin.settings.verseFormatting = value;
+        console.debug("Bible Verse Format To: " + value);
+        await this.plugin.saveSettings();
+        new import_obsidian2.Notice("Bible Verse Format Settings Updated");
+        EventStats.logSettingChange(
+          "changeVerseFormatting",
+          { key: `verse-format-${value}`, value: 1 },
+          this.plugin.settings.optOutToEvents
+        );
+      });
     });
-    this.setUpBookTagging(containerEl);
-    this.setUpChapterTagging(containerEl);
-    containerEl.createEl("h2", { text: "Others" });
-    this.setUpOptOutEventsOptions(containerEl);
-    containerEl.createSpan({}, (span) => {
-      span.innerHTML = `
-        <a href="https://github.com/tim-hub/obsidian-bible-reference">Github Repo</a> |
-        <a href="https://github.com/tim-hub/obsidian-bible-reference/blob/master/docs/privacy.md">Privacy Policy</a>
-      `;
+  }
+  setUpVerseNumberFormatOptions() {
+    new import_obsidian2.Setting(this.containerEl).setName("Verse Number Formatting Options").setDesc("Sets how to format the verse numbers in Obsidian").addDropdown((dropdown) => {
+      var _a;
+      BibleVerseNumberFormatCollection.forEach(({ name, description }) => {
+        dropdown.addOption(name, description);
+      });
+      dropdown.setValue(
+        (_a = this.plugin.settings.verseNumberFormatting) != null ? _a : "1. " /* Period */
+      ).onChange(async (value) => {
+        this.plugin.settings.verseNumberFormatting = value;
+        console.debug("Bible Verse Number Format To: " + value);
+        await this.plugin.saveSettings();
+        new import_obsidian2.Notice("Bible Verse Format Number Settings Updated");
+        EventStats.logSettingChange(
+          "changeVerseFormatting",
+          { key: `verse-number-format-${value}`, value: 1 },
+          this.plugin.settings.optOutToEvents
+        );
+      });
     });
-    EventStats.logUIOpen(
-      "settingsOpen",
-      { key: "open", value: 1 },
-      this.plugin.settings.optOutToEvents
+  }
+  setUpCollapsibleToggle() {
+    const setting = new import_obsidian2.Setting(this.containerEl).setName("Make Verses Collapsible *").setDesc(
+      "Make the rendered verses collapsible, (This option will be disabled if Bible Icon Prefix option above is disabled)"
+    );
+    setting.setTooltip(
+      "This will make the rendered verses collapsible, so that you can hide them when you don't need them"
+    );
+    setting.addToggle((toggle) => {
+      var _a, _b;
+      if (!((_a = this.plugin.settings) == null ? void 0 : _a.displayBibleIconPrefixAtHeader)) {
+        toggle.setDisabled(true);
+        toggle.setTooltip("");
+      }
+      toggle.setValue(!!((_b = this.plugin.settings) == null ? void 0 : _b.collapsibleVerses)).onChange(async (value) => {
+        this.plugin.settings.collapsibleVerses = value;
+        await this.plugin.saveSettings();
+        EventStats.logSettingChange(
+          "changeVerseFormatting",
+          { key: `collapsible-${value}`, value: 1 },
+          this.plugin.settings.optOutToEvents
+        );
+      });
+    });
+  }
+  setUpBibleIconPrefixToggle() {
+    new import_obsidian2.Setting(this.containerEl).setName('Show Bible Icon Prefix "[!Bible]" *').setDesc(
+      "When this is true, it will render a Bible icon in Obsidian, disable this if you want to hide it or use standard Markdown. (This will disable the Collapsible option below)"
+    ).addToggle(
+      (toggle) => {
+        var _a;
+        return toggle.setValue(!!((_a = this.plugin.settings) == null ? void 0 : _a.displayBibleIconPrefixAtHeader)).onChange(async (value) => {
+          this.plugin.settings.displayBibleIconPrefixAtHeader = value;
+          await this.plugin.saveSettings();
+          if (!value) {
+            this.plugin.settings.collapsibleVerses = false;
+            await this.plugin.saveSettings();
+          }
+          pluginEvent.trigger("bible-reference:settings:re-render", []);
+          EventStats.logSettingChange(
+            "others",
+            { key: `displayBibleIconPrefix-${value}`, value: 1 },
+            this.plugin.settings.optOutToEvents
+          );
+        });
+      }
+    );
+  }
+  setUpExpertSettings() {
+    new import_obsidian2.Setting(this.containerEl).setName("Expert Settings").setDesc(
+      "Display or Hide Expert Settings, such as Tagging, Linking, Events Logging settings"
+    ).addToggle(
+      (toggle) => {
+        var _a;
+        return toggle.setValue(!!((_a = this.plugin.settings) == null ? void 0 : _a.advancedSettings)).onChange(async (value) => {
+          this.plugin.settings.advancedSettings = value;
+          await this.plugin.saveSettings();
+          pluginEvent.trigger("bible-reference:settings:advanced", [value]);
+        });
+      }
+    );
+  }
+  setUpBookTagging() {
+    this.expertSettingContainer && new import_obsidian2.Setting(this.expertSettingContainer).setName("Add a Book Tag").setDesc("Add a hidden book tag at bottom, for example #John").addToggle(
+      (toggle) => {
+        var _a;
+        return toggle.setValue(!!((_a = this.plugin.settings) == null ? void 0 : _a.bookTagging)).onChange(async (value) => {
+          this.plugin.settings.bookTagging = value;
+          await this.plugin.saveSettings();
+          EventStats.logSettingChange(
+            "changeVerseFormatting",
+            { key: `book-tagging-${value}`, value: 1 },
+            this.plugin.settings.optOutToEvents
+          );
+        });
+      }
+    );
+  }
+  setUpChapterTagging() {
+    this.expertSettingContainer && new import_obsidian2.Setting(this.expertSettingContainer).setName("Add a Chapter Tag").setDesc("Add a hidden chapter tag at bottom, for example #John1").addToggle(
+      (toggle) => {
+        var _a;
+        return toggle.setValue(!!((_a = this.plugin.settings) == null ? void 0 : _a.chapterTagging)).onChange(async (value) => {
+          this.plugin.settings.chapterTagging = value;
+          await this.plugin.saveSettings();
+          EventStats.logSettingChange(
+            "changeVerseFormatting",
+            { key: `chapter-tagging-${value}`, value: 1 },
+            this.plugin.settings.optOutToEvents
+          );
+        });
+      }
+    );
+  }
+  setUpOptOutEventsOptions(container = this.containerEl) {
+    new import_obsidian2.Setting(container).setName("Opt Out of Events Logging").setDesc(
+      "We used events logging to improve the plugin, this is very helpful for us, but if you want to opt out, you can do it here. (Excluding Errors Logs))"
+    ).addToggle(
+      (toggle) => {
+        var _a;
+        return toggle.setValue(!!((_a = this.plugin.settings) == null ? void 0 : _a.optOutToEvents)).onChange(async (value) => {
+          EventStats.logSettingChange(
+            "others",
+            { key: `opt-${value ? "out" : "in"}`, value: 1 },
+            this.plugin.settings.optOutToEvents
+          );
+          this.plugin.settings.optOutToEvents = value;
+          await this.plugin.saveSettings();
+          if (value) {
+            new import_obsidian2.Notice(
+              "You have opted out of events logging, we will not log any events from now on"
+            );
+          } else {
+            new import_obsidian2.Notice(
+              "Thanks for opting in to events logging, this is really valuable for us to improve the plugin"
+            );
+          }
+        });
+      }
     );
   }
 };
 
 // src/suggesetor/VerseEditorSuggester.ts
-var import_obsidian3 = require("obsidian");
+var import_obsidian4 = require("obsidian");
 
 // src/utils/regs.ts
-var SHORT_REG = /-{2}([123])*\s*[A-z]{3,}\s*\d{1,3}:\d{1,3}(-\d{1,3})*/;
-var MODAL_REG = /([123])*\s*[A-z]{3,}\s*\d{1,3}:\d{1,3}(-\d{1,3})*/;
-var BOOK_REG = /[123]*\s*[A-z]{3,}/;
+var SHORT_REG = /-{2}([123])*\s*[A-z]{2,}\s*\d{1,3}:\d{1,3}(-\d{1,3})*/;
+var MODAL_REG = /([123])*\s*[A-z]{2,}\s*\d{1,3}:\d{1,3}(-\d{1,3})*/;
+var BOOK_REG = /[123]*\s*[A-z]{2,}/;
 
 // src/utils/verseMatch.ts
 var verseMatch = (verse, isFromModal = false) => {
@@ -12612,13 +13515,22 @@ var verseMatch = (verse, isFromModal = false) => {
 };
 
 // src/provider/BaseBibleAPIProvider.ts
-var import_obsidian2 = require("obsidian");
+var import_obsidian3 = require("obsidian");
 var BaseBibleAPIProvider = class {
+  constructor(bibleVersion) {
+    this._bibleVersiopn = bibleVersion;
+    const { key } = bibleVersion;
+    this._versionKey = key;
+    this._apiUrl = bibleVersion.apiSource.apiUrl;
+  }
+  get LanguageShortCode() {
+    return this._bibleVersiopn.code;
+  }
   /**
    * Get the Key Identity for the Bible version
    */
   get BibleVersionKey() {
-    return this._key;
+    return this._versionKey;
   }
   /**
    * Get the API URL for the latest query
@@ -12650,14 +13562,14 @@ var BaseBibleAPIProvider = class {
    * @param versionName, optional, to override default selected version
    */
   async query(bookName, chapter, verse, versionName) {
-    if (!this._key && versionName) {
+    if (!this._versionKey && versionName) {
       throw new Error("version (language) not set yet");
     }
     const url = this.buildRequestURL(
       bookName,
       chapter,
       verse,
-      versionName || this._key
+      versionName || this._versionKey
     );
     console.debug(url, "url to query");
     try {
@@ -12676,11 +13588,11 @@ var BaseBibleAPIProvider = class {
         bookName,
         chapter,
         verse,
-        versionName || this._key
+        versionName || this._versionKey
       );
     } catch (e) {
       console.error("error while querying", e);
-      new import_obsidian2.Notice(`Error while querying ${url}`);
+      new import_obsidian3.Notice(`Error while querying ${url}`);
       EventStats.logError("errors", { key: url, value: 1 });
       return await Promise.reject(e);
     }
@@ -12690,10 +13602,7 @@ var BaseBibleAPIProvider = class {
 // src/provider/BibleAPIDotComProvider.ts
 var BibleAPIDotComProvider = class extends BaseBibleAPIProvider {
   constructor(bibleVersion) {
-    super();
-    const { key } = bibleVersion;
-    this._key = key;
-    this._apiUrl = bibleVersion.apiSource.apiUrl;
+    super(bibleVersion);
   }
   /**
    * Build Request Url for Bible-Api.com
@@ -12703,7 +13612,7 @@ var BibleAPIDotComProvider = class extends BaseBibleAPIProvider {
    * @param versionName
    */
   buildRequestURL(bookName, chapter, verses, versionName) {
-    let queryString = `${bookName}+${chapter}:`;
+    let queryString = `${bookName}+${chapter}:`.replace(/ /g, "+");
     if ((verses == null ? void 0 : verses.length) >= 3) {
       queryString += verses.join("&");
     } else if ((verses == null ? void 0 : verses.length) === 2 && !!verses[1]) {
@@ -12730,14 +13639,31 @@ var BibleAPIDotComProvider = class extends BaseBibleAPIProvider {
   }
 };
 
+// src/utils/bookNameReference.ts
+var import_bible_reference_toolkit = __toESM(require_dist2());
+var getBookIdFromBookName = (bookName, languageCode = "en") => {
+  try {
+    console.debug("get book id first time", bookName, languageCode);
+    return import_bible_reference_toolkit.default.bookIdFromTranslationAndName(languageCode, bookName);
+  } catch (e) {
+    console.debug("get book id from all translations", bookName);
+    return import_bible_reference_toolkit.default.bookIdFromName(bookName);
+  }
+};
+var getFullBookName = (name, languageCode = "en") => {
+  console.debug("getFullBookName", name, languageCode);
+  const bookId = getBookIdFromBookName(name, languageCode);
+  try {
+    return import_bible_reference_toolkit.default.bookNameFromTranslationAndId(languageCode, bookId);
+  } catch (e) {
+    return import_bible_reference_toolkit.default.bookEnglishFullNameFromId(bookId);
+  }
+};
+
 // src/provider/BollyLifeProvider.ts
-var import_reference = __toESM(require_reference());
 var BollyLifeProvider = class extends BaseBibleAPIProvider {
   constructor(bibleVersion) {
-    super();
-    const { key } = bibleVersion;
-    this._key = key;
-    this._apiUrl = bibleVersion.apiSource.apiUrl;
+    super(bibleVersion);
     this._chapterApiUrl = this._apiUrl;
   }
   get VerseLinkURL() {
@@ -12745,8 +13671,8 @@ var BollyLifeProvider = class extends BaseBibleAPIProvider {
   }
   buildRequestURL(bookName, chapter, verses, versionName) {
     const baseUrl = this._chapterApiUrl;
-    const book = import_reference.default.bookIdFromName(bookName);
-    this._queryUrl = `${baseUrl}/${versionName == null ? void 0 : versionName.toUpperCase()}/${book}/${chapter}/`;
+    const bookId = getBookIdFromBookName(bookName, this._bibleVersiopn.code);
+    this._queryUrl = `${baseUrl}/${versionName == null ? void 0 : versionName.toUpperCase()}/${bookId}/${chapter}/`;
     return this._queryUrl;
   }
   /**
@@ -12866,9 +13792,12 @@ var BaseVerseFormatter = class {
   }
   get head() {
     var _a;
-    let head = `> [!bible]`;
-    if ((_a = this.settings) == null ? void 0 : _a.collapsibleVerses) {
-      head += "+";
+    let head = `> `;
+    if (this.settings.displayBibleIconPrefixAtHeader) {
+      head += "[!bible]";
+      if ((_a = this.settings) == null ? void 0 : _a.collapsibleVerses) {
+        head += "+";
+      }
     }
     if (this.settings.referenceLinkPosition === "Header" /* Header */ || this.settings.referenceLinkPosition === "Both" /* AllAbove */) {
       head += this.getVerseReferenceLink();
@@ -12929,8 +13858,15 @@ var VerseSuggesting = class extends BaseVerseFormatter {
     });
     this.bibleVersion = settings.bibleVersion;
   }
+  get head() {
+    var _a, _b;
+    let content = super.head;
+    content += ((_a = this.settings) == null ? void 0 : _a.bookBacklinking) === OutgoingLinkPositionEnum.Header ? ` [[${this.verseReference.bookName}]]` : "";
+    content += ((_b = this.settings) == null ? void 0 : _b.chapterBacklinking) === OutgoingLinkPositionEnum.Header ? ` [[${this.verseReference.bookName} ${this.verseReference.chapterNumber}]]` : "";
+    return content;
+  }
   get bottom() {
-    var _a, _b, _c, _d;
+    var _a, _b, _c, _d, _e, _f, _g, _h;
     let bottom = super.bottom;
     if (((_a = this.settings) == null ? void 0 : _a.bookTagging) || ((_b = this.settings) == null ? void 0 : _b.chapterTagging)) {
       bottom += " %%";
@@ -12938,7 +13874,12 @@ var VerseSuggesting = class extends BaseVerseFormatter {
       bottom += ((_d = this.settings) == null ? void 0 : _d.chapterTagging) ? ` #${this.verseReference.bookName + this.verseReference.chapterNumber}` : "";
       bottom += " %%";
     }
-    return bottom;
+    if (((_e = this.settings) == null ? void 0 : _e.bookBacklinking) === OutgoingLinkPositionEnum.Bottom || ((_f = this.settings) == null ? void 0 : _f.chapterBacklinking) === OutgoingLinkPositionEnum.Bottom) {
+      bottom += ">\n ";
+      bottom += ((_g = this.settings) == null ? void 0 : _g.bookBacklinking) === OutgoingLinkPositionEnum.Bottom ? ` [[${this.verseReference.bookName}]]` : "";
+      bottom += ((_h = this.settings) == null ? void 0 : _h.chapterBacklinking) === OutgoingLinkPositionEnum.Bottom ? ` [[${this.verseReference.bookName} ${this.verseReference.chapterNumber}]]` : "";
+    }
+    return bottom + "\n";
   }
   /**
    * Render for use in editor/modal suggest
@@ -12950,18 +13891,13 @@ var VerseSuggesting = class extends BaseVerseFormatter {
   async fetchAndSetVersesText() {
     this.verses = await this.getVerses();
   }
-  getVerseReferenceLink() {
-    return ` [${this.bibleProvider.BibleReferenceHead} - ${this.bibleVersion.toUpperCase()}](${this.bibleProvider.VerseLinkURL})`;
-  }
   async getVerses() {
-    var _a, _b;
+    var _a;
     console.debug(this.bibleVersion);
     if (this.bibleVersion === DEFAULT_SETTINGS.bibleVersion) {
       console.debug("match to default language plus version");
     }
-    const bibleVersion = (_a = BibleVersionCollection.find(
-      (bv) => bv.key === this.bibleVersion
-    )) != null ? _a : BibleVersionCollection[0];
+    const bibleVersion = getBibleVersion(this.bibleVersion);
     if (!this.bibleProvider || this.bibleProvider.BibleVersionKey !== (bibleVersion == null ? void 0 : bibleVersion.key)) {
       this.bibleProvider = ProviderFactory.Instance.BuildBibleVersionAPIAdapterFromIBibleVersion(
         bibleVersion
@@ -12970,13 +13906,15 @@ var VerseSuggesting = class extends BaseVerseFormatter {
     return this.bibleProvider.query(
       this.verseReference.bookName,
       this.verseReference.chapterNumber,
-      ((_b = this.verseReference) == null ? void 0 : _b.verseNumberEnd) ? [this.verseReference.verseNumber, this.verseReference.verseNumberEnd] : [this.verseReference.verseNumber]
+      ((_a = this.verseReference) == null ? void 0 : _a.verseNumberEnd) ? [this.verseReference.verseNumber, this.verseReference.verseNumberEnd] : [this.verseReference.verseNumber]
     );
+  }
+  getVerseReferenceLink() {
+    return ` [${this.bibleProvider.BibleReferenceHead} - ${this.bibleVersion.toUpperCase()}](${this.bibleProvider.VerseLinkURL})`;
   }
 };
 
 // src/utils/getSuggestionsFromQuery.ts
-var import_reference2 = __toESM(require_reference());
 var getSuggestionsFromQuery = async (query, settings) => {
   console.debug("get suggestion for query ", query.toLowerCase());
   const matchResults = query.match(BOOK_REG);
@@ -12990,8 +13928,9 @@ var getSuggestionsFromQuery = async (query, settings) => {
   const chapterNumber = parseInt(numbers[0].trim());
   const verseNumber = parseInt(numbers[1]);
   const verseEndNumber = numbers.length === 3 ? parseInt(numbers[2]) : void 0;
-  const bookId = import_reference2.default.bookIdFromName(rawBookName);
-  const bookName = import_reference2.default.bookNameFromId(bookId);
+  const selectedBibleVersion = getBibleVersion(settings.bibleVersion);
+  const bookName = getFullBookName(rawBookName, selectedBibleVersion == null ? void 0 : selectedBibleVersion.code);
+  console.debug("bookName", bookName);
   const suggestingVerse = new VerseSuggesting(
     settings,
     bookName,
@@ -13012,7 +13951,7 @@ var getSuggestionsFromQuery = async (query, settings) => {
 };
 
 // src/suggesetor/VerseEditorSuggester.ts
-var VerseEditorSuggester = class extends import_obsidian3.EditorSuggest {
+var VerseEditorSuggester = class extends import_obsidian4.EditorSuggest {
   constructor(plugin, settings) {
     super(plugin.app);
     this.plugin = plugin;
@@ -13079,8 +14018,8 @@ var VerseEditorSuggester = class extends import_obsidian3.EditorSuggest {
 };
 
 // src/suggesetor/VerseLookupSuggestModal.ts
-var import_obsidian4 = require("obsidian");
-var VerseLookupSuggestModal = class extends import_obsidian4.SuggestModal {
+var import_obsidian5 = require("obsidian");
+var VerseLookupSuggestModal = class extends import_obsidian5.SuggestModal {
   constructor(plugin, settings) {
     super(plugin.app);
     this.settings = settings;
@@ -13112,7 +14051,7 @@ var VerseLookupSuggestModal = class extends import_obsidian4.SuggestModal {
   }
   onChooseSuggestion(item, evt) {
     var _a;
-    const editor = (_a = this.app.workspace.getActiveViewOfType(import_obsidian4.MarkdownView)) == null ? void 0 : _a.editor;
+    const editor = (_a = this.app.workspace.getActiveViewOfType(import_obsidian5.MarkdownView)) == null ? void 0 : _a.editor;
     if (!editor) {
       return;
     }
@@ -13121,7 +14060,7 @@ var VerseLookupSuggestModal = class extends import_obsidian4.SuggestModal {
 };
 
 // src/suggesetor/VerseOfDayEditorSuggester.ts
-var import_obsidian5 = require("obsidian");
+var import_obsidian6 = require("obsidian");
 
 // src/provider/VODProvider.ts
 var getVod = async () => {
@@ -13162,7 +14101,7 @@ var splitBibleReference = (reference) => {
 };
 
 // src/suggesetor/VerseOfDayEditorSuggester.ts
-var VerseOfDayEditorSuggester = class extends import_obsidian5.EditorSuggest {
+var VerseOfDayEditorSuggester = class extends import_obsidian6.EditorSuggest {
   constructor(plugin, settings) {
     super(plugin.app);
     this.plugin = plugin;
@@ -13227,8 +14166,8 @@ var VerseOfDayEditorSuggester = class extends import_obsidian5.EditorSuggest {
 };
 
 // src/suggesetor/VerseOfDayModal.ts
-var import_obsidian6 = require("obsidian");
-var VerseOfDayModal = class extends import_obsidian6.Modal {
+var import_obsidian7 = require("obsidian");
+var VerseOfDayModal = class extends import_obsidian7.Modal {
   constructor(plugin, settings) {
     super(plugin.app);
     this.settings = settings;
@@ -13254,9 +14193,9 @@ var VerseOfDayModal = class extends import_obsidian6.Modal {
 };
 
 // src/main.ts
-var BibleReferencePlugin = class extends import_obsidian7.Plugin {
+var BibleReferencePlugin = class extends import_obsidian8.Plugin {
   async onload() {
-    console.log("loading plugin -", APP_NAMING.appName);
+    console.debug("loading plugin -", APP_NAMING.appName);
     await this.loadSettings();
     this.addSettingTab(new BibleReferenceSettingTab(this.app, this));
     this.registerEditorSuggest(new VerseEditorSuggester(this, this.settings));
@@ -13281,10 +14220,14 @@ var BibleReferencePlugin = class extends import_obsidian7.Plugin {
         this.addVerseOfDayNoticeCommand();
       }
     }
+    this.initStatusBarIndicator();
     EventStats.logRecord(this.settings.optOutToEvents);
   }
   onunload() {
-    console.log("unloading plugin", APP_NAMING.appName);
+    console.debug("unloading plugin", APP_NAMING.appName);
+    this.removeRibbonButton();
+    this.tryRemoveStatusBarIndicator();
+    pluginEvent.offAll();
   }
   async loadSettings() {
     this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
@@ -13338,7 +14281,7 @@ var BibleReferencePlugin = class extends import_obsidian7.Plugin {
           { key: `command-vod`, value: 1 },
           this.settings.optOutToEvents
         );
-        new import_obsidian7.Notice(
+        new import_obsidian8.Notice(
           `${(_a = verse.verseTexts) == null ? void 0 : _a.join("")} -- ${verse.verseReference.bookName} ${verse.verseReference.chapterNumber}:${verse.verseReference.verseNumber}`,
           1e3 * 10
         );
@@ -13383,6 +14326,45 @@ var BibleReferencePlugin = class extends import_obsidian7.Plugin {
         this.settings.optOutToEvents
       );
       (_a = this.ribbonButton.parentNode) == null ? void 0 : _a.removeChild(this.ribbonButton);
+    }
+  }
+  getStatusBatLabel() {
+    const selectedVersion = getBibleVersion(this.settings.bibleVersion);
+    if (this.settings.bibleVersionStatusIndicator === "Short" /* Short */) {
+      return `${selectedVersion.key.toUpperCase()}`;
+    } else if (this.settings.bibleVersionStatusIndicator === "Full" /* Full */) {
+      return `${selectedVersion.versionName}(${selectedVersion.language})`;
+    } else {
+      return "";
+    }
+  }
+  /**
+   * To indicate user the Bible version selected
+   * @private
+   */
+  initStatusBarIndicator() {
+    this.tryRemoveStatusBarIndicator();
+    this.statusBarIndicator = this.addStatusBarItem();
+    this.statusBarIndicator.createEl("span", {
+      text: this.getStatusBatLabel(),
+      cls: "bible-version-indicator"
+    });
+    pluginEvent.on("bible-reference:settings:version", () => {
+      this.updateStatusBarIndicator();
+    });
+  }
+  tryRemoveStatusBarIndicator() {
+    var _a;
+    if (this.statusBarIndicator) {
+      (_a = this.statusBarIndicator.parentNode) == null ? void 0 : _a.removeChild(this.statusBarIndicator);
+    }
+  }
+  updateStatusBarIndicator() {
+    if (this.statusBarIndicator && "getElementsByClassName" in this.statusBarIndicator) {
+      const el = this.statusBarIndicator.getElementsByClassName(
+        "bible-version-indicator"
+      )[0];
+      el.innerHTML = this.getStatusBatLabel();
     }
   }
 };
