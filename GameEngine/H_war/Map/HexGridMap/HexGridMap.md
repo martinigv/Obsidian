@@ -6,8 +6,10 @@ UE5 functions is different with UE4 tutorial
 ### solve
 can't -> change to the course made in UE5.
 
-# How to make map in UE5?
-Combining Tiles -> map
+# How to make it?
+## Coordinate
+### [Theory](https://www.redblobgames.com/grids/hexagons/)
+
 
 
 
